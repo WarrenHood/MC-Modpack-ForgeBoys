@@ -1,0 +1,65 @@
+pack_name = "ForgeBoys"
+mc_version = "1.20.1"
+modloader = "Forge"
+default_providers = ["Modrinth"]
+forbidden_mods = ["fabric-api"]
+
+[mods.betterf3]
+name = "betterf3"
+version = "*"
+
+[mods.aether]
+name = "aether"
+version = "*"
+
+[mods.jade]
+name = "jade"
+version = "*"
+
+[mods.emi]
+name = "emi"
+version = "*"
+
+[mods.clumps]
+name = "clumps"
+version = "*"
+
+[mods.alexs-caves]
+name = "alexs-caves"
+version = "*"
+
+[mods.copycats]
+name = "copycats"
+version = "*"
+
+[mods.connector-extras]
+name = "connector-extras"
+version = "*"
+
+[mods.medieval-origins-revival]
+name = "medieval-origins-revival"
+version = "*"
+
+[mods.carry-on]
+name = "carry-on"
+version = "*"
+
+[mods.icarus]
+name = "icarus"
+version = "*"
+
+[mods.create]
+name = "create"
+version = "*"
+
+[mods.alternate-current]
+name = "alternate-current"
+version = "*"
+
+[mods.origins-forge]
+name = "origins-forge"
+version = "*"
+
+[mods.ice-and-fire-dragons]
+name = "ice-and-fire-dragons"
+version = "*"
