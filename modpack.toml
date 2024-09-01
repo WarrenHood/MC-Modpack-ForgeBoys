@@ -65,6 +65,10 @@ name = "spectrum"
 version = "1.7.15"
 loader = "Fabric"
 
+[mods.timeless-and-classics-zero]
+name = "timeless-and-classics-zero"
+version = "*"
+
 [files."./servers.dat"]
 target_path = "./servers.dat"
 side = "Client"
