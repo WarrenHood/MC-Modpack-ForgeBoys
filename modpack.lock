@@ -292,6 +292,25 @@ name = "caelus"
 version = "3.2.0+1.20.1"
 providers = ["Modrinth"]
 
+[mods.patchouli]
+version = "1.20.1-84-fabric"
+server_side = true
+client_side = true
+
+[[mods.patchouli.source]]
+
+[mods.patchouli.source.Download]
+url = "https://cdn.modrinth.com/data/nU0bVIaL/versions/Y6tuH1cn/Patchouli-1.20.1-84-FABRIC.jar"
+sha1 = "acbbeaae2f57052058a8444439f93d9a2d3efaf2"
+sha512 = "b20cebaab0972443ccc7f3b10b2038d32cfa7baa953a1cc8de6333fa711f63fd51b1b5933e0f2757445385b98e132ef295bd7c17f67ebb44bc8481295329d8bf"
+filename = "Patchouli-1.20.1-84-FABRIC.jar"
+
+[[mods.patchouli.deps]]
+name = "fabric-api"
+version = "0.92.2+1.20.1"
+providers = ["Modrinth"]
+loader = "Fabric"
+
 [mods.pehkui]
 version = "3.8.2+1.20.1-forge"
 server_side = true
@@ -304,3 +323,78 @@ url = "https://cdn.modrinth.com/data/t5W7Jfwy/versions/SQpqSgAE/Pehkui-3.8.2%2B1
 sha1 = "4bc816efdd8e5e2a97423313674401351710e403"
 sha512 = "e4660f0b5af6bfe2902ab39a6fbfa911856e0567bffc47842b482731da373afa4424b9e7cf47c61a0c2107445520475053709a6671d9eb4b7f4b55597729af3f"
 filename = "Pehkui-3.8.2+1.20.1-forge.jar"
+
+[mods.revelationary]
+version = "1.3.8+1.20.1"
+server_side = true
+client_side = true
+
+[[mods.revelationary.source]]
+
+[mods.revelationary.source.Download]
+url = "https://cdn.modrinth.com/data/eXrl5E3G/versions/7Wg923Xf/revelationary-1.3.8%2B1.20.1.jar"
+sha1 = "b9fcb15757df87bf40b0916e2c95584a3fb72b71"
+sha512 = "06ff761249409e314bd22783be5e66f863cd40857ca853417d8a2b53cd14d33d99d630c85bf1d058857608f20d3ce2fc1b492758a8b628b51647c68da433b616"
+filename = "revelationary-1.3.8+1.20.1.jar"
+
+[[mods.revelationary.deps]]
+name = "fabric-api"
+version = "0.92.2+1.20.1"
+providers = ["Modrinth"]
+loader = "Fabric"
+
+[mods.spectrum]
+version = "1.7.15"
+server_side = true
+client_side = true
+
+[[mods.spectrum.source]]
+
+[mods.spectrum.source.Download]
+url = "https://cdn.modrinth.com/data/3rc31Hgo/versions/gz6VKRql/spectrum-1.7.15-deeper-down.jar"
+sha1 = "1e6521d980924fdb7578074442c5aa66442b5bba"
+sha512 = "09632f92009e0b89568bc7f04d7b32f304b7db4e270ef40d42c517fad0e7dbbeb7cb1b23fb98877922effacf03f2de8ff9b8d3a6d8242b831e77e51c0e842ca0"
+filename = "spectrum-1.7.15-deeper-down.jar"
+
+[[mods.spectrum.deps]]
+name = "cloth-config"
+version = "11.1.118+fabric"
+providers = ["Modrinth"]
+loader = "Fabric"
+
+[[mods.spectrum.deps]]
+name = "fabric-api"
+version = "0.92.2+1.20.1"
+providers = ["Modrinth"]
+loader = "Fabric"
+
+[[mods.spectrum.deps]]
+name = "patchouli"
+version = "1.20.1-84-fabric"
+providers = ["Modrinth"]
+loader = "Fabric"
+
+[[mods.spectrum.deps]]
+name = "revelationary"
+version = "1.3.8+1.20.1"
+providers = ["Modrinth"]
+loader = "Fabric"
+
+[[mods.spectrum.deps]]
+name = "trinkets"
+version = "3.7.2"
+providers = ["Modrinth"]
+loader = "Fabric"
+
+[mods.trinkets]
+version = "3.7.2"
+server_side = true
+client_side = true
+
+[[mods.trinkets.source]]
+
+[mods.trinkets.source.Download]
+url = "https://cdn.modrinth.com/data/5aaWibi9/versions/AHxQGtuC/trinkets-3.7.2.jar"
+sha1 = "d58cc8759587f03f320f188972ca66baa788d008"
+sha512 = "bedf97c87c5e556416410267108ad358b32806448be24ef8ae1a79ac63b78b48b9c851c00c845b8aedfc7805601385420716b9e65326fdab21340e8ba3cc4274"
+filename = "trinkets-3.7.2.jar"

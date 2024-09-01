@@ -60,6 +60,11 @@ version = "*"
 name = "origins-forge"
 version = "*"
 
+[mods.spectrum]
+name = "spectrum"
+version = "1.7.15"
+loader = "Fabric"
+
 [files."./servers.dat"]
 target_path = "./servers.dat"
 side = "Client"
