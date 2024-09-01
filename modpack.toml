@@ -59,7 +59,3 @@ version = "*"
 [mods.origins-forge]
 name = "origins-forge"
 version = "*"
-
-[mods.torcherino]
-name = "torcherino"
-version = "*"

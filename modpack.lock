@@ -304,16 +304,3 @@ url = "https://cdn.modrinth.com/data/t5W7Jfwy/versions/SQpqSgAE/Pehkui-3.8.2%2B1
 sha1 = "4bc816efdd8e5e2a97423313674401351710e403"
 sha512 = "e4660f0b5af6bfe2902ab39a6fbfa911856e0567bffc47842b482731da373afa4424b9e7cf47c61a0c2107445520475053709a6671d9eb4b7f4b55597729af3f"
 filename = "Pehkui-3.8.2+1.20.1-forge.jar"
-
-[mods.torcherino]
-version = "20.0.0"
-server_side = true
-client_side = true
-
-[[mods.torcherino.source]]
-
-[mods.torcherino.source.Download]
-url = "https://cdn.modrinth.com/data/BUIMWY7q/versions/wawVsjXv/Torcherino-forge-1.20.1-20.0.0.jar"
-sha1 = "013680b29aac6438a970fe713342f2f61658c4e8"
-sha512 = "2eb0ab5205e13b32af5ae6190561aaf382a30c642e22b0f875db7d26cfb2d627de7709330b88710a2c53437e9f7f6a614336cb84e27de19ab3607476d76a9b2d"
-filename = "Torcherino-forge-1.20.1-20.0.0.jar"
