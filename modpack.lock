@@ -1,19 +1,64 @@
-[mods.ice-and-fire-dragons]
-version = "2.1.13-1.20.1-beta-5"
+[mods.aether]
+version = "1.20.1-1.4.2-neoforge"
+deps = []
 server_side = true
 client_side = true
 
-[[mods.ice-and-fire-dragons.source]]
+[[mods.aether.source]]
 
-[mods.ice-and-fire-dragons.source.Download]
-url = "https://cdn.modrinth.com/data/LVnvHVBp/versions/EzN8KQYF/iceandfire-2.1.13-1.20.1-beta-5.jar"
-sha1 = "7e828cbb046ca3d622e92c68f956bd1c0155dc6f"
-sha512 = "9e3559efccfb898a1f96c16910c07d26bafa730603a335db04df5a1ef511bd2e60b6bbb788c12aa80b12c8ffd8228e7eddf840f90f356577bfd0e439e24eb4f1"
-filename = "iceandfire-2.1.13-1.20.1-beta-5.jar"
+[mods.aether.source.Download]
+url = "https://cdn.modrinth.com/data/YhmgMVyu/versions/1iMxKMqa/aether-1.20.1-1.4.2-neoforge.jar"
+sha1 = "8d7e71f924e585b7565fe3fedd7c89471c32381c"
+sha512 = "ee8327826a29f303e1cdca82363a48ac06b254ffed08bb155e8bd90ce2d56cf0018102fad4e1f36d077182c55d595d400c75e6586ee1b307d22357b458f44e75"
+filename = "aether-1.20.1-1.4.2-neoforge.jar"
 
-[[mods.ice-and-fire-dragons.deps]]
+[mods.alexs-caves]
+version = "1.1.5"
+server_side = true
+client_side = true
+
+[[mods.alexs-caves.source]]
+
+[mods.alexs-caves.source.Download]
+url = "https://cdn.modrinth.com/data/U6GY0xp0/versions/2gc9us5X/alexscaves-1.1.5.jar"
+sha1 = "4c2b044111727354ca4968243b871686aaff9c63"
+sha512 = "9a364512a0fa97b28620d068349119703e6cb0eef5e0d0281d92adf1fd017441de0117a445be18af0f4a54895e343cabd0dc4b0916b2d952d092ffe861ba2bac"
+filename = "alexscaves-1.1.5.jar"
+
+[[mods.alexs-caves.deps]]
 name = "citadel"
 version = "2.6.0"
+providers = ["Modrinth"]
+
+[mods.alternate-current]
+version = "forge-mc1.20-1.7.0"
+server_side = true
+client_side = false
+
+[[mods.alternate-current.source]]
+
+[mods.alternate-current.source.Download]
+url = "https://cdn.modrinth.com/data/r0v8vy1s/versions/kC6SY4Zp/alternate_current-mc1.20-1.7.0.jar"
+sha1 = "02def44a2c416459ee5daecbe1caa6d78571e205"
+sha512 = "d9ae21a3a389c63466bf22b36d4a78c859f30c901397622f1f1438737901a2c67e4d911c83831e0d4f1edabf0b86b58f4192d9980ecef8278393fd4af64a9585"
+filename = "alternate_current-mc1.20-1.7.0.jar"
+
+[mods.betterf3]
+version = "7.0.2"
+server_side = false
+client_side = true
+
+[[mods.betterf3.source]]
+
+[mods.betterf3.source.Download]
+url = "https://cdn.modrinth.com/data/8shC1gFX/versions/xo6HmgWj/BetterF3-7.0.2-Forge-1.20.1.jar"
+sha1 = "b65cba59e87dc6c6d1aa9c47f09b9996b4e5075d"
+sha512 = "e88ce04d601a5953de909edaabb49dad9eea2c3a9ccccb1247fd041554b30794d4d4c315be065c90b1017cbd798199e644fe8d905125f4c431ddb8eaf170dd15"
+filename = "BetterF3-7.0.2-Forge-1.20.1.jar"
+
+[[mods.betterf3.deps]]
+name = "cloth-config"
+version = "11.1.118+forge"
 providers = ["Modrinth"]
 
 [mods.caelus]
@@ -29,18 +74,18 @@ sha1 = "d14e8ee892d4d8764f523ad0e89bdcfc061fb007"
 sha512 = "906baad404c33288d8daf8937bc6a85d3bcc03db67a4a68395b8f01eea57f773420ff97919aadb08a7618b62b0c6c3db72270f9c3af836b822385464f509cf78"
 filename = "caelus-forge-3.2.0+1.20.1.jar"
 
-[mods.torcherino]
-version = "20.0.0"
+[mods.carry-on]
+version = "2.1.2.7"
 server_side = true
 client_side = true
 
-[[mods.torcherino.source]]
+[[mods.carry-on.source]]
 
-[mods.torcherino.source.Download]
-url = "https://cdn.modrinth.com/data/BUIMWY7q/versions/wawVsjXv/Torcherino-forge-1.20.1-20.0.0.jar"
-sha1 = "013680b29aac6438a970fe713342f2f61658c4e8"
-sha512 = "2eb0ab5205e13b32af5ae6190561aaf382a30c642e22b0f875db7d26cfb2d627de7709330b88710a2c53437e9f7f6a614336cb84e27de19ab3607476d76a9b2d"
-filename = "Torcherino-forge-1.20.1-20.0.0.jar"
+[mods.carry-on.source.Download]
+url = "https://cdn.modrinth.com/data/joEfVgkn/versions/edGQD16r/carryon-forge-1.20.1-2.1.2.7.jar"
+sha1 = "9999714ca3dd2f2401f0396ca44f3b27c3784c4f"
+sha512 = "4f75afb703dd71c322d4e2e27d28d7ab4afeb0c242bcee6d1eb5fef59ee4347352f1ca55f1826743957d2e95a951ed13884356485b0a979b14010915079e2c29"
+filename = "carryon-forge-1.20.1-2.1.2.7.jar"
 
 [mods.citadel]
 version = "2.6.0"
@@ -68,6 +113,19 @@ sha1 = "c46ca3fba95691873a765f4e79750c615f33e446"
 sha512 = "5f8017fb496e65ce25ecb249927602d578fc235fc80c5db335e071ee9c108680b3c8c1f82dfafaf21c90e46a174b6717a3946feea5295a3c8ace5b11201ff7c5"
 filename = "cloth-config-11.1.118-forge.jar"
 
+[mods.clumps]
+version = "12.0.0.4"
+server_side = true
+client_side = true
+
+[[mods.clumps.source]]
+
+[mods.clumps.source.Download]
+url = "https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar"
+sha1 = "8809c7aa6c71389e9c59abfe5def52c1cb8d4f1c"
+sha512 = "ffd8ff2438e9f9d260d3926ccdd0cccc4772c6f99f29715690aed4f6e97a76035f3aeaa78168e2a458bc4cccf521e97ebdb6e0b61c819facb04af9ebb3638383"
+filename = "Clumps-forge-1.20.1-12.0.0.4.jar"
+
 [mods.connector]
 version = "1.0.0-beta.45+1.20.1"
 server_side = true
@@ -86,31 +144,41 @@ name = "forgified-fabric-api"
 version = "0.92.2+1.11.8+1.20.1"
 providers = ["Modrinth"]
 
-[mods.carry-on]
-version = "2.1.2.7"
+[mods.connector-extras]
+version = "1.11.2+1.20.1"
 server_side = true
 client_side = true
 
-[[mods.carry-on.source]]
+[[mods.connector-extras.source]]
 
-[mods.carry-on.source.Download]
-url = "https://cdn.modrinth.com/data/joEfVgkn/versions/edGQD16r/carryon-forge-1.20.1-2.1.2.7.jar"
-sha1 = "9999714ca3dd2f2401f0396ca44f3b27c3784c4f"
-sha512 = "4f75afb703dd71c322d4e2e27d28d7ab4afeb0c242bcee6d1eb5fef59ee4347352f1ca55f1826743957d2e95a951ed13884356485b0a979b14010915079e2c29"
-filename = "carryon-forge-1.20.1-2.1.2.7.jar"
+[mods.connector-extras.source.Download]
+url = "https://cdn.modrinth.com/data/FYpiwiBR/versions/d28gpPn6/ConnectorExtras-1.11.2%2B1.20.1.jar"
+sha1 = "9336db4e6ce458bccf7724c039f0371e822397ae"
+sha512 = "a318841ce2c42e8ba2058d47ad323bcb8ca500515c391f3f31b6468e8d4d974a53effe8a0a801b7fafd60d9845be514696bd9b095a3cc5d014bde02ce531bada"
+filename = "ConnectorExtras-1.11.2+1.20.1.jar"
 
-[mods.curios]
-version = "5.9.1+1.20.1"
+[[mods.connector-extras.deps]]
+name = "connector"
+version = "1.0.0-beta.45+1.20.1"
+providers = ["Modrinth"]
+
+[mods.copycats]
+version = "2.1.2+mc.1.20.1-forge"
 server_side = true
 client_side = true
 
-[[mods.curios.source]]
+[[mods.copycats.source]]
 
-[mods.curios.source.Download]
-url = "https://cdn.modrinth.com/data/vvuO3ImH/versions/moWmAnjY/curios-forge-5.9.1%2B1.20.1.jar"
-sha1 = "d5698ca0e90adba53d0ca660a2dc0b79ac09504b"
-sha512 = "ce3605f16269bd02fd4b764652ac8e78dcb882d81d07fb0b8ac4f59c674256050aaafae39867173b4665738e4c16d33fc6cea9a92af267c61af9e706b98a2b80"
-filename = "curios-forge-5.9.1+1.20.1.jar"
+[mods.copycats.source.Download]
+url = "https://cdn.modrinth.com/data/UT2M39wf/versions/zyXQ6jAy/copycats-2.1.2%2Bmc.1.20.1-forge.jar"
+sha1 = "74ae3b05fa0fcc2b3f252e1748432fe0bf3fcf72"
+sha512 = "b9841b55834ea532aaafe3fec4001887fc9c8de83d7a14df68446cfeab5cabba469c61276d355f12806741e455fbd32269f18b303a7fb26fdf3ebfce8fde2bc5"
+filename = "copycats-2.1.2+mc.1.20.1-forge.jar"
+
+[[mods.copycats.deps]]
+name = "create"
+version = "1.20.1-0.5.1.f"
+providers = ["Modrinth"]
 
 [mods.create]
 version = "1.20.1-0.5.1.f"
@@ -124,6 +192,50 @@ url = "https://cdn.modrinth.com/data/LNytGWDc/versions/HNYrbfZZ/create-1.20.1-0.
 sha1 = "3fee3c26ebbfdfd59e1371ab73ba1f61b44ef6d0"
 sha512 = "426c1ce8b9cbaa3b3d6964ff5669401734146648ae024b14ea1e7bfc0768fb768310a7e464b81d40eac1cf07b24c4a7b01c84dfc879ed637c05947c6b6516961"
 filename = "create-1.20.1-0.5.1.f.jar"
+
+[mods.emi]
+version = "1.1.12+1.20.1+forge"
+server_side = false
+client_side = true
+
+[[mods.emi.source]]
+
+[mods.emi.source.Download]
+url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/X6p68pI0/emi-1.1.12%2B1.20.1%2Bforge.jar"
+sha1 = "53a0f7c3ed929f6e8350cb3c4223f37d7b8d9ebb"
+sha512 = "f285183b02622c2dced794258d03ceeac2da0428dfef63d19d0c408c2792cb6c743cc84216f0992fd010ff794d2ccee4b4fc4493c1404d5924043c57d5c625e8"
+filename = "emi-1.1.12+1.20.1+forge.jar"
+
+[mods.forgified-fabric-api]
+version = "0.92.2+1.11.8+1.20.1"
+server_side = true
+client_side = true
+
+[[mods.forgified-fabric-api.source]]
+
+[mods.forgified-fabric-api.source.Download]
+url = "https://cdn.modrinth.com/data/Aqlf1Shp/versions/D3EZO1Kr/fabric-api-0.92.2%2B1.11.8%2B1.20.1.jar"
+sha1 = "d5680a4d2e2dde45115e41a5e22f6b32f9c80f50"
+sha512 = "1222d70e0a403d98a6431806c4357b191fda4bb928eaf7e70b7374cffd0ceae8716812a4d2a0e09ddfeee7adfcb8a6ee8e046c4663ca272c6eb1badab83696c5"
+filename = "fabric-api-0.92.2+1.11.8+1.20.1.jar"
+
+[mods.ice-and-fire-dragons]
+version = "2.1.13-1.20.1-beta-5"
+server_side = true
+client_side = true
+
+[[mods.ice-and-fire-dragons.source]]
+
+[mods.ice-and-fire-dragons.source.Download]
+url = "https://cdn.modrinth.com/data/LVnvHVBp/versions/EzN8KQYF/iceandfire-2.1.13-1.20.1-beta-5.jar"
+sha1 = "7e828cbb046ca3d622e92c68f956bd1c0155dc6f"
+sha512 = "9e3559efccfb898a1f96c16910c07d26bafa730603a335db04df5a1ef511bd2e60b6bbb788c12aa80b12c8ffd8228e7eddf840f90f356577bfd0e439e24eb4f1"
+filename = "iceandfire-2.1.13-1.20.1-beta-5.jar"
+
+[[mods.ice-and-fire-dragons.deps]]
+name = "citadel"
+version = "2.6.0"
+providers = ["Modrinth"]
 
 [mods.jade]
 version = "11.10.1+forge"
@@ -153,45 +265,14 @@ sha512 = "5989f0bb7084c8c6d18b62bf6bc81cd30af802bbcebd195a27aa92fdb1df5c02202c3e
 filename = "MedievalOriginsRevival-6.4.5+1.20.1-forge.jar"
 
 [[mods.medieval-origins-revival.deps]]
-name = "pehkui"
-version = "3.8.2+1.20.1-forge"
-providers = ["Modrinth"]
-
-[[mods.medieval-origins-revival.deps]]
 name = "origins-forge"
 version = "1.20.1-1.10.0.9"
 providers = ["Modrinth"]
 
-[mods.connector-extras]
-version = "1.11.2+1.20.1"
-server_side = true
-client_side = true
-
-[[mods.connector-extras.source]]
-
-[mods.connector-extras.source.Download]
-url = "https://cdn.modrinth.com/data/FYpiwiBR/versions/d28gpPn6/ConnectorExtras-1.11.2%2B1.20.1.jar"
-sha1 = "9336db4e6ce458bccf7724c039f0371e822397ae"
-sha512 = "a318841ce2c42e8ba2058d47ad323bcb8ca500515c391f3f31b6468e8d4d974a53effe8a0a801b7fafd60d9845be514696bd9b095a3cc5d014bde02ce531bada"
-filename = "ConnectorExtras-1.11.2+1.20.1.jar"
-
-[[mods.connector-extras.deps]]
-name = "connector"
-version = "1.0.0-beta.45+1.20.1"
+[[mods.medieval-origins-revival.deps]]
+name = "pehkui"
+version = "3.8.2+1.20.1-forge"
 providers = ["Modrinth"]
-
-[mods.common-network]
-version = "1.0.5-1.20.1"
-server_side = true
-client_side = true
-
-[[mods.common-network.source]]
-
-[mods.common-network.source.Download]
-url = "https://cdn.modrinth.com/data/HIuqnQpi/versions/FMfO8Pme/common-networking-forge-1.0.5-1.20.1.jar"
-sha1 = "fa508375fa07a09095ece795d8894931800927a1"
-sha512 = "8d9a8d176289bf0b08b658007009a2ee2991496bf9952f92c29bf618ecf9f197d0cd028a1ce07a8dd0787716357e7a014f49119b927b880cd7fbe85b023920b4"
-filename = "common-networking-forge-1.0.5-1.20.1.jar"
 
 [mods.origins-forge]
 version = "1.20.1-1.10.0.9"
@@ -211,97 +292,6 @@ name = "caelus"
 version = "3.2.0+1.20.1"
 providers = ["Modrinth"]
 
-[mods.forgified-fabric-api]
-version = "0.92.2+1.11.8+1.20.1"
-server_side = true
-client_side = true
-
-[[mods.forgified-fabric-api.source]]
-
-[mods.forgified-fabric-api.source.Download]
-url = "https://cdn.modrinth.com/data/Aqlf1Shp/versions/D3EZO1Kr/fabric-api-0.92.2%2B1.11.8%2B1.20.1.jar"
-sha1 = "d5680a4d2e2dde45115e41a5e22f6b32f9c80f50"
-sha512 = "1222d70e0a403d98a6431806c4357b191fda4bb928eaf7e70b7374cffd0ceae8716812a4d2a0e09ddfeee7adfcb8a6ee8e046c4663ca272c6eb1badab83696c5"
-filename = "fabric-api-0.92.2+1.11.8+1.20.1.jar"
-
-[mods.aether]
-version = "1.20.1-1.4.2-neoforge"
-deps = []
-server_side = true
-client_side = true
-
-[[mods.aether.source]]
-
-[mods.aether.source.Download]
-url = "https://cdn.modrinth.com/data/YhmgMVyu/versions/1iMxKMqa/aether-1.20.1-1.4.2-neoforge.jar"
-sha1 = "8d7e71f924e585b7565fe3fedd7c89471c32381c"
-sha512 = "ee8327826a29f303e1cdca82363a48ac06b254ffed08bb155e8bd90ce2d56cf0018102fad4e1f36d077182c55d595d400c75e6586ee1b307d22357b458f44e75"
-filename = "aether-1.20.1-1.4.2-neoforge.jar"
-
-[mods.alternate-current]
-version = "forge-mc1.20-1.7.0"
-server_side = true
-client_side = false
-
-[[mods.alternate-current.source]]
-
-[mods.alternate-current.source.Download]
-url = "https://cdn.modrinth.com/data/r0v8vy1s/versions/kC6SY4Zp/alternate_current-mc1.20-1.7.0.jar"
-sha1 = "02def44a2c416459ee5daecbe1caa6d78571e205"
-sha512 = "d9ae21a3a389c63466bf22b36d4a78c859f30c901397622f1f1438737901a2c67e4d911c83831e0d4f1edabf0b86b58f4192d9980ecef8278393fd4af64a9585"
-filename = "alternate_current-mc1.20-1.7.0.jar"
-
-[mods.icarus]
-version = "2.9.2+NeoForge"
-server_side = true
-client_side = true
-
-[[mods.icarus.source]]
-
-[mods.icarus.source.Download]
-url = "https://cdn.modrinth.com/data/Dw7M6XKW/versions/5bOHJRs3/Icarus-NeoForge-2.9.2.jar"
-sha1 = "910b136cb41f344f5b64f54757191b7c08dbf137"
-sha512 = "0c9327e8b582aa80d6bf7f7f36af0f15a2ac4d3b6c236db66fd197036ceebdae2793bc3c9edbd6c764e61b09d0e18294aa87fc46ad16924af5f81e0264797acf"
-filename = "Icarus-NeoForge-2.9.2.jar"
-
-[[mods.icarus.deps]]
-name = "curios"
-version = "5.9.1+1.20.1"
-providers = ["Modrinth"]
-
-[[mods.icarus.deps]]
-name = "common-network"
-version = "1.0.5-1.20.1"
-providers = ["Modrinth"]
-
-[[mods.icarus.deps]]
-name = "resourceful-config"
-version = "2.1.2"
-providers = ["Modrinth"]
-
-[[mods.icarus.deps]]
-name = "caelus"
-version = "3.2.0+1.20.1"
-providers = ["Modrinth"]
-
-[mods.betterf3]
-version = "7.0.2"
-server_side = false
-client_side = true
-
-[[mods.betterf3.source]]
-
-[mods.betterf3.source.Download]
-url = "https://cdn.modrinth.com/data/8shC1gFX/versions/xo6HmgWj/BetterF3-7.0.2-Forge-1.20.1.jar"
-sha1 = "b65cba59e87dc6c6d1aa9c47f09b9996b4e5075d"
-sha512 = "e88ce04d601a5953de909edaabb49dad9eea2c3a9ccccb1247fd041554b30794d4d4c315be065c90b1017cbd798199e644fe8d905125f4c431ddb8eaf170dd15"
-filename = "BetterF3-7.0.2-Forge-1.20.1.jar"
-
-[[mods.betterf3.deps]]
-name = "cloth-config"
-version = "11.1.118+forge"
-providers = ["Modrinth"]
-
 [mods.pehkui]
 version = "3.8.2+1.20.1-forge"
 server_side = true
@@ -315,77 +305,15 @@ sha1 = "4bc816efdd8e5e2a97423313674401351710e403"
 sha512 = "e4660f0b5af6bfe2902ab39a6fbfa911856e0567bffc47842b482731da373afa4424b9e7cf47c61a0c2107445520475053709a6671d9eb4b7f4b55597729af3f"
 filename = "Pehkui-3.8.2+1.20.1-forge.jar"
 
-[mods.copycats]
-version = "2.1.2+mc.1.20.1-forge"
+[mods.torcherino]
+version = "20.0.0"
 server_side = true
 client_side = true
 
-[[mods.copycats.source]]
+[[mods.torcherino.source]]
 
-[mods.copycats.source.Download]
-url = "https://cdn.modrinth.com/data/UT2M39wf/versions/zyXQ6jAy/copycats-2.1.2%2Bmc.1.20.1-forge.jar"
-sha1 = "74ae3b05fa0fcc2b3f252e1748432fe0bf3fcf72"
-sha512 = "b9841b55834ea532aaafe3fec4001887fc9c8de83d7a14df68446cfeab5cabba469c61276d355f12806741e455fbd32269f18b303a7fb26fdf3ebfce8fde2bc5"
-filename = "copycats-2.1.2+mc.1.20.1-forge.jar"
-
-[[mods.copycats.deps]]
-name = "create"
-version = "1.20.1-0.5.1.f"
-providers = ["Modrinth"]
-
-[mods.resourceful-config]
-version = "2.1.2"
-server_side = true
-client_side = true
-
-[[mods.resourceful-config.source]]
-
-[mods.resourceful-config.source.Download]
-url = "https://cdn.modrinth.com/data/M1953qlQ/versions/irREd1ZJ/resourcefulconfig-forge-1.20.1-2.1.2.jar"
-sha1 = "46825dc0adc36c4b19591bb99f7d856bc2953749"
-sha512 = "bd5a53854614c8ee2e75e313adbe952422a4264c13b57d612fe2a2068a601aab9039c0389b0b2309c7622e4fdafe72a5bca0084227914c65f34357a793918eb4"
-filename = "resourcefulconfig-forge-1.20.1-2.1.2.jar"
-
-[mods.clumps]
-version = "12.0.0.4"
-server_side = true
-client_side = true
-
-[[mods.clumps.source]]
-
-[mods.clumps.source.Download]
-url = "https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar"
-sha1 = "8809c7aa6c71389e9c59abfe5def52c1cb8d4f1c"
-sha512 = "ffd8ff2438e9f9d260d3926ccdd0cccc4772c6f99f29715690aed4f6e97a76035f3aeaa78168e2a458bc4cccf521e97ebdb6e0b61c819facb04af9ebb3638383"
-filename = "Clumps-forge-1.20.1-12.0.0.4.jar"
-
-[mods.emi]
-version = "1.1.12+1.20.1+forge"
-server_side = false
-client_side = true
-
-[[mods.emi.source]]
-
-[mods.emi.source.Download]
-url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/X6p68pI0/emi-1.1.12%2B1.20.1%2Bforge.jar"
-sha1 = "53a0f7c3ed929f6e8350cb3c4223f37d7b8d9ebb"
-sha512 = "f285183b02622c2dced794258d03ceeac2da0428dfef63d19d0c408c2792cb6c743cc84216f0992fd010ff794d2ccee4b4fc4493c1404d5924043c57d5c625e8"
-filename = "emi-1.1.12+1.20.1+forge.jar"
-
-[mods.alexs-caves]
-version = "1.1.5"
-server_side = true
-client_side = true
-
-[[mods.alexs-caves.source]]
-
-[mods.alexs-caves.source.Download]
-url = "https://cdn.modrinth.com/data/U6GY0xp0/versions/2gc9us5X/alexscaves-1.1.5.jar"
-sha1 = "4c2b044111727354ca4968243b871686aaff9c63"
-sha512 = "9a364512a0fa97b28620d068349119703e6cb0eef5e0d0281d92adf1fd017441de0117a445be18af0f4a54895e343cabd0dc4b0916b2d952d092ffe861ba2bac"
-filename = "alexscaves-1.1.5.jar"
-
-[[mods.alexs-caves.deps]]
-name = "citadel"
-version = "2.6.0"
-providers = ["Modrinth"]
+[mods.torcherino.source.Download]
+url = "https://cdn.modrinth.com/data/BUIMWY7q/versions/wawVsjXv/Torcherino-forge-1.20.1-20.0.0.jar"
+sha1 = "013680b29aac6438a970fe713342f2f61658c4e8"
+sha512 = "2eb0ab5205e13b32af5ae6190561aaf382a30c642e22b0f875db7d26cfb2d627de7709330b88710a2c53437e9f7f6a614336cb84e27de19ab3607476d76a9b2d"
+filename = "Torcherino-forge-1.20.1-20.0.0.jar"
