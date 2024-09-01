@@ -59,3 +59,8 @@ version = "*"
 [mods.origins-forge]
 name = "origins-forge"
 version = "*"
+
+[files."./servers.dat"]
+target_path = "./servers.dat"
+side = "Client"
+apply_policy = "Always"
