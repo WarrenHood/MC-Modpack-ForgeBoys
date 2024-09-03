@@ -43,6 +43,19 @@ sha1 = "02def44a2c416459ee5daecbe1caa6d78571e205"
 sha512 = "d9ae21a3a389c63466bf22b36d4a78c859f30c901397622f1f1438737901a2c67e4d911c83831e0d4f1edabf0b86b58f4192d9980ecef8278393fd4af64a9585"
 filename = "alternate_current-mc1.20-1.7.0.jar"
 
+[mods.appleskin]
+version = "2.5.1+mc1.20.1"
+server_side = true
+client_side = true
+
+[[mods.appleskin.source]]
+
+[mods.appleskin.source.Download]
+url = "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar"
+sha1 = "81919356f84eab14258db98924b66c3c38e372b1"
+sha512 = "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9"
+filename = "appleskin-forge-mc1.20.1-2.5.1.jar"
+
 [mods.badpackets]
 version = "forge-0.4.3"
 server_side = true
@@ -55,6 +68,29 @@ url = "https://cdn.modrinth.com/data/ftdbN0KK/versions/aXZqpNgH/badpackets-forge
 sha1 = "34b4ae0b51fe8bb55529dd20968bf58e20b4a21e"
 sha512 = "c705b41b3d558073a3fe6275307a1f9bca6980939b32054aad38b29f31e46f683c57b8ea1f9692b3d73a7ca0d0dc2190976ec5dcd017f1a62cf6a9b4e4e63083"
 filename = "badpackets-forge-0.4.3.jar"
+
+[mods.better-archeology]
+version = "1.2.0-1.20.1"
+server_side = true
+client_side = true
+
+[[mods.better-archeology.source]]
+
+[mods.better-archeology.source.Download]
+url = "https://cdn.modrinth.com/data/zCh7omyG/versions/LSyNevQ8/betterarcheology-1.2.0-1.20.1.jar"
+sha1 = "0c4155d15308d7d3a208711e5aa8397a943ae980"
+sha512 = "4948f43ebdbc4d1f3ab02b21b001cfb462e3bb27030024b9c1e5884cb24b7fd25645c1c6f7392593eb3d68a72713bd79c2c130108b49f9b76126b22fa25db5d5"
+filename = "betterarcheology-1.2.0-1.20.1.jar"
+
+[[mods.better-archeology.deps]]
+name = "supermartijn642s-config-lib"
+version = "1.1.8-forge-mc1.20"
+providers = ["Modrinth"]
+
+[[mods.better-archeology.deps]]
+name = "yungs-api"
+version = "1.20-Forge-4.0.5"
+providers = ["Modrinth"]
 
 [mods.betterf3]
 version = "7.0.2"
@@ -260,6 +296,19 @@ name = "create"
 version = "0.5.1.h"
 providers = ["Modrinth"]
 
+[mods.curios]
+version = "5.10.0+1.20.1"
+server_side = true
+client_side = true
+
+[[mods.curios.source]]
+
+[mods.curios.source.Download]
+url = "https://cdn.modrinth.com/data/vvuO3ImH/versions/8HlBRHsc/curios-forge-5.10.0%2B1.20.1.jar"
+sha1 = "e430429e33a1aee50c2baf917daadc0bbb9104ed"
+sha512 = "086269b2bbf0c9513c6230ae0cb5923e257bb1cf81d46cb883b800aeafd1b932b426d92f77a00705dce9c15d79220e24cb7f8b5aaee3d77b9106d0800d793ef3"
+filename = "curios-forge-5.10.0+1.20.1.jar"
+
 [mods.deeperdarker]
 version = "1.3.1-forge+1.20.1"
 server_side = true
@@ -348,6 +397,20 @@ url = "https://cdn.modrinth.com/data/j2HhbEE7/versions/LBT7pcVH/emitrades-forge-
 sha1 = "ea86eceb04978bc366fe022bbab5dd5ea0bd3ab4"
 sha512 = "b0344906a3da867373edf6a4d5a7bcb1d0aa0aaf11825244b9d1d5aeb1aec1c5d023b754ab8f881905c7086ba11d2cdc5740ba29ab967b4549346531bcbc1b86"
 filename = "emitrades-forge-1.2.1+mc1.20.1.jar"
+
+[mods.enderio]
+version = "6.1.8-beta"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.enderio.source]]
+
+[mods.enderio.source.Download]
+url = "https://cdn.modrinth.com/data/49ZofO4f/versions/LBBdWiQv/EnderIO-1.20.1-6.1.8-beta-all.jar"
+sha1 = "7d8a8fb4fc58839ef56336fa998d82f312367f1d"
+sha512 = "fc8f56c26ffc4848ac9ea23fe0b6ed2ac7e7c197891e92db3932ce0aeab56af3b6f99f4b725d312fefbb078d7077dc7759a52b72e5e7b317e87067ffa75dd830"
+filename = "EnderIO-1.20.1-6.1.8-beta-all.jar"
 
 [mods.farmers-delight]
 version = "1.20.1-1.2.4"
@@ -482,6 +545,42 @@ sha1 = "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5"
 sha512 = "d72707078f0c4fde78981c638ca976722f22a64ce74bdb489258790fe9886d763a7b1e0dfbc5429ddd3105d8a65d177f06242dfb1457e219e56c70dd3e8cbf2c"
 filename = "kotlinforforge-4.11.0-all.jar"
 
+[mods.l_enders-cataclysm]
+version = "1.99.5"
+server_side = true
+client_side = true
+
+[[mods.l_enders-cataclysm.source]]
+
+[mods.l_enders-cataclysm.source.Download]
+url = "https://cdn.modrinth.com/data/46KJle7n/versions/lIY3K5bS/L_Enders_Cataclysm-1.99.5%20-1.20.1.jar"
+sha1 = "7cb03a56ef10c06133735684efd57b6a2110cc61"
+sha512 = "c876032f12686982ce550d37434432089623296ab50c6ea52ff0bd00f1ca98b72856ad6628e0e46e0d5ddb1ed14ae7bd8060a5b86fbeae0d1d00ac181d98b184"
+filename = "L_Enders_Cataclysm-1.99.5 -1.20.1.jar"
+
+[[mods.l_enders-cataclysm.deps]]
+name = "curios"
+version = "5.10.0+1.20.1"
+providers = ["Modrinth"]
+
+[[mods.l_enders-cataclysm.deps]]
+name = "lionfish-api"
+version = "1.9"
+providers = ["Modrinth"]
+
+[mods.lionfish-api]
+version = "1.9"
+server_side = true
+client_side = true
+
+[[mods.lionfish-api.source]]
+
+[mods.lionfish-api.source.Download]
+url = "https://cdn.modrinth.com/data/FoVacERa/versions/5kW6wNcF/lionfishapi-1.9.jar"
+sha1 = "273acf6e2f0498d64c23a9a28892cb3f1b086f7b"
+sha512 = "035a2c3f8239a130eb24ad880566aecf19737c56c3e428d026ef19af409618b750dfd24d4e8eea8dac69cc20f13150056d43f60f3d85ea64c371633e44fab918"
+filename = "lionfishapi-1.9.jar"
+
 [mods.medieval-origins-revival]
 version = "6.4.5+1.20.1-forge"
 server_side = true
@@ -504,6 +603,19 @@ providers = ["Modrinth"]
 name = "pehkui"
 version = "3.8.2+1.20.1-forge"
 providers = ["Modrinth"]
+
+[mods.mouse-tweaks]
+version = "1.20.1-2.25.1-forge"
+server_side = false
+client_side = true
+
+[[mods.mouse-tweaks.source]]
+
+[mods.mouse-tweaks.source.Download]
+url = "https://cdn.modrinth.com/data/aC3cM3Vq/versions/7JVXOe3K/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+sha1 = "d751153e722a4e014691c83f39f5b07c6ec5333c"
+sha512 = "a3bb0272c0a1a3be9250dfee030bb8f86217fa6a32bd534be8c940fdd8c466c800c2df85874877983ced36ecfc28c8ced6c0d42107c1ab621385b4be9a7c65eb"
+filename = "MouseTweaks-forge-mc1.20.1-2.25.1.jar"
 
 [mods.natures-compass]
 version = "1.20.1-1.11.2-forge"
@@ -722,6 +834,19 @@ version = "3.7.2"
 providers = ["Modrinth"]
 loader = "Fabric"
 
+[mods.supermartijn642s-config-lib]
+version = "1.1.8-forge-mc1.20"
+server_side = true
+client_side = true
+
+[[mods.supermartijn642s-config-lib.source]]
+
+[mods.supermartijn642s-config-lib.source.Download]
+url = "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+sha1 = "f80f9eed728966adcfbcc848633e789645057281"
+sha512 = "476595aacc7c66a0cf7bcd56143975122ea54ae4c5b61a232d3b0b9b1e3c013575efcc05de31a5d2c4e129542bfd8ae255a25d1486a4e08961cc4a303940fd19"
+filename = "supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+
 [mods.terrablender]
 version = "3.0.1.7"
 server_side = true
@@ -788,3 +913,16 @@ url = "https://cdn.modrinth.com/data/NcUtCpym/versions/zGpACLsy/XaerosWorldMap_1
 sha1 = "33704b6dd2ee6fbf1da0cffcf2001bf7f1c3dea4"
 sha512 = "009065642ee160718285a2bde5a4f9b297303f9837f48169f9c74707cf30bdf57e1d614d2507becc497efbad15ad6ecafd1d9c804ab3b66a0688b43946622dd6"
 filename = "XaerosWorldMap_1.39.0_Forge_1.20.jar"
+
+[mods.yungs-api]
+version = "1.20-Forge-4.0.5"
+server_side = true
+client_side = true
+
+[[mods.yungs-api.source]]
+
+[mods.yungs-api.source.Download]
+url = "https://cdn.modrinth.com/data/Ua7DFN59/versions/aMs83SRk/YungsApi-1.20-Forge-4.0.5.jar"
+sha1 = "c3a989fdf8429828bd784e35e83f89c0786b43de"
+sha512 = "a8dbdf96cff9e69c64468fa1ad245655a3305495698e146e77cdbc2a821ab82f1bbf140dbcf672b58ed1e2628a121fde02343be0dfa42a2c23249545a1281c4c"
+filename = "YungsApi-1.20-Forge-4.0.5.jar"

@@ -16,6 +16,14 @@ version = "*"
 name = "alternate-current"
 version = "*"
 
+[mods.appleskin]
+name = "appleskin"
+version = "*"
+
+[mods.better-archeology]
+name = "better-archeology"
+version = "*"
+
 [mods.betterf3]
 name = "betterf3"
 version = "*"
@@ -80,6 +88,10 @@ version = "*"
 name = "emitrades"
 version = "*"
 
+[mods.enderio]
+name = "enderio"
+version = "*"
+
 [mods.farmers-delight]
 name = "farmers-delight"
 version = "*"
@@ -108,8 +120,16 @@ version = "*"
 name = "jade"
 version = "*"
 
+[mods.l_enders-cataclysm]
+name = "l_enders-cataclysm"
+version = "*"
+
 [mods.medieval-origins-revival]
 name = "medieval-origins-revival"
+version = "*"
+
+[mods.mouse-tweaks]
+name = "mouse-tweaks"
 version = "*"
 
 [mods.natures-compass]
