@@ -20,8 +20,16 @@ version = "*"
 name = "betterf3"
 version = "*"
 
+[mods.biomes-o-plenty]
+name = "biomes-o-plenty"
+version = "*"
+
 [mods.carry-on]
 name = "carry-on"
+version = "*"
+
+[mods.cloth-config]
+name = "cloth-config"
 version = "*"
 
 [mods.clumps]
@@ -40,12 +48,60 @@ version = "*"
 name = "create"
 version = "*"
 
+[mods.create-steam-n-rails]
+name = "create-steam-n-rails"
+version = "*"
+
+[mods.createaddition]
+name = "createaddition"
+version = "*"
+
+[mods.deeperdarker]
+name = "deeperdarker"
+version = "*"
+
+[mods.embeddium]
+name = "embeddium"
+version = "*"
+
 [mods.emi]
 name = "emi"
 version = "*"
 
+[mods.emi-loot]
+name = "emi-loot"
+version = "*"
+
+[mods.emiffect]
+name = "emiffect"
+version = "*"
+
+[mods.emitrades]
+name = "emitrades"
+version = "*"
+
+[mods.farmers-delight]
+name = "farmers-delight"
+version = "*"
+
+[mods.ferrite-core]
+name = "ferrite-core"
+version = "*"
+
+[mods.gamemenumodoption]
+name = "gamemenumodoption"
+version = "*"
+
 [mods.ice-and-fire-dragons]
 name = "ice-and-fire-dragons"
+version = "*"
+
+[mods.invmove]
+name = "invmove"
+version = "*"
+
+[mods.iris-flw-compat]
+name = "iris-flw-compat"
 version = "*"
 
 [mods.jade]
@@ -56,8 +112,40 @@ version = "*"
 name = "medieval-origins-revival"
 version = "*"
 
+[mods.natures-compass]
+name = "natures-compass"
+version = "*"
+
+[mods.oculus]
+name = "oculus"
+version = "*"
+
 [mods.origins-forge]
 name = "origins-forge"
+version = "*"
+
+[mods.patchouli]
+name = "patchouli"
+version = "*"
+
+[mods.polymorph]
+name = "polymorph"
+version = "*"
+
+[mods.rubidium-extra]
+name = "rubidium-extra"
+version = "*"
+
+[mods.servercore]
+name = "servercore"
+version = "*"
+
+[mods.slice-and-dice]
+name = "slice-and-dice"
+version = "*"
+
+[mods.spark]
+name = "spark"
 version = "*"
 
 [mods.spectrum]
@@ -67,6 +155,14 @@ loader = "Fabric"
 
 [mods.timeless-and-classics-zero]
 name = "timeless-and-classics-zero"
+version = "*"
+
+[mods.xaeros-minimap]
+name = "xaeros-minimap"
+version = "*"
+
+[mods.xaeros-world-map]
+name = "xaeros-world-map"
 version = "*"
 
 [files."./servers.dat"]
