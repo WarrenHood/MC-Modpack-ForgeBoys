@@ -132,6 +132,10 @@ version = "*"
 name = "entityculling"
 version = "*"
 
+[mods.eureka]
+name = "eureka"
+version = "*"
+
 [mods.farmers-delight]
 name = "farmers-delight"
 version = "*"
