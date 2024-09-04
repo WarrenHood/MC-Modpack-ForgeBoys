@@ -326,10 +326,6 @@ version = "*"
 name = "truly-modular-arsenal"
 version = "*"
 
-[mods.weeping-angels]
-name = "weeping-angels"
-version = "*"
-
 [mods.when-dungeons-arise]
 name = "when-dungeons-arise"
 version = "*"

@@ -1612,19 +1612,6 @@ name = "modular-item-api"
 version = "1.1.31-1.20.1-neoforge"
 providers = ["Modrinth"]
 
-[mods.weeping-angels]
-version = "46.0.2+forge"
-server_side = true
-client_side = true
-
-[[mods.weeping-angels.source]]
-
-[mods.weeping-angels.source.Download]
-url = "https://cdn.modrinth.com/data/TEzJJY7H/versions/qFTRtOKP/weeping_angels-46.0.2-forge.jar"
-sha1 = "0f96561f6415fa7191ff6cec184072c2fd49bfae"
-sha512 = "faf16e6b2caea7da068b1d328624ee3ce9f724fc544e4348c9b66784b0a1fdc501b355fccc2767a543cf3db235a201d5301c17c508616b6356d226d8cbee228a"
-filename = "weeping_angels-46.0.2-forge.jar"
-
 [mods.when-dungeons-arise]
 version = "2.1.57-1.20.1"
 server_side = true
