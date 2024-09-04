@@ -24,10 +24,6 @@ version = "*"
 name = "appleskin"
 version = "*"
 
-[mods.athena-ctm]
-name = "athena-ctm"
-version = "*"
-
 [mods.automobility]
 name = "automobility"
 version = "*"
@@ -79,6 +75,11 @@ version = "*"
 [mods.connector-extras]
 name = "connector-extras"
 version = "*"
+
+[mods.continuity]
+name = "continuity"
+version = "*"
+loader = "Fabric"
 
 [mods.controlling]
 name = "controlling"
