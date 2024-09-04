@@ -555,6 +555,49 @@ version = "0.1.1"
 server_side = true
 client_side = true
 
+[mods.create-wizardry]
+version = "0.2.3"
+server_side = true
+client_side = true
+
+[[mods.create-wizardry.source]]
+
+[mods.create-wizardry.source.Download]
+url = "https://cdn.modrinth.com/data/OeGdeWEj/versions/BUK0p8gn/create_wizardry-0.2.3-forge-1.20.1.jar"
+sha1 = "e3960cd08c218fc4571ca59aea8f4e348343af7d"
+sha512 = "c6bff500864f9818fb94b66363ea6240230fbec62fc5ec87bb17254b9b459034e3357b387e2ccb1f7ad140e6f040de5b4345cd593263df8743d37e23ee9ccf9f"
+filename = "create_wizardry-0.2.3-forge-1.20.1.jar"
+
+[[mods.create-wizardry.deps]]
+name = "caelus"
+version = "3.2.0+1.20.1"
+providers = ["Modrinth"]
+
+[[mods.create-wizardry.deps]]
+name = "create"
+version = "0.5.1.h"
+providers = ["Modrinth"]
+
+[[mods.create-wizardry.deps]]
+name = "curios"
+version = "5.10.0+1.20.1"
+providers = ["Modrinth"]
+
+[[mods.create-wizardry.deps]]
+name = "geckolib"
+version = "4.4.9"
+providers = ["Modrinth"]
+
+[[mods.create-wizardry.deps]]
+name = "irons-spells-n-spellbooks"
+version = "1.20.1-3.4.0"
+providers = ["Modrinth"]
+
+[[mods.create-wizardry.deps]]
+name = "playeranimator"
+version = "1.0.2-rc1+1.20-forge"
+providers = ["Modrinth"]
+
 [mods.createaddition]
 version = "1.20.1-1.2.4e"
 server_side = true
@@ -718,6 +761,24 @@ version = "forge-0.4.3"
 providers = ["Modrinth"]
 
 [[mods.emi-loot.deps]]
+name = "emi"
+version = "1.1.12+1.20.1+forge"
+providers = ["Modrinth"]
+
+[mods.emienchants]
+version = "1.0.0"
+server_side = false
+client_side = true
+
+[[mods.emienchants.source]]
+
+[mods.emienchants.source.Download]
+url = "https://cdn.modrinth.com/data/11hKNQb2/versions/Lzvq7JEE/EMIEnchants-forge-1.19.3-1.20.4-1.0.0.jar"
+sha1 = "d01c60fa55b9bc0700c23b04afc1fb43d579ccc1"
+sha512 = "ef61bb961d9554b0025e568e40fd8bf1a7a21e27eb3d0ccaf4934f9673e6fc862c931017bea741d2fc8afa274d333d190ed2486d9c01cafb1da5fdd493e8251c"
+filename = "EMIEnchants-forge-1.19.3-1.20.4-1.0.0.jar"
+
+[[mods.emienchants.deps]]
 name = "emi"
 version = "1.1.12+1.20.1+forge"
 providers = ["Modrinth"]

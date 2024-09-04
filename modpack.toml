@@ -117,6 +117,10 @@ version = "*"
 name = "create-structures"
 version = "*"
 
+[mods.create-wizardry]
+name = "create-wizardry"
+version = "*"
+
 [mods.createaddition]
 name = "createaddition"
 version = "*"
@@ -155,6 +159,10 @@ client_side = true
 
 [mods.emi-loot]
 name = "emi-loot"
+version = "*"
+
+[mods.emienchants]
+name = "emienchants"
 version = "*"
 
 [mods.emiffect]
