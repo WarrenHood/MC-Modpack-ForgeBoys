@@ -125,10 +125,6 @@ version = "*"
 name = "create-steam-n-rails"
 version = "*"
 
-[mods.create-structures]
-name = "create-structures"
-version = "*"
-
 [mods.create-wizardry]
 name = "create-wizardry"
 version = "*"
@@ -147,10 +143,6 @@ client_side = false
 
 [mods.ct-overhaul-village]
 name = "ct-overhaul-village"
-version = "*"
-
-[mods.ctov-create-structures]
-name = "ctov-create-structures"
 version = "*"
 
 [mods.curious-lanterns]

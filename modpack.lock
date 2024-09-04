@@ -575,12 +575,6 @@ name = "create"
 version = "0.5.1.h"
 providers = ["Modrinth"]
 
-[mods.create-structures]
-source = []
-version = "0.1.1"
-server_side = true
-client_side = true
-
 [mods.create-wizardry]
 version = "0.2.3"
 server_side = true
@@ -671,29 +665,6 @@ filename = "[Forge]CTOV-v3.4.5.jar"
 [[mods.ct-overhaul-village.deps]]
 name = "lithostitched"
 version = "1.1.8"
-providers = ["Modrinth"]
-
-[mods.ctov-create-structures]
-version = "1.0+mod"
-server_side = true
-client_side = true
-
-[[mods.ctov-create-structures.source]]
-
-[mods.ctov-create-structures.source.Download]
-url = "https://cdn.modrinth.com/data/l9fldtN4/versions/hwClzDIs/ctov-create-structures-1.0.jar"
-sha1 = "0df9a99982e36f86dc1b6fd5b4c753af3c84e5ae"
-sha512 = "105e53ae17a14f918c88f47a0465ad836f3000073813b5538bf9b5f72204050106d8d0813561c466306d16a76b6030c1394543968588d8dba8c19b972e9c3895"
-filename = "ctov-create-structures-1.0.jar"
-
-[[mods.ctov-create-structures.deps]]
-name = "create-structures"
-version = "0.1.1"
-providers = ["Modrinth"]
-
-[[mods.ctov-create-structures.deps]]
-name = "ct-overhaul-village"
-version = "3.4.5"
 providers = ["Modrinth"]
 
 [mods.curios]
