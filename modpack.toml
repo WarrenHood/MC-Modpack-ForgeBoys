@@ -94,10 +94,6 @@ download_url = "https://mediafilez.forgecdn.net/files/5245/133/curiouslanterns-1
 name = "deeperdarker"
 version = "*"
 
-[mods.destroy]
-name = "destroy"
-version = "*"
-
 [mods.dungeon-now-loading]
 name = "dungeon-now-loading"
 version = "*"
