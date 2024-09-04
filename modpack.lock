@@ -568,24 +568,6 @@ sha1 = "d2edb93aefdc1b104a8ef975e72c53796b752293"
 sha512 = "6128b06de4fdc2e368339d0fbc40e6e42d1ccbac1284db3f0624278fd2a176b8b22dd39e71b21f7343e29c323978fdc7c40e6a508342e007037fc1092dcbdb8b"
 filename = "entityculling-forge-1.7.0-mc1.20.1.jar"
 
-[mods.eureka]
-version = "1.20.1-forge-1.5.1-beta.3"
-server_side = true
-client_side = true
-
-[[mods.eureka.source]]
-
-[mods.eureka.source.Download]
-url = "https://cdn.modrinth.com/data/EO8aSHxh/versions/9gbnRz82/eureka-1201-1.5.1-beta.3.jar"
-sha1 = "e506f80fb2ece9c54b80df2256980b0b97705b40"
-sha512 = "7282b33918ecf638a73f8b8f906a017bc090579ff6668785c983e4b6442c3cf6d821d09638c589be4393906c01506a1c469f5845d722ea075506fb4018094d47"
-filename = "eureka-1201-1.5.1-beta.3.jar"
-
-[[mods.eureka.deps]]
-name = "valkyrien-skies"
-version = "1.20.1-forge-2.3.0-beta.5"
-providers = ["Modrinth"]
-
 [mods.farmers-delight]
 version = "1.20.1-1.2.4"
 server_side = true
@@ -1349,24 +1331,6 @@ providers = ["Modrinth"]
 [[mods.truly-modular-arsenal.deps]]
 name = "modular-item-api"
 version = "1.1.31-1.20.1-neoforge"
-providers = ["Modrinth"]
-
-[mods.valkyrien-skies]
-version = "1.20.1-forge-2.3.0-beta.5"
-server_side = true
-client_side = true
-
-[[mods.valkyrien-skies.source]]
-
-[mods.valkyrien-skies.source.Download]
-url = "https://cdn.modrinth.com/data/V5ujR2yw/versions/JmkvaGb4/valkyrienskies-120-2.3.0-beta.5.jar"
-sha1 = "cf2ad09ca6b53f621b2a6af507ccacbc88fbba5a"
-sha512 = "f8b0169c1258614cfdcfd2165b642aee997184f0b65ba44002959fb0136043d2557ca0a5df7bff6677b6af67b5f423e8faf43311f06f8c984f655c4fbbaceeed"
-filename = "valkyrienskies-120-2.3.0-beta.5.jar"
-
-[[mods.valkyrien-skies.deps]]
-name = "kotlin-for-forge"
-version = "4.11.0"
 providers = ["Modrinth"]
 
 [mods.xaeros-minimap]
