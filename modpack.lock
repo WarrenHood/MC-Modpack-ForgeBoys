@@ -135,6 +135,19 @@ sha1 = "34b4ae0b51fe8bb55529dd20968bf58e20b4a21e"
 sha512 = "c705b41b3d558073a3fe6275307a1f9bca6980939b32054aad38b29f31e46f683c57b8ea1f9692b3d73a7ca0d0dc2190976ec5dcd017f1a62cf6a9b4e4e63083"
 filename = "badpackets-forge-0.4.3.jar"
 
+[mods.balm]
+version = "7.3.9+forge-1.20.1"
+server_side = true
+client_side = true
+
+[[mods.balm.source]]
+
+[mods.balm.source.Download]
+url = "https://cdn.modrinth.com/data/MBAkmtvl/versions/UTwD7ASf/balm-forge-1.20.1-7.3.9-all.jar"
+sha1 = "fa6c9fd470820d94a77509e5a2c1e363ef81b2ad"
+sha512 = "62f736031f4485c952eb4b516cd456b75b8f045ba9d9776cc107eceda8e1d1d778949c3218d495a669e4dff4b51ed0395b10defd5c9f49d8c9e979151765b9e3"
+filename = "balm-forge-1.20.1-7.3.9-all.jar"
+
 [mods.better-archeology]
 version = "1.2.0-1.20.1"
 server_side = true
@@ -800,6 +813,24 @@ url = "https://cdn.modrinth.com/data/RYtXKJPr/versions/Q3m9gCoC/gravestone-forge
 sha1 = "52e66870fcfe37cef9e4705fc92cc8d13adf0044"
 sha512 = "08f8dbc0fb04136716985e8ae55d058e7a58031c933c6a3ffc183c344dc63cbdf5177a7b10ecd5ff174ff96138276e9b2e2cdfa10126b414a3a77a3798f5ab2d"
 filename = "gravestone-forge-1.20.1-1.0.21.jar"
+
+[mods.hardcore-revival]
+version = "12.0.4+forge-1.20.1"
+server_side = true
+client_side = true
+
+[[mods.hardcore-revival.source]]
+
+[mods.hardcore-revival.source.Download]
+url = "https://cdn.modrinth.com/data/HqKoXaXz/versions/SvXynBIj/hardcorerevival-forge-1.20.1-12.0.4.jar"
+sha1 = "87d959ea32c7b97dd9473a5ca5a0671d00586565"
+sha512 = "0fec58d4cbf736f3f889fa842c4806e0f5cd8ef2a327cbb85c718a0677998762bed412c6f8ddd134126a15debf13c5c8a5893e604961d46b9d443b286c905a6d"
+filename = "hardcorerevival-forge-1.20.1-12.0.4.jar"
+
+[[mods.hardcore-revival.deps]]
+name = "balm"
+version = "7.3.9+forge-1.20.1"
+providers = ["Modrinth"]
 
 [mods.ice-and-fire-dragons]
 version = "2.1.13-1.20.1-beta-5"

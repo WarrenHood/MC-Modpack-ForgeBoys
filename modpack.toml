@@ -184,6 +184,10 @@ version = "*"
 name = "gravestone-mod"
 version = "*"
 
+[mods.hardcore-revival]
+name = "hardcore-revival"
+version = "*"
+
 [mods.ice-and-fire-dragons]
 name = "ice-and-fire-dragons"
 version = "*"
