@@ -121,6 +121,14 @@ version = "*"
 name = "createaddition"
 version = "*"
 
+[mods.ct-overhaul-village]
+name = "ct-overhaul-village"
+version = "*"
+
+[mods.ctov-create-structures]
+name = "ctov-create-structures"
+version = "*"
+
 [mods.curious-lanterns]
 name = "curious-lanterns"
 version = "*"
@@ -285,6 +293,10 @@ version = "*"
 server_side = true
 client_side = true
 
+[mods.rats]
+name = "rats"
+version = "*"
+
 [mods.rubidium-extra]
 name = "rubidium-extra"
 version = "*"
@@ -308,6 +320,10 @@ loader = "Fabric"
 
 [mods.timeless-and-classics-zero]
 name = "timeless-and-classics-zero"
+version = "*"
+
+[mods.towns-and-towers]
+name = "towns-and-towers"
 version = "*"
 
 [mods.travelersbackpack]

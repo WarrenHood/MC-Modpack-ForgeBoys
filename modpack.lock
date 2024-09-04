@@ -573,6 +573,53 @@ name = "create"
 version = "0.5.1.h"
 providers = ["Modrinth"]
 
+[mods.cristel-lib]
+source = []
+version = "1.1.5-forge"
+server_side = true
+client_side = false
+
+[mods.ct-overhaul-village]
+version = "3.4.5"
+server_side = true
+client_side = false
+
+[[mods.ct-overhaul-village.source]]
+
+[mods.ct-overhaul-village.source.Download]
+url = "https://cdn.modrinth.com/data/fgmhI8kH/versions/Hxo3cge6/%5BForge%5DCTOV-v3.4.5.jar"
+sha1 = "f988d72fed45239a4c0a5040e6ea1e8d1ecdedfd"
+sha512 = "bdbaab83f85cf23f244ce418679eecb426e76e60f96819065c208c4a766415a6bb788666909e0d1475fd38f09be29c3dcd744bae9f9057a9f19289960704827a"
+filename = "[Forge]CTOV-v3.4.5.jar"
+
+[[mods.ct-overhaul-village.deps]]
+name = "lithostitched"
+version = "1.1.8"
+providers = ["Modrinth"]
+
+[mods.ctov-create-structures]
+version = "1.0+mod"
+server_side = true
+client_side = true
+
+[[mods.ctov-create-structures.source]]
+
+[mods.ctov-create-structures.source.Download]
+url = "https://cdn.modrinth.com/data/l9fldtN4/versions/hwClzDIs/ctov-create-structures-1.0.jar"
+sha1 = "0df9a99982e36f86dc1b6fd5b4c753af3c84e5ae"
+sha512 = "105e53ae17a14f918c88f47a0465ad836f3000073813b5538bf9b5f72204050106d8d0813561c466306d16a76b6030c1394543968588d8dba8c19b972e9c3895"
+filename = "ctov-create-structures-1.0.jar"
+
+[[mods.ctov-create-structures.deps]]
+name = "create-structures"
+version = "0.1.1"
+providers = ["Modrinth"]
+
+[[mods.ctov-create-structures.deps]]
+name = "ct-overhaul-village"
+version = "3.4.5"
+providers = ["Modrinth"]
+
 [mods.curios]
 version = "5.10.0+1.20.1"
 server_side = true
@@ -1032,6 +1079,19 @@ sha1 = "273acf6e2f0498d64c23a9a28892cb3f1b086f7b"
 sha512 = "035a2c3f8239a130eb24ad880566aecf19737c56c3e428d026ef19af409618b750dfd24d4e8eea8dac69cc20f13150056d43f60f3d85ea64c371633e44fab918"
 filename = "lionfishapi-1.9.jar"
 
+[mods.lithostitched]
+version = "1.1.8"
+server_side = true
+client_side = false
+
+[[mods.lithostitched.source]]
+
+[mods.lithostitched.source.Download]
+url = "https://cdn.modrinth.com/data/XaDC71GB/versions/Lhb8AZxY/lithostitched-forge-1.20.1-1.1.8.jar"
+sha1 = "93570a008fbe370090fb01812a3af24fea9ea7cb"
+sha512 = "2f0291a059224b91c46fbb2d10174719ba5e9d68fd7d31716cd02d59b7b0aedcf0f5a9ef6d3a8c3ec2cd42dd61881b01d6749310aeb12f5b767334c41bc9651b"
+filename = "lithostitched-forge-1.20.1-1.1.8.jar"
+
 [mods.man-of-many-planes]
 version = "0.1.0+1.20.1"
 server_side = true
@@ -1308,6 +1368,24 @@ name = "curios"
 version = "5.10.0+1.20.1"
 providers = ["Modrinth"]
 
+[mods.rats]
+version = "8.1.2"
+server_side = true
+client_side = true
+
+[[mods.rats.source]]
+
+[mods.rats.source.Download]
+url = "https://cdn.modrinth.com/data/CETpiisl/versions/T5O7lDfS/Rats-1.20.1-8.1.2.jar"
+sha1 = "27505c72565156018e8c9219c14bc1f2b8bd1233"
+sha512 = "33be0e03227a13b28cb734f5d1a7e349a091a2318da68bab4ff5324118a571227ccf4fa6c5fe339aea6e4d4068c42a709a2adea4b2ee9a22b2f41cb05e932afc"
+filename = "Rats-1.20.1-8.1.2.jar"
+
+[[mods.rats.deps]]
+name = "citadel"
+version = "2.6.0"
+providers = ["Modrinth"]
+
 [mods.revelationary]
 version = "1.3.8+1.20.1"
 server_side = true
@@ -1501,6 +1579,24 @@ url = "https://cdn.modrinth.com/data/SzzJttH8/versions/gr4tETs1/tacz-1.20.1-1.0.
 sha1 = "6975836748588fa16d99bb75920d1921c06fb155"
 sha512 = "c68c1425cec5c0d09267b7727108942f046fede5e8663b09f73e64bb1ed84fd9219c7febc272e1947d4d5ee76361f971b000f53e1a5efd1703b83cdffadfa619"
 filename = "tacz-1.20.1-1.0.2-release.jar"
+
+[mods.towns-and-towers]
+version = "1.12"
+server_side = true
+client_side = false
+
+[[mods.towns-and-towers.source]]
+
+[mods.towns-and-towers.source.Download]
+url = "https://cdn.modrinth.com/data/DjLobEOy/versions/7ZwnSrVW/Towns-and-Towers-1.12-Fabric%2BForge.jar"
+sha1 = "5a28ec56457cf1bf154e993cf73dba0428a7921b"
+sha512 = "ed734046c356bb996b628c2e0c47e64ba598c87016591fd77533069de68f27b8bfdcd2173d7d3db97f1981ebb806133c3d1751c330d539ade3d6c37ed2d5598f"
+filename = "Towns-and-Towers-1.12-Fabric+Forge.jar"
+
+[[mods.towns-and-towers.deps]]
+name = "cristel-lib"
+version = "1.1.5-forge"
+providers = ["Modrinth"]
 
 [mods.travelersbackpack]
 version = "1.20.1-9.1.15"
