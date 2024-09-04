@@ -390,6 +390,19 @@ sha1 = "e430429e33a1aee50c2baf917daadc0bbb9104ed"
 sha512 = "086269b2bbf0c9513c6230ae0cb5923e257bb1cf81d46cb883b800aeafd1b932b426d92f77a00705dce9c15d79220e24cb7f8b5aaee3d77b9106d0800d793ef3"
 filename = "curios-forge-5.10.0+1.20.1.jar"
 
+[mods.curious-lanterns]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.curious-lanterns.source]]
+
+[mods.curious-lanterns.source.Download]
+url = "https://mediafilez.forgecdn.net/files/5245/133/curiouslanterns-1.20.1-1.3.2.jar"
+sha1 = "21eb21e448da37c4c3fd8b8b263783d3ecf9c079"
+sha512 = "eab42dc0db9ed880a80f2c8048b1a22989a7d815618816ae763f950adfb091f4c66d91fe55c5e045a03042a52e5a148fab2970f5fcaf5f5f3ba766109e17ad32"
+filename = "curiouslanterns-1.20.1-1.3.2.jar"
+
 [mods.deeperdarker]
 version = "1.3.1-forge+1.20.1"
 server_side = true
@@ -402,6 +415,37 @@ url = "https://cdn.modrinth.com/data/fnAffV0n/versions/5CUO6T0S/deeperdarker-for
 sha1 = "188b68b06715ce0c9c4e3a53748f8e5b8deedd2d"
 sha512 = "e46d11014b181bb574c390e095031b631e6bf48a2b583cf69e50efa852c5b0674ed391b16aa69cc9c4a52e3e8e4d5dc162a56775a8871c00648766b59175c48b"
 filename = "deeperdarker-forge-1.20.1-1.3.1.jar"
+
+[mods.destroy]
+version = "0.0.8"
+server_side = true
+client_side = true
+
+[[mods.destroy.source]]
+
+[mods.destroy.source.Download]
+url = "https://cdn.modrinth.com/data/uY7EYHum/versions/glM7hO6V/destroy-1.20.1-0.8.jar"
+sha1 = "b528cdcb0aa21370e92127442a320ebe37dbb0eb"
+sha512 = "96168c056240822ad3c107a8530b2e7ecf8b1ceea8cce293adf8610a0c343e116dc060809fba473b6a03360c87865571be65f60b44705ed0331c08a76f761f12"
+filename = "destroy-1.20.1-0.8.jar"
+
+[[mods.destroy.deps]]
+name = "create"
+version = "0.5.1.h"
+providers = ["Modrinth"]
+
+[mods.dungeon-now-loading]
+version = "1.5"
+server_side = true
+client_side = true
+
+[[mods.dungeon-now-loading.source]]
+
+[mods.dungeon-now-loading.source.Download]
+url = "https://cdn.modrinth.com/data/vZoqTqwv/versions/lYoa4Cf2/Dungeon%20Now%20Loading-forge-1.20.1-1.5.jar"
+sha1 = "255aa4c25270eda498bde4de6eec40fa0915c4b4"
+sha512 = "7ae5b7958afb431a6a2cbe99582f8768afdb1ce649bbc3ef078e994399471c49d3820888d55e1e36975ff26d3df65f7399e3fff7afbfe69ce6c50cff177f1b26"
+filename = "Dungeon Now Loading-forge-1.20.1-1.5.jar"
 
 [mods.embeddium]
 version = "0.3.31+mc1.20.1"
@@ -589,6 +633,19 @@ name = "citadel"
 version = "2.6.0"
 providers = ["Modrinth"]
 
+[mods.immersive-aircraft]
+version = "1.0.1+1.20.1"
+server_side = true
+client_side = true
+
+[[mods.immersive-aircraft.source]]
+
+[mods.immersive-aircraft.source.Download]
+url = "https://cdn.modrinth.com/data/x3HZvrj6/versions/Tju2o3p2/immersive_aircraft-1.0.1%2B1.20.1-forge.jar"
+sha1 = "457aab3ae1a01a8a92fa707039243c908079cbe8"
+sha512 = "8d26e7a2fc3468cb79e5bcbeac0bdd07957d5b817a9c11baf8a910fe4c4ba237e8951f0d271759e05a1c906e95385eac708f3602e2b5eb856b87062cecba0722"
+filename = "immersive_aircraft-1.0.1+1.20.1-forge.jar"
+
 [mods.invmove]
 version = "1.20-0.8.4-forge"
 server_side = false
@@ -720,6 +777,19 @@ url = "https://cdn.modrinth.com/data/FoVacERa/versions/5kW6wNcF/lionfishapi-1.9.
 sha1 = "273acf6e2f0498d64c23a9a28892cb3f1b086f7b"
 sha512 = "035a2c3f8239a130eb24ad880566aecf19737c56c3e428d026ef19af409618b750dfd24d4e8eea8dac69cc20f13150056d43f60f3d85ea64c371633e44fab918"
 filename = "lionfishapi-1.9.jar"
+
+[mods.man-of-many-planes]
+version = "0.1.0+1.20.1"
+server_side = true
+client_side = true
+
+[[mods.man-of-many-planes.source]]
+
+[mods.man-of-many-planes.source.Download]
+url = "https://cdn.modrinth.com/data/9qdTHi0q/versions/yr0VUexU/man_of_many_planes-0.1.0%2B1.20.1-forge.jar"
+sha1 = "c3f28b2e50dc4f93c7725d97ea16a802dc4405dc"
+sha512 = "730f4ad83d62dd1a04b500799bb554f7f26458a3c1f75e84c3c3cf526e638de10ad198848d6fed8b534e7f3a1328c1fbfc786c29008ae08f02bde162c0c16ffa"
+filename = "man_of_many_planes-0.1.0+1.20.1-forge.jar"
 
 [mods.medieval-origins-revival]
 version = "6.4.5+1.20.1-forge"
@@ -871,6 +941,24 @@ url = "https://cdn.modrinth.com/data/tagwiZkJ/versions/V6TZ8mE6/polymorph-forge-
 sha1 = "94592f3ffba15b991118e7dbea99b7f10aa6c0cc"
 sha512 = "324cea6e6f0656cda51ab38bc1d4e97fd92f55c10ce7f2fd1ac19a118acfe07a943b057e26f64308fe9c54263ca58caf348b67dabec9c26e31e8e04bd945f9e1"
 filename = "polymorph-forge-0.49.5+1.20.1.jar"
+
+[mods.radiant-gear]
+version = "2.1.5+1.20.1"
+server_side = true
+client_side = true
+
+[[mods.radiant-gear.source]]
+
+[mods.radiant-gear.source.Download]
+url = "https://cdn.modrinth.com/data/AtT9wm5O/versions/97i06Z6R/radiantgear-forge-2.1.5%2B1.20.1.jar"
+sha1 = "97524902ec80b21bee94ba6f88a3503360637264"
+sha512 = "8134680efa6eceeeada2d0cda7881fd48b7dabce1792c41ad32088ec9ad0a0eb8f5331b009f7dabbffa9a8a2ad4ff35f8f35b902a3149f79da4e992eacd15b62"
+filename = "radiantgear-forge-2.1.5+1.20.1.jar"
+
+[[mods.radiant-gear.deps]]
+name = "curios"
+version = "5.10.0+1.20.1"
+providers = ["Modrinth"]
 
 [mods.revelationary]
 version = "1.3.8+1.20.1"

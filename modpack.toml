@@ -84,8 +84,22 @@ version = "*"
 name = "createaddition"
 version = "*"
 
+[mods.curious-lanterns]
+name = "curious-lanterns"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/5245/133/curiouslanterns-1.20.1-1.3.2.jar"
+
 [mods.deeperdarker]
 name = "deeperdarker"
+version = "*"
+
+[mods.destroy]
+name = "destroy"
+version = "*"
+
+[mods.dungeon-now-loading]
+name = "dungeon-now-loading"
 version = "*"
 
 [mods.embeddium]
@@ -134,6 +148,10 @@ version = "*"
 name = "ice-and-fire-dragons"
 version = "*"
 
+[mods.immersive-aircraft]
+name = "immersive-aircraft"
+version = "*"
+
 [mods.invmove]
 name = "invmove"
 version = "*"
@@ -152,6 +170,10 @@ version = "*"
 
 [mods.l_enders-cataclysm]
 name = "l_enders-cataclysm"
+version = "*"
+
+[mods.man-of-many-planes]
+name = "man-of-many-planes"
 version = "*"
 
 [mods.medieval-origins-revival]
@@ -187,6 +209,12 @@ version = "*"
 [mods.polymorph]
 name = "polymorph"
 version = "*"
+
+[mods.radiant-gear]
+name = "radiant-gear"
+version = "*"
+server_side = true
+client_side = true
 
 [mods.rubidium-extra]
 name = "rubidium-extra"
