@@ -160,6 +160,10 @@ version = "*"
 name = "immersive-aircraft"
 version = "*"
 
+[mods.immersive-melodies]
+name = "immersive-melodies"
+version = "*"
+
 [mods.invmove]
 name = "invmove"
 version = "*"

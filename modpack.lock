@@ -696,6 +696,19 @@ sha1 = "457aab3ae1a01a8a92fa707039243c908079cbe8"
 sha512 = "8d26e7a2fc3468cb79e5bcbeac0bdd07957d5b817a9c11baf8a910fe4c4ba237e8951f0d271759e05a1c906e95385eac708f3602e2b5eb856b87062cecba0722"
 filename = "immersive_aircraft-1.0.1+1.20.1-forge.jar"
 
+[mods.immersive-melodies]
+version = "0.3.0+1.20.1"
+server_side = true
+client_side = true
+
+[[mods.immersive-melodies.source]]
+
+[mods.immersive-melodies.source.Download]
+url = "https://cdn.modrinth.com/data/TaSmHw8V/versions/zjMy2oFH/immersive_melodies-0.3.0%2B1.20.1-forge.jar"
+sha1 = "1c08962403538f247e9782e0618919af3c818aa7"
+sha512 = "e5aa0710d001b7b071b3843e91cf2a42fbcdd06057cf4d15cc74922885282cd257b2c61c240df9be78f4c1487c61d39946dcfe6e4a714440835e5467bb1d887a"
+filename = "immersive_melodies-0.3.0+1.20.1-forge.jar"
+
 [mods.invmove]
 version = "1.20-0.8.4-forge"
 server_side = false
