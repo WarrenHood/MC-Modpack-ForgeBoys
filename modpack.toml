@@ -36,6 +36,10 @@ version = "*"
 name = "better-archeology"
 version = "*"
 
+[mods.better-combat]
+name = "better-combat"
+version = "*"
+
 [mods.betterf3]
 name = "betterf3"
 version = "*"
@@ -126,10 +130,6 @@ version = "*"
 
 [mods.entityculling]
 name = "entityculling"
-version = "*"
-
-[mods.epic-fight]
-name = "epic-fight"
 version = "*"
 
 [mods.farmers-delight]

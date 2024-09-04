@@ -145,6 +145,29 @@ name = "yungs-api"
 version = "1.20-Forge-4.0.5"
 providers = ["Modrinth"]
 
+[mods.better-combat]
+version = "1.8.6+1.20.1-forge"
+server_side = true
+client_side = true
+
+[[mods.better-combat.source]]
+
+[mods.better-combat.source.Download]
+url = "https://cdn.modrinth.com/data/5sy6g3kz/versions/UjlaL0Fm/bettercombat-forge-1.8.6%2B1.20.1.jar"
+sha1 = "70c20cd81a4051b2ad4289ff6522e80b397d7b3d"
+sha512 = "24b3acd2b1ff3e24b2828ec003bcf2f5af7b4556be728996ddc8bdca3244bb92e91ef76f3c1bc10a15a5e59cd80b388f4994097fd258aadcb7abb7f3bd6959c3"
+filename = "bettercombat-forge-1.8.6+1.20.1.jar"
+
+[[mods.better-combat.deps]]
+name = "cloth-config"
+version = "11.1.118+forge"
+providers = ["Modrinth"]
+
+[[mods.better-combat.deps]]
+name = "playeranimator"
+version = "1.0.2-rc1+1.20-forge"
+providers = ["Modrinth"]
+
 [mods.betterf3]
 version = "7.0.2"
 server_side = false
@@ -544,19 +567,6 @@ url = "https://cdn.modrinth.com/data/NNAgCjsB/versions/dlg7nMa6/entityculling-fo
 sha1 = "d2edb93aefdc1b104a8ef975e72c53796b752293"
 sha512 = "6128b06de4fdc2e368339d0fbc40e6e42d1ccbac1284db3f0624278fd2a176b8b22dd39e71b21f7343e29c323978fdc7c40e6a508342e007037fc1092dcbdb8b"
 filename = "entityculling-forge-1.7.0-mc1.20.1.jar"
-
-[mods.epic-fight]
-version = "20.9.2"
-server_side = true
-client_side = true
-
-[[mods.epic-fight.source]]
-
-[mods.epic-fight.source.Download]
-url = "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/s1YVcS5i/epicfight-forge-20.9.2-1.20.1.jar"
-sha1 = "136b8717f2746cf894e702ae1b2267a7f5eb92bd"
-sha512 = "b6f5c3a129deea2681dd45958c9ce3bb26c8f18e58b84eab3ff42765f268b5e5b10cba28e254845f4b7b0785bcb8a7a5e3044eb03e9f435207a0adea4de33685"
-filename = "epicfight-forge-20.9.2-1.20.1.jar"
 
 [mods.farmers-delight]
 version = "1.20.1-1.2.4"
