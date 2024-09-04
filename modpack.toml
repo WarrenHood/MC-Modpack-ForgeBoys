@@ -199,6 +199,14 @@ version = "*"
 name = "farmers-delight"
 version = "*"
 
+[mods.fastback]
+name = "fastback"
+version = "*"
+providers = ["Raw"]
+download_url = "https://cdn.modrinth.com/data/ZHKrK8Rp/versions/sCxHMib4/fastback-0.15.6%2B1.20.1-forge.jar"
+server_side = true
+client_side = false
+
 [mods.ferrite-core]
 name = "ferrite-core"
 version = "*"

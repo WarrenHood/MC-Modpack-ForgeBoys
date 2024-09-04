@@ -869,6 +869,19 @@ sha1 = "71daa55fd88b6f181c51ec6892600415df591f64"
 sha512 = "bd025d539511beddd6826896604d2aae17b035fd7ae03c4ae659be3df802f4190b91f935b32a07a69842ad98f79bfbdcc3ef6d0e1e540b35989a806c655b4168"
 filename = "FarmersDelight-1.20.1-1.2.4.jar"
 
+[mods.fastback]
+version = "Unknown"
+server_side = true
+client_side = false
+
+[[mods.fastback.source]]
+
+[mods.fastback.source.Download]
+url = "https://cdn.modrinth.com/data/ZHKrK8Rp/versions/sCxHMib4/fastback-0.15.6%2B1.20.1-forge.jar"
+sha1 = "e705d6a13fec4ca62e3b9635017fab24aab490bb"
+sha512 = "d6d901100ac1dbdbd508d1dd33fdf1aa4d8d8cfb342f49b2628644e4cd086ccce8297ae041310fdd277810c9716825206383b5a72cdbbfcda8309cea204dd713"
+filename = "fastback-0.15.6%2B1.20.1-forge.jar"
+
 [mods.ferrite-core]
 version = "6.0.1"
 server_side = true
