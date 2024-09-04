@@ -213,6 +213,11 @@ version = "*"
 name = "xaeros-world-map"
 version = "*"
 
+[files."./client/options.txt"]
+target_path = "options.txt"
+side = "Client"
+apply_policy = "Once"
+
 [files."./servers.dat"]
 target_path = "./servers.dat"
 side = "Client"
