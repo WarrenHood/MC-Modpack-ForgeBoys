@@ -95,6 +95,8 @@ version = "*"
 [mods.emi]
 name = "emi"
 version = "*"
+server_side = true
+client_side = true
 
 [mods.emi-loot]
 name = "emi-loot"
