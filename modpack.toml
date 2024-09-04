@@ -4,6 +4,10 @@ modloader = "Forge"
 default_providers = ["Modrinth"]
 forbidden_mods = ["fabric-api"]
 
+[mods.ae2]
+name = "ae2"
+version = "*"
+
 [mods.aether]
 name = "aether"
 version = "*"
@@ -20,6 +24,14 @@ version = "*"
 name = "appleskin"
 version = "*"
 
+[mods.athena-ctm]
+name = "athena-ctm"
+version = "*"
+
+[mods.bad-wither-no-cookie]
+name = "bad-wither-no-cookie"
+version = "*"
+
 [mods.better-archeology]
 name = "better-archeology"
 version = "*"
@@ -30,6 +42,10 @@ version = "*"
 
 [mods.biomes-o-plenty]
 name = "biomes-o-plenty"
+version = "*"
+
+[mods.botania]
+name = "botania"
 version = "*"
 
 [mods.carry-on]
@@ -46,6 +62,10 @@ version = "*"
 
 [mods.connector-extras]
 name = "connector-extras"
+version = "*"
+
+[mods.controlling]
+name = "controlling"
 version = "*"
 
 [mods.copycats]
@@ -90,6 +110,10 @@ version = "*"
 
 [mods.enderio]
 name = "enderio"
+version = "*"
+
+[mods.entityculling]
+name = "entityculling"
 version = "*"
 
 [mods.farmers-delight]
@@ -175,6 +199,10 @@ loader = "Fabric"
 
 [mods.timeless-and-classics-zero]
 name = "timeless-and-classics-zero"
+version = "*"
+
+[mods.travelersbackpack]
+name = "travelersbackpack"
 version = "*"
 
 [mods.xaeros-minimap]

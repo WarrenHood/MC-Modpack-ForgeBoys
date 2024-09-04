@@ -1,3 +1,17 @@
+[mods.ae2]
+version = "15.2.13"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.ae2.source]]
+
+[mods.ae2.source.Download]
+url = "https://cdn.modrinth.com/data/XxWD5pD3/versions/VGMDHpdE/appliedenergistics2-forge-15.2.13.jar"
+sha1 = "73468f3fa3fffe042fabb5b47dc67c7bf722cdc7"
+sha512 = "a62e7464a87a5c7dc579355360a7befac0d4c243e60126bc3b8ffdeaf14728e6d148fa8ff2ce374b58f2b1467030b83f2bcbe210db26fe7e74107462865ff205"
+filename = "appliedenergistics2-forge-15.2.13.jar"
+
 [mods.aether]
 version = "1.20.1-1.4.2-neoforge"
 deps = []
@@ -55,6 +69,32 @@ url = "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-
 sha1 = "81919356f84eab14258db98924b66c3c38e372b1"
 sha512 = "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9"
 filename = "appleskin-forge-mc1.20.1-2.5.1.jar"
+
+[mods.athena-ctm]
+version = "3.1.2"
+server_side = false
+client_side = true
+
+[[mods.athena-ctm.source]]
+
+[mods.athena-ctm.source.Download]
+url = "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/DULOQFj7/athena-forge-1.20.1-3.1.2.jar"
+sha1 = "2acee24454af859988a691f0506271a465f68f7b"
+sha512 = "5a71a1c220eafbfbdb570fa204454352b48d55f238db1a5b398a8c40f6b0fbd8c09a2f6c10def330abdf3daadaa24dfa52471f8de931a93fd99dc7d85b60960b"
+filename = "athena-forge-1.20.1-3.1.2.jar"
+
+[mods.bad-wither-no-cookie]
+version = "3.17.0"
+server_side = false
+client_side = true
+
+[[mods.bad-wither-no-cookie.source]]
+
+[mods.bad-wither-no-cookie.source.Download]
+url = "https://cdn.modrinth.com/data/lL2MtE37/versions/MnHRIoUj/bwncr-forge-1.20.1-3.17.0.jar"
+sha1 = "425aa8183fcbf3f84f893eff88d90771cca1bb03"
+sha512 = "4ea45c5f8a4f95fb6e372503eda8683071aa0b800ac7a8656c00924a7ba6920a0bf8ada868bf6d3797f8ad0ef42340239fbf5e255c509b832c648162def0dadd"
+filename = "bwncr-forge-1.20.1-3.17.0.jar"
 
 [mods.badpackets]
 version = "forge-0.4.3"
@@ -126,6 +166,29 @@ filename = "BiomesOPlenty-1.20.1-18.0.0.598.jar"
 [[mods.biomes-o-plenty.deps]]
 name = "terrablender"
 version = "3.0.1.7"
+providers = ["Modrinth"]
+
+[mods.botania]
+version = "1.20.1-446-forge"
+server_side = true
+client_side = true
+
+[[mods.botania.source]]
+
+[mods.botania.source.Download]
+url = "https://cdn.modrinth.com/data/pfjLUfGv/versions/QXK1IBLc/Botania-1.20.1-446-FORGE.jar"
+sha1 = "30ca9f036aaf7f18ebaa2cb5aa578c6ba1d273e6"
+sha512 = "a344ae2cd74ed3461c23bbcd18aa01e790f0a908a44e0286e6c227c18d947038b1df6a4bc5f7c7d27c5311631d5981787a00e01a9d180686bcb61d856ae553d9"
+filename = "Botania-1.20.1-446-FORGE.jar"
+
+[[mods.botania.deps]]
+name = "curios"
+version = "5.10.0+1.20.1"
+providers = ["Modrinth"]
+
+[[mods.botania.deps]]
+name = "patchouli"
+version = "1.20.1-84-forge"
 providers = ["Modrinth"]
 
 [mods.caelus]
@@ -227,6 +290,24 @@ filename = "ConnectorExtras-1.11.2+1.20.1.jar"
 [[mods.connector-extras.deps]]
 name = "connector"
 version = "1.0.0-beta.45+1.20.1"
+providers = ["Modrinth"]
+
+[mods.controlling]
+version = "12.0.2"
+server_side = false
+client_side = true
+
+[[mods.controlling.source]]
+
+[mods.controlling.source.Download]
+url = "https://cdn.modrinth.com/data/xv94TkTM/versions/LH6Bi6Am/Controlling-forge-1.20.1-12.0.2.jar"
+sha1 = "6195a3d1464f8fb641d7e165163aea1a857ce08e"
+sha512 = "3945bf3f6d843957f13584dfc70bede253d1e48f0dcb96f647fbcc6fcd3d1748a0dd9c6ca5c882e07a41f98eb84057934f51e43ab6023ed0a19695de2e6fe9f5"
+filename = "Controlling-forge-1.20.1-12.0.2.jar"
+
+[[mods.controlling.deps]]
+name = "searchables"
+version = "1.0.3"
 providers = ["Modrinth"]
 
 [mods.copycats]
@@ -411,6 +492,19 @@ url = "https://cdn.modrinth.com/data/49ZofO4f/versions/LBBdWiQv/EnderIO-1.20.1-6
 sha1 = "7d8a8fb4fc58839ef56336fa998d82f312367f1d"
 sha512 = "fc8f56c26ffc4848ac9ea23fe0b6ed2ac7e7c197891e92db3932ce0aeab56af3b6f99f4b725d312fefbb078d7077dc7759a52b72e5e7b317e87067ffa75dd830"
 filename = "EnderIO-1.20.1-6.1.8-beta-all.jar"
+
+[mods.entityculling]
+version = "1.7.0"
+server_side = false
+client_side = true
+
+[[mods.entityculling.source]]
+
+[mods.entityculling.source.Download]
+url = "https://cdn.modrinth.com/data/NNAgCjsB/versions/dlg7nMa6/entityculling-forge-1.7.0-mc1.20.1.jar"
+sha1 = "d2edb93aefdc1b104a8ef975e72c53796b752293"
+sha512 = "6128b06de4fdc2e368339d0fbc40e6e42d1ccbac1284db3f0624278fd2a176b8b22dd39e71b21f7343e29c323978fdc7c40e6a508342e007037fc1092dcbdb8b"
+filename = "entityculling-forge-1.7.0-mc1.20.1.jar"
 
 [mods.farmers-delight]
 version = "1.20.1-1.2.4"
@@ -742,6 +836,19 @@ name = "embeddium"
 version = "0.3.31+mc1.20.1"
 providers = ["Modrinth"]
 
+[mods.searchables]
+version = "1.0.3"
+server_side = false
+client_side = true
+
+[[mods.searchables.source]]
+
+[mods.searchables.source.Download]
+url = "https://cdn.modrinth.com/data/fuuu3xnx/versions/PM9yAW1G/Searchables-forge-1.20.1-1.0.3.jar"
+sha1 = "5b976f6e76ec74cdef21865e31f56bcb11558db7"
+sha512 = "185617d6d446f3d4ef6c7d5c6ee4e2fb731a89f7495157313b21292ec6b8e3dbcc10c0379ab49ecb2d0c64d0a78df74750d7f7336d5e6c43516a7c92f278c0a2"
+filename = "Searchables-forge-1.20.1-1.0.3.jar"
+
 [mods.servercore]
 version = "1.5.1+1.20.1"
 server_side = true
@@ -872,6 +979,19 @@ url = "https://cdn.modrinth.com/data/SzzJttH8/versions/gr4tETs1/tacz-1.20.1-1.0.
 sha1 = "6975836748588fa16d99bb75920d1921c06fb155"
 sha512 = "c68c1425cec5c0d09267b7727108942f046fede5e8663b09f73e64bb1ed84fd9219c7febc272e1947d4d5ee76361f971b000f53e1a5efd1703b83cdffadfa619"
 filename = "tacz-1.20.1-1.0.2-release.jar"
+
+[mods.travelersbackpack]
+version = "1.20.1-9.1.15"
+server_side = true
+client_side = true
+
+[[mods.travelersbackpack.source]]
+
+[mods.travelersbackpack.source.Download]
+url = "https://cdn.modrinth.com/data/rlloIFEV/versions/FDqFhZfz/travelersbackpack-forge-1.20.1-9.1.15.jar"
+sha1 = "7190d7e84d32b7b53cd2dfd13ab60764720fed75"
+sha512 = "f324e65a8adbe6e47872491fa67ae18ac8b0245ddb4f8a4491f91a5bb2bbf7bffcf1d11aa756c2a381a47155744df1ee76cbfcd94bbad9b0398538bbad5d41e4"
+filename = "travelersbackpack-forge-1.20.1-9.1.15.jar"
 
 [mods.trinkets]
 version = "3.7.2"
