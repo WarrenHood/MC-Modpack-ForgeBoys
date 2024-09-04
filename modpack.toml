@@ -32,6 +32,12 @@ version = "*"
 name = "bad-wither-no-cookie"
 version = "*"
 
+[mods.badoptimizations]
+name = "badoptimizations"
+version = "*"
+server_side = false
+client_side = true
+
 [mods.better-archeology]
 name = "better-archeology"
 version = "*"
@@ -231,6 +237,12 @@ version = "*"
 name = "ice-and-fire-dragons"
 version = "*"
 
+[mods.immediatelyfast]
+name = "immediatelyfast"
+version = "*"
+server_side = false
+client_side = true
+
 [mods.immersive-aircraft]
 name = "immersive-aircraft"
 version = "*"
@@ -275,6 +287,12 @@ version = "*"
 name = "memoryleakfix"
 version = "*"
 
+[mods.modernfix]
+name = "modernfix"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.mouse-tweaks]
 name = "mouse-tweaks"
 version = "*"
@@ -304,6 +322,12 @@ version = "*"
 [mods.origins-forge]
 name = "origins-forge"
 version = "*"
+
+[mods.packet-fixer]
+name = "packet-fixer"
+version = "*"
+server_side = true
+client_side = true
 
 [mods.patchouli]
 name = "patchouli"
