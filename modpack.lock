@@ -96,6 +96,19 @@ sha1 = "2acee24454af859988a691f0506271a465f68f7b"
 sha512 = "5a71a1c220eafbfbdb570fa204454352b48d55f238db1a5b398a8c40f6b0fbd8c09a2f6c10def330abdf3daadaa24dfa52471f8de931a93fd99dc7d85b60960b"
 filename = "athena-forge-1.20.1-3.1.2.jar"
 
+[mods.automobility]
+version = "0.4.2+1.20.1-forge"
+server_side = true
+client_side = true
+
+[[mods.automobility.source]]
+
+[mods.automobility.source.Download]
+url = "https://cdn.modrinth.com/data/rqIsPf9F/versions/46g3IiWw/automobility-0.4.2%2B1.20.1-forge.jar"
+sha1 = "007f228d2d728ec0ec79ab405d09b05a4ee7bed6"
+sha512 = "96aec122a35e12891054f246435f0ff27b5e759942545e25839bb6da54e7b3544c81297bbe77d14692b0a31af9d5ab70d7c13de7e92e288b15abf9c7e8832ef4"
+filename = "automobility-0.4.2+1.20.1-forge.jar"
+
 [mods.bad-wither-no-cookie]
 version = "3.17.0"
 server_side = false
@@ -204,6 +217,24 @@ name = "terrablender"
 version = "3.0.1.7"
 providers = ["Modrinth"]
 
+[mods.blue-skies]
+version = "1.3.31"
+server_side = true
+client_side = true
+
+[[mods.blue-skies.source]]
+
+[mods.blue-skies.source.Download]
+url = "https://cdn.modrinth.com/data/DOSy3C4M/versions/YGq4rvX4/blue_skies-1.20.1-1.3.31.jar"
+sha1 = "9d86230565f9262e845da2065f138e470eaed44c"
+sha512 = "9b3adb424cff067b5299cd4bfbb377d1cac6d7695d139e561eaf20901b67cc2e5f5fce242d68d8286f2d123b649b25a7f6d406a93d9bc65447772ddc6fe4016d"
+filename = "blue_skies-1.20.1-1.3.31.jar"
+
+[[mods.blue-skies.deps]]
+name = "structure-gel-api"
+version = "2.16.2"
+providers = ["Modrinth"]
+
 [mods.botania]
 version = "1.20.1-446-forge"
 server_side = true
@@ -227,6 +258,19 @@ name = "patchouli"
 version = "1.20.1-84-forge"
 providers = ["Modrinth"]
 
+[mods.botarium]
+version = "2.3.4"
+server_side = true
+client_side = true
+
+[[mods.botarium.source]]
+
+[mods.botarium.source.Download]
+url = "https://cdn.modrinth.com/data/2u6LRnMa/versions/O7D6FTfW/botarium-forge-1.20.1-2.3.4.jar"
+sha1 = "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b"
+sha512 = "aa3530dde50966e47958690b02a343c4de3782d32ae3b2cb75b2155eebb76e172a292768d846b8d14a97bc9ebe18f1f655eaa3469fce13b2b4b15b16af0aba01"
+filename = "botarium-forge-1.20.1-2.3.4.jar"
+
 [mods.caelus]
 version = "3.2.0+1.20.1"
 server_side = true
@@ -239,6 +283,20 @@ url = "https://cdn.modrinth.com/data/40FYwb4z/versions/mRry0DgY/caelus-forge-3.2
 sha1 = "d14e8ee892d4d8764f523ad0e89bdcfc061fb007"
 sha512 = "906baad404c33288d8daf8937bc6a85d3bcc03db67a4a68395b8f01eea57f773420ff97919aadb08a7618b62b0c6c3db72270f9c3af836b822385464f509cf78"
 filename = "caelus-forge-3.2.0+1.20.1.jar"
+
+[mods.canary]
+version = "mc1.20.1-0.3.3"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.canary.source]]
+
+[mods.canary.source.Download]
+url = "https://cdn.modrinth.com/data/qa2H4BS9/versions/lauzXB0n/canary-mc1.20.1-0.3.3.jar"
+sha1 = "898abd9e337ef1c677ce93f5589497a09c7e9850"
+sha512 = "38f0bec7967f9d354e46dacdbe7d284ef823270dc737a7388adde157c45a025e53d77e04a00a582900666b85402c461bee4b80345fc7f03edb5c2b96708442bd"
+filename = "canary-mc1.20.1-0.3.3.jar"
 
 [mods.carry-on]
 version = "2.1.2.7"
@@ -377,6 +435,83 @@ sha1 = "934a4a1e085b867756fb404fd92309fbb0ff3a48"
 sha512 = "59ffb5b3bb905eeec21a0791fc2c1cdaac1e052f320cf6d19afe966779fa070cfb520d4587b2458b614d8e0b1da72381ea0b46d6528669cd9e6526031711193f"
 filename = "create-1.20.1-0.5.1.h.jar"
 
+[mods.create-diesel-generators]
+version = "1.20.1-1.2i"
+server_side = true
+client_side = true
+
+[[mods.create-diesel-generators.source]]
+
+[mods.create-diesel-generators.source.Download]
+url = "https://cdn.modrinth.com/data/ZM3tt6p1/versions/R6vueHQB/createdieselgenerators-1.20.1-1.2i.jar"
+sha1 = "7f626b7ddd79bd1abf90bf816c67c674ac111e22"
+sha512 = "1bc4319e22bf9e8febab181f255655ba2c83788600141dc8b06bb6bf39b44166f5a8043051f7ecfca9a35ad2a805f1d93bbc2f153e3c29cfcd823865eb17a222"
+filename = "createdieselgenerators-1.20.1-1.2i.jar"
+
+[[mods.create-diesel-generators.deps]]
+name = "create"
+version = "0.5.1.h"
+providers = ["Modrinth"]
+
+[mods.create-enchantment-industry]
+version = "1.2.9.d"
+server_side = true
+client_side = true
+
+[[mods.create-enchantment-industry.source]]
+
+[mods.create-enchantment-industry.source.Download]
+url = "https://cdn.modrinth.com/data/JWGBpFUP/versions/JFhYaP3a/create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.9.d.jar"
+sha1 = "eec891067ec8c72fdaeb97bece103eed5e10e719"
+sha512 = "0e7aa608252f6469089ee8a8c680b697097e41b0cbcc3f4521cb4f8b4c0853f4bbd18b39d6bb22f570445fda17293b5117104e59545608e0c1b960732d0cd9a7"
+filename = "create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.9.d.jar"
+
+[[mods.create-enchantment-industry.deps]]
+name = "create"
+version = "0.5.1.h"
+providers = ["Modrinth"]
+
+[mods.create-new-age]
+version = "1.1.2"
+server_side = true
+client_side = true
+
+[[mods.create-new-age.source]]
+
+[mods.create-new-age.source.Download]
+url = "https://cdn.modrinth.com/data/FTeXqI9v/versions/2BEeSV7E/create-new-age-forge-1.20.1-1.1.2.jar"
+sha1 = "92fcbc49d41a4d1b2038b469154a4c36e3934e36"
+sha512 = "d6fac731e9356b52f1e0c43105a92cd41c8633367f8b525d0573a7610bca2de5497391bd8a9483efe46cb61152a6efd7f7adfc33cfd9b16655d70f8406a89694"
+filename = "create-new-age-forge-1.20.1-1.1.2.jar"
+
+[[mods.create-new-age.deps]]
+name = "botarium"
+version = "2.3.4"
+providers = ["Modrinth"]
+
+[[mods.create-new-age.deps]]
+name = "create"
+version = "0.5.1.h"
+providers = ["Modrinth"]
+
+[mods.create-ore-excavation]
+version = "1.20.1-1.5.2"
+server_side = true
+client_side = true
+
+[[mods.create-ore-excavation.source]]
+
+[mods.create-ore-excavation.source.Download]
+url = "https://cdn.modrinth.com/data/ResbpANg/versions/JoRQ9ZCh/createoreexcavation-1.20-1.5.2.jar"
+sha1 = "88e37b0992b704e338dd4a1a96e6268b6a051918"
+sha512 = "6db8d43b3c0e7a7968eb5c86797daad5684b7d8060b0f315c8854468d5986a948ec7d9b611a2c9526a3b9a42182b1afbb5bd4751866a015382f3c2fd8f8d30e8"
+filename = "createoreexcavation-1.20-1.5.2.jar"
+
+[[mods.create-ore-excavation.deps]]
+name = "create"
+version = "0.5.1.h"
+providers = ["Modrinth"]
+
 [mods.create-steam-n-rails]
 version = "1.6.5+forge-mc1.20.1"
 server_side = true
@@ -394,6 +529,12 @@ filename = "Steam_Rails-1.6.5+forge-mc1.20.1.jar"
 name = "create"
 version = "0.5.1.h"
 providers = ["Modrinth"]
+
+[mods.create-structures]
+source = []
+version = "0.1.1"
+server_side = true
+client_side = true
 
 [mods.createaddition]
 version = "1.20.1-1.2.4e"
@@ -633,6 +774,19 @@ sha1 = "0c60e839e65a18782b4f5f411794de8be261ee0b"
 sha512 = "513d95e2c8fac5484b6c12083e763ff00c8f6c4845d580cbe197484ca6ce2cbf7b92793ef6b587091d250bf335bc9c8ebfe8008059fa6c225601316cf5b767d4"
 filename = "geckolib-forge-1.20.1-4.4.9.jar"
 
+[mods.gliders]
+version = "1.1.5+forge"
+server_side = true
+client_side = true
+
+[[mods.gliders.source]]
+
+[mods.gliders.source.Download]
+url = "https://cdn.modrinth.com/data/XiC6HzoU/versions/nVCZVT0i/vc_gliders-forge-1.1.5.jar"
+sha1 = "9380a25166cc0d9d6fccb19f03ae332952084a0f"
+sha512 = "919414d8ded2025e39301a50ae9547f154bcca6f5a3af17d985724987aeab34fba0dc3c4ce4f31156a997043c41b6a0e2ba8a926a0db3a500e983c861061ca73"
+filename = "vc_gliders-forge-1.1.5.jar"
+
 [mods.gravestone-mod]
 version = "forge-1.20.1-1.0.21"
 deps = []
@@ -810,6 +964,24 @@ name = "lionfish-api"
 version = "1.9"
 providers = ["Modrinth"]
 
+[mods.leaves-be-gone]
+version = "v8.0.0-1.20.1-Forge"
+server_side = true
+client_side = false
+
+[[mods.leaves-be-gone.source]]
+
+[mods.leaves-be-gone.source.Download]
+url = "https://cdn.modrinth.com/data/AVq17PqV/versions/slScQFdb/LeavesBeGone-v8.0.0-1.20.1-Forge.jar"
+sha1 = "c5043f862be7db76892c7c0c95d02fa3f8332af0"
+sha512 = "7e209ccfcc438bec934556132ec7bb48dcf7db55611fd0e26a72f19b6a7c07e8a5103408e5e2d46b825979944a2208ba5dc28b95a0e3c4f6a78d8494e1d9780a"
+filename = "LeavesBeGone-v8.0.0-1.20.1-Forge.jar"
+
+[[mods.leaves-be-gone.deps]]
+name = "puzzles-lib"
+version = "v8.0.15-1.20.1-Forge"
+providers = ["Modrinth"]
+
 [mods.lionfish-api]
 version = "1.9"
 server_side = true
@@ -858,6 +1030,19 @@ providers = ["Modrinth"]
 name = "pehkui"
 version = "3.8.2+1.20.1-forge"
 providers = ["Modrinth"]
+
+[mods.memoryleakfix]
+version = "v1.1.5"
+server_side = true
+client_side = true
+
+[[mods.memoryleakfix.source]]
+
+[mods.memoryleakfix.source.Download]
+url = "https://cdn.modrinth.com/data/NRjRiSSD/versions/3w0IxNtk/memoryleakfix-forge-1.17%2B-1.1.5.jar"
+sha1 = "9f60142dd94631800386a16a4ad70ad9e84cd78a"
+sha512 = "f4d7b0eb70a605ffb81bebd24fd125d8c0bc7917c3e00f27bee64988836323de5a3d205e89a4a5f8ae75741ca874f62996e7c8e5ed489dc3c1824337e93d263f"
+filename = "memoryleakfix-forge-1.17+-1.1.5.jar"
 
 [mods.modular-item-api]
 version = "1.1.31-1.20.1-neoforge"
@@ -908,6 +1093,24 @@ sha1 = "00e9ecc9d298c2fd4a74e96af792a5a04f2b7623"
 sha512 = "4ea0b98a174388c897f7cefe98679a59f7dbd1d1326cb5afa041f87147544194d00ec92564d08a1e62168a4ffd7aefd81380aa38027a02944c14a043f33611ed"
 filename = "mowziesmobs-1.6.5.jar"
 
+[mods.mutant-monsters]
+version = "v8.0.7-1.20.1-Forge"
+server_side = true
+client_side = true
+
+[[mods.mutant-monsters.source]]
+
+[mods.mutant-monsters.source.Download]
+url = "https://cdn.modrinth.com/data/derP0ten/versions/Pp3ZK1tZ/MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+sha1 = "9675f602022f6ec87535dafb97f392c3a8f6f734"
+sha512 = "5c649b288fd67c40511e2a0b37270888941462f0cd5869364fb903f14b0bbc0c57dd7bcfc7e16189a45210f65049ac37dc55cca7bb24663610327189c2325552"
+filename = "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
+
+[[mods.mutant-monsters.deps]]
+name = "puzzles-lib"
+version = "v8.1.22-1.20.1-Forge"
+providers = ["Modrinth"]
+
 [mods.natures-compass]
 version = "1.20.1-1.11.2-forge"
 server_side = true
@@ -920,6 +1123,19 @@ url = "https://cdn.modrinth.com/data/fPetb5Kh/versions/Og40jCNX/NaturesCompass-1
 sha1 = "31ae930cdbb34e8e05e1954cfb2fee3a3813e850"
 sha512 = "7a2a9e9e91f9d2093d94c42ed056bca4048f39ba45b233415b6d1874986b5848a82826873ccc2b38abccbdf5652f2e217482354c66434ed1b93df8971cb0bea3"
 filename = "NaturesCompass-1.20.1-1.11.2-forge.jar"
+
+[mods.noisium]
+version = "2.3.0+mc1.20-1.20.1"
+server_side = true
+client_side = false
+
+[[mods.noisium.source]]
+
+[mods.noisium.source.Download]
+url = "https://cdn.modrinth.com/data/KuNKN7d2/versions/gbYUKrDP/noisium-forge-2.3.0%2Bmc1.20-1.20.1.jar"
+sha1 = "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808"
+sha512 = "5bc43bc1b748edcd63d074a8bb14d393d986c51e1933e1f38cd7a2dd2fd70dba5a46a6415f46d4a52c68e7e1e9ce101e54376ad04273df958608e2fdb43db502"
+filename = "noisium-forge-2.3.0+mc1.20-1.20.1.jar"
 
 [mods.oculus]
 version = "1.20.1-1.7.0"
@@ -1023,6 +1239,19 @@ url = "https://cdn.modrinth.com/data/tagwiZkJ/versions/V6TZ8mE6/polymorph-forge-
 sha1 = "94592f3ffba15b991118e7dbea99b7f10aa6c0cc"
 sha512 = "324cea6e6f0656cda51ab38bc1d4e97fd92f55c10ce7f2fd1ac19a118acfe07a943b057e26f64308fe9c54263ca58caf348b67dabec9c26e31e8e04bd945f9e1"
 filename = "polymorph-forge-0.49.5+1.20.1.jar"
+
+[mods.puzzles-lib]
+version = "v8.1.22-1.20.1-Forge"
+server_side = true
+client_side = true
+
+[[mods.puzzles-lib.source]]
+
+[mods.puzzles-lib.source.Download]
+url = "https://cdn.modrinth.com/data/QAGBst4M/versions/WHDG4o9c/PuzzlesLib-v8.1.22-1.20.1-Forge.jar"
+sha1 = "4a4b87f46a8f77cc09128a1a88da5f6dce7c35fc"
+sha512 = "f08c0a8d967a6134ea843e725b9613f525110452e2ba141b0707a3ba85075cbcfa941a7bbf6b223f151ba3d0a01f0f41a8493e2ad830b9c2dec2dd1ca0801365"
+filename = "PuzzlesLib-v8.1.22-1.20.1-Forge.jar"
 
 [mods.radiant-gear]
 version = "2.1.5+1.20.1"
@@ -1184,6 +1413,19 @@ version = "3.7.2"
 providers = ["Modrinth"]
 loader = "Fabric"
 
+[mods.structure-gel-api]
+version = "2.16.2"
+server_side = true
+client_side = true
+
+[[mods.structure-gel-api.source]]
+
+[mods.structure-gel-api.source.Download]
+url = "https://cdn.modrinth.com/data/T8TGycIQ/versions/xavY0MZc/structure_gel-1.20.1-2.16.2.jar"
+sha1 = "ec8c59d2a69eca3249a8da673f572b40b6d59895"
+sha512 = "643f7ae81418e2a473824f35dc06df357a16e17ae1dd0f4c6dd00958aebacc83fb15386240d4767b6ad41d6b89735778bb564080ce6174a0a374f9ac63f9ced8"
+filename = "structure_gel-1.20.1-2.16.2.jar"
+
 [mods.supermartijn642s-config-lib]
 version = "1.1.8-forge-mc1.20"
 server_side = true
@@ -1332,6 +1574,32 @@ providers = ["Modrinth"]
 name = "modular-item-api"
 version = "1.1.31-1.20.1-neoforge"
 providers = ["Modrinth"]
+
+[mods.weeping-angels]
+version = "46.0.2+forge"
+server_side = true
+client_side = true
+
+[[mods.weeping-angels.source]]
+
+[mods.weeping-angels.source.Download]
+url = "https://cdn.modrinth.com/data/TEzJJY7H/versions/qFTRtOKP/weeping_angels-46.0.2-forge.jar"
+sha1 = "0f96561f6415fa7191ff6cec184072c2fd49bfae"
+sha512 = "faf16e6b2caea7da068b1d328624ee3ce9f724fc544e4348c9b66784b0a1fdc501b355fccc2767a543cf3db235a201d5301c17c508616b6356d226d8cbee228a"
+filename = "weeping_angels-46.0.2-forge.jar"
+
+[mods.when-dungeons-arise]
+version = "2.1.57-1.20.1"
+server_side = true
+client_side = false
+
+[[mods.when-dungeons-arise.source]]
+
+[mods.when-dungeons-arise.source.Download]
+url = "https://cdn.modrinth.com/data/8DfbfASn/versions/wiCQJUDT/DungeonsArise-1.20.1-2.1.57-release.jar"
+sha1 = "1bc95d13cf8208c5cfe100a001d6b078d15742f7"
+sha512 = "0719500250215dad3ed9dd4976f125bf9b097a286cbd71b9efa92571077b7a2acd063810e666a8ea8b33fe80bfb1eee7b515f0ab768f35e4dc87934bc224b3ed"
+filename = "DungeonsArise-1.20.1-2.1.57-release.jar"
 
 [mods.xaeros-minimap]
 version = "24.4.0_Forge_1.20"

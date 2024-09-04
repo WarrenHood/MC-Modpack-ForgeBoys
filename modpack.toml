@@ -28,6 +28,10 @@ version = "*"
 name = "athena-ctm"
 version = "*"
 
+[mods.automobility]
+name = "automobility"
+version = "*"
+
 [mods.bad-wither-no-cookie]
 name = "bad-wither-no-cookie"
 version = "*"
@@ -48,8 +52,16 @@ version = "*"
 name = "biomes-o-plenty"
 version = "*"
 
+[mods.blue-skies]
+name = "blue-skies"
+version = "*"
+
 [mods.botania]
 name = "botania"
+version = "*"
+
+[mods.canary]
+name = "canary"
 version = "*"
 
 [mods.carry-on]
@@ -80,8 +92,28 @@ version = "*"
 name = "create"
 version = "*"
 
+[mods.create-diesel-generators]
+name = "create-diesel-generators"
+version = "*"
+
+[mods.create-enchantment-industry]
+name = "create-enchantment-industry"
+version = "*"
+
+[mods.create-new-age]
+name = "create-new-age"
+version = "*"
+
+[mods.create-ore-excavation]
+name = "create-ore-excavation"
+version = "*"
+
 [mods.create-steam-n-rails]
 name = "create-steam-n-rails"
+version = "*"
+
+[mods.create-structures]
+name = "create-structures"
 version = "*"
 
 [mods.createaddition]
@@ -144,6 +176,10 @@ version = "*"
 name = "gamemenumodoption"
 version = "*"
 
+[mods.gliders]
+name = "gliders"
+version = "*"
+
 [mods.gravestone-mod]
 name = "gravestone-mod"
 version = "*"
@@ -180,12 +216,20 @@ version = "*"
 name = "l_enders-cataclysm"
 version = "*"
 
+[mods.leaves-be-gone]
+name = "leaves-be-gone"
+version = "*"
+
 [mods.man-of-many-planes]
 name = "man-of-many-planes"
 version = "*"
 
 [mods.medieval-origins-revival]
 name = "medieval-origins-revival"
+version = "*"
+
+[mods.memoryleakfix]
+name = "memoryleakfix"
 version = "*"
 
 [mods.mouse-tweaks]
@@ -198,8 +242,16 @@ version = "*"
 providers = ["Raw"]
 download_url = "https://mediafilez.forgecdn.net/files/5399/941/mowziesmobs-1.6.5.jar"
 
+[mods.mutant-monsters]
+name = "mutant-monsters"
+version = "*"
+
 [mods.natures-compass]
 name = "natures-compass"
+version = "*"
+
+[mods.noisium]
+name = "noisium"
 version = "*"
 
 [mods.oculus]
@@ -267,6 +319,14 @@ version = "*"
 
 [mods.truly-modular-arsenal]
 name = "truly-modular-arsenal"
+version = "*"
+
+[mods.weeping-angels]
+name = "weeping-angels"
+version = "*"
+
+[mods.when-dungeons-arise]
+name = "when-dungeons-arise"
 version = "*"
 
 [mods.xaeros-minimap]
