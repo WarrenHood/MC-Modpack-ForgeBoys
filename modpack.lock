@@ -617,10 +617,17 @@ version = "0.5.1.h"
 providers = ["Modrinth"]
 
 [mods.cristel-lib]
-source = []
-version = "1.1.5-forge"
+version = "Unknown"
 server_side = true
 client_side = false
+
+[[mods.cristel-lib.source]]
+
+[mods.cristel-lib.source.Download]
+url = "https://cdn.modrinth.com/data/cl223EMc/versions/amI1oyGG/cristellib-1.1.5-forge.jar"
+sha1 = "8a43951083ea9096a91f81757004465f4afc7cab"
+sha512 = "3c5217f3871a97e136b61b63cf3369a00e46f82717197e744be427019455ac8cff373037731a0515427716ee7174a4888399dca7f27f0b9cd7654764b0a6a94b"
+filename = "cristellib-1.1.5-forge.jar"
 
 [mods.ct-overhaul-village]
 version = "3.4.5"

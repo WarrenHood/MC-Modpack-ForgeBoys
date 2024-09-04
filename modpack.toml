@@ -125,6 +125,14 @@ version = "*"
 name = "createaddition"
 version = "*"
 
+[mods.cristel-lib]
+name = "cristel-lib"
+version = "*"
+providers = ["Raw"]
+download_url = "https://cdn.modrinth.com/data/cl223EMc/versions/amI1oyGG/cristellib-1.1.5-forge.jar"
+server_side = true
+client_side = false
+
 [mods.ct-overhaul-village]
 name = "ct-overhaul-village"
 version = "*"
