@@ -142,6 +142,10 @@ version = "*"
 name = "iris-flw-compat"
 version = "*"
 
+[mods.irons-spells-n-spellbooks]
+name = "irons-spells-n-spellbooks"
+version = "*"
+
 [mods.jade]
 name = "jade"
 version = "*"
@@ -157,6 +161,12 @@ version = "*"
 [mods.mouse-tweaks]
 name = "mouse-tweaks"
 version = "*"
+
+[mods.mowzies-mobs]
+name = "mowzies-mobs"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/5399/941/mowziesmobs-1.6.5.jar"
 
 [mods.natures-compass]
 name = "natures-compass"
