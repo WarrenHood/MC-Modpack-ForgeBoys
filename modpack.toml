@@ -64,6 +64,12 @@ version = "*"
 name = "carry-on"
 version = "*"
 
+[mods.chunky]
+name = "chunky"
+version = "*"
+server_side = true
+client_side = false
+
 [mods.cloth-config]
 name = "cloth-config"
 version = "*"
