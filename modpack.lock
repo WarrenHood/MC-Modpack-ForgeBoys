@@ -70,6 +70,19 @@ sha1 = "81919356f84eab14258db98924b66c3c38e372b1"
 sha512 = "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9"
 filename = "appleskin-forge-mc1.20.1-2.5.1.jar"
 
+[mods.architectury-api]
+version = "9.2.14+forge"
+server_side = true
+client_side = true
+
+[[mods.architectury-api.source]]
+
+[mods.architectury-api.source.Download]
+url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
+sha1 = "a52918a500ff421180a1cbd1a0cabee712134ec4"
+sha512 = "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7"
+filename = "architectury-9.2.14-forge.jar"
+
 [mods.athena-ctm]
 version = "3.1.2"
 server_side = false
@@ -532,6 +545,19 @@ sha1 = "d2edb93aefdc1b104a8ef975e72c53796b752293"
 sha512 = "6128b06de4fdc2e368339d0fbc40e6e42d1ccbac1284db3f0624278fd2a176b8b22dd39e71b21f7343e29c323978fdc7c40e6a508342e007037fc1092dcbdb8b"
 filename = "entityculling-forge-1.7.0-mc1.20.1.jar"
 
+[mods.epic-fight]
+version = "20.9.2"
+server_side = true
+client_side = true
+
+[[mods.epic-fight.source]]
+
+[mods.epic-fight.source.Download]
+url = "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/s1YVcS5i/epicfight-forge-20.9.2-1.20.1.jar"
+sha1 = "136b8717f2746cf894e702ae1b2267a7f5eb92bd"
+sha512 = "b6f5c3a129deea2681dd45958c9ce3bb26c8f18e58b84eab3ff42765f268b5e5b10cba28e254845f4b7b0785bcb8a7a5e3044eb03e9f435207a0adea4de33685"
+filename = "epicfight-forge-20.9.2-1.20.1.jar"
+
 [mods.farmers-delight]
 version = "1.20.1-1.2.4"
 server_side = true
@@ -596,6 +622,20 @@ url = "https://cdn.modrinth.com/data/8BmcQJ2H/versions/RBA7lJaW/geckolib-forge-1
 sha1 = "0c60e839e65a18782b4f5f411794de8be261ee0b"
 sha512 = "513d95e2c8fac5484b6c12083e763ff00c8f6c4845d580cbe197484ca6ce2cbf7b92793ef6b587091d250bf335bc9c8ebfe8008059fa6c225601316cf5b767d4"
 filename = "geckolib-forge-1.20.1-4.4.9.jar"
+
+[mods.gravestone-mod]
+version = "forge-1.20.1-1.0.21"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.gravestone-mod.source]]
+
+[mods.gravestone-mod.source.Download]
+url = "https://cdn.modrinth.com/data/RYtXKJPr/versions/Q3m9gCoC/gravestone-forge-1.20.1-1.0.21.jar"
+sha1 = "52e66870fcfe37cef9e4705fc92cc8d13adf0044"
+sha512 = "08f8dbc0fb04136716985e8ae55d058e7a58031c933c6a3ffc183c344dc63cbdf5177a7b10ecd5ff174ff96138276e9b2e2cdfa10126b414a3a77a3798f5ab2d"
+filename = "gravestone-forge-1.20.1-1.0.21.jar"
 
 [mods.ice-and-fire-dragons]
 version = "2.1.13-1.20.1-beta-5"
@@ -796,6 +836,29 @@ name = "pehkui"
 version = "3.8.2+1.20.1-forge"
 providers = ["Modrinth"]
 
+[mods.modular-item-api]
+version = "1.1.31-1.20.1-neoforge"
+server_side = true
+client_side = true
+
+[[mods.modular-item-api.source]]
+
+[mods.modular-item-api.source.Download]
+url = "https://cdn.modrinth.com/data/c4Uf1TKc/versions/pw3woRpV/Truly-Modular-miapi-forge-1.1.31-1.20.1.jar"
+sha1 = "27fed5eaa6e047517237766aae92710f1c75afab"
+sha512 = "d6f38d82534d813ba80141eaf8fcb9f97b084c6e2d70032bbd5694208483099581089c8464e61d7165438d1c77b7d90b31c3158c446a52d8cf0d51966e1996a0"
+filename = "Truly-Modular-miapi-forge-1.1.31-1.20.1.jar"
+
+[[mods.modular-item-api.deps]]
+name = "architectury-api"
+version = "9.2.14+forge"
+providers = ["Modrinth"]
+
+[[mods.modular-item-api.deps]]
+name = "caelus"
+version = "3.2.0+1.20.1"
+providers = ["Modrinth"]
+
 [mods.mouse-tweaks]
 version = "1.20.1-2.25.1-forge"
 server_side = false
@@ -896,6 +959,20 @@ url = "https://cdn.modrinth.com/data/t5W7Jfwy/versions/SQpqSgAE/Pehkui-3.8.2%2B1
 sha1 = "4bc816efdd8e5e2a97423313674401351710e403"
 sha512 = "e4660f0b5af6bfe2902ab39a6fbfa911856e0567bffc47842b482731da373afa4424b9e7cf47c61a0c2107445520475053709a6671d9eb4b7f4b55597729af3f"
 filename = "Pehkui-3.8.2+1.20.1-forge.jar"
+
+[mods.pizzacraft]
+version = "1.20.1-7.0.8"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.pizzacraft.source]]
+
+[mods.pizzacraft.source.Download]
+url = "https://cdn.modrinth.com/data/7BXEGho2/versions/CcpvadC6/pizzacraft-1.20.1-7.0.8.jar"
+sha1 = "7f015b2ad7a797ad1c5b09e2511a733cf2945bf6"
+sha512 = "e45db8df8bd1008efcb9cd5185fb1ef72e3f37fc6a80c74e3c60ced85cee217f2b399d5eb2aa8f8d7c375d35cdf191f03d38c6f3183aee63d5a9ec42122b7aca"
+filename = "pizzacraft-1.20.1-7.0.8.jar"
 
 [mods.playeranimator]
 version = "1.0.2-rc1+1.20-forge"
@@ -1148,6 +1225,90 @@ url = "https://cdn.modrinth.com/data/5aaWibi9/versions/AHxQGtuC/trinkets-3.7.2.j
 sha1 = "d58cc8759587f03f320f188972ca66baa788d008"
 sha512 = "bedf97c87c5e556416410267108ad358b32806448be24ef8ae1a79ac63b78b48b9c851c00c845b8aedfc7805601385420716b9e65326fdab21340e8ba3cc4274"
 filename = "trinkets-3.7.2.jar"
+
+[mods.truly-modular-archery]
+version = "1.4-1.20.1-neoforge"
+server_side = true
+client_side = true
+
+[[mods.truly-modular-archery.source]]
+
+[mods.truly-modular-archery.source.Download]
+url = "https://cdn.modrinth.com/data/RXklwn50/versions/AWO5blaP/Truly-Modular-archery-archery-forge-1.4-1.20.1.jar"
+sha1 = "a10fc940e7d6db48ba08d4fd32352dcdb54d44a1"
+sha512 = "bd801e3ef6ee97524bac92e2a319cab4cf921c6f932c42f8ecbc85bc5cfb729553e96c7fcfb66937655c20c59280aae0dee02ee091276337fa9cf67dc952d15f"
+filename = "Truly-Modular-archery-archery-forge-1.4-1.20.1.jar"
+
+[[mods.truly-modular-archery.deps]]
+name = "architectury-api"
+version = "9.2.14+forge"
+providers = ["Modrinth"]
+
+[[mods.truly-modular-archery.deps]]
+name = "caelus"
+version = "3.2.0+1.20.1"
+providers = ["Modrinth"]
+
+[[mods.truly-modular-archery.deps]]
+name = "modular-item-api"
+version = "1.1.31-1.20.1-neoforge"
+providers = ["Modrinth"]
+
+[mods.truly-modular-armory]
+version = "1.9-1.20.1-neoforge"
+server_side = true
+client_side = true
+
+[[mods.truly-modular-armory.source]]
+
+[mods.truly-modular-armory.source.Download]
+url = "https://cdn.modrinth.com/data/6mUV27DN/versions/o3mAzo1x/Truly-Modular-armory-armory-forge-1.9-1.20.1.jar"
+sha1 = "e7602d9f0b053ef99a37fc3fcd0c2d7a3b73102a"
+sha512 = "b1b7547b7280b7763fad8f451dd300cd1655c7f8b66baadca2ce39b1fc8dfa301dc19fc7616d954b92a9067eb39d47f3961cf9cad500b1eec6e97eee6f5b5a9f"
+filename = "Truly-Modular-armory-armory-forge-1.9-1.20.1.jar"
+
+[[mods.truly-modular-armory.deps]]
+name = "architectury-api"
+version = "9.2.14+forge"
+providers = ["Modrinth"]
+
+[[mods.truly-modular-armory.deps]]
+name = "caelus"
+version = "3.2.0+1.20.1"
+providers = ["Modrinth"]
+
+[[mods.truly-modular-armory.deps]]
+name = "modular-item-api"
+version = "1.1.31-1.20.1-neoforge"
+providers = ["Modrinth"]
+
+[mods.truly-modular-arsenal]
+version = "1.10-1.20.1-neoforge"
+server_side = true
+client_side = true
+
+[[mods.truly-modular-arsenal.source]]
+
+[mods.truly-modular-arsenal.source.Download]
+url = "https://cdn.modrinth.com/data/V4LaId7f/versions/YYd17RIK/Truly-Modular-arsenal-arsenal-forge-1.10-1.20.1.jar"
+sha1 = "82b196b70a2798f7465271fcf1a0f785c36f5ca2"
+sha512 = "b332d02540d62f132fec4aaffe1341af71862a09bcd5640d8f17659b2b4ef141c0182a3583a535a74d6c7083f9c8bd7c912eb7f83deb9c9bcd3099d800ebff29"
+filename = "Truly-Modular-arsenal-arsenal-forge-1.10-1.20.1.jar"
+
+[[mods.truly-modular-arsenal.deps]]
+name = "architectury-api"
+version = "9.2.14+forge"
+providers = ["Modrinth"]
+
+[[mods.truly-modular-arsenal.deps]]
+name = "caelus"
+version = "3.2.0+1.20.1"
+providers = ["Modrinth"]
+
+[[mods.truly-modular-arsenal.deps]]
+name = "modular-item-api"
+version = "1.1.31-1.20.1-neoforge"
+providers = ["Modrinth"]
 
 [mods.xaeros-minimap]
 version = "24.4.0_Forge_1.20"

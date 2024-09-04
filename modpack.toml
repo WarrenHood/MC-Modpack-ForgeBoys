@@ -128,6 +128,10 @@ version = "*"
 name = "entityculling"
 version = "*"
 
+[mods.epic-fight]
+name = "epic-fight"
+version = "*"
+
 [mods.farmers-delight]
 name = "farmers-delight"
 version = "*"
@@ -138,6 +142,10 @@ version = "*"
 
 [mods.gamemenumodoption]
 name = "gamemenumodoption"
+version = "*"
+
+[mods.gravestone-mod]
+name = "gravestone-mod"
 version = "*"
 
 [mods.ice-and-fire-dragons]
@@ -202,6 +210,10 @@ version = "*"
 name = "patchouli"
 version = "*"
 
+[mods.pizzacraft]
+name = "pizzacraft"
+version = "*"
+
 [mods.polymorph]
 name = "polymorph"
 version = "*"
@@ -239,6 +251,18 @@ version = "*"
 
 [mods.travelersbackpack]
 name = "travelersbackpack"
+version = "*"
+
+[mods.truly-modular-archery]
+name = "truly-modular-archery"
+version = "*"
+
+[mods.truly-modular-armory]
+name = "truly-modular-armory"
+version = "*"
+
+[mods.truly-modular-arsenal]
+name = "truly-modular-arsenal"
 version = "*"
 
 [mods.xaeros-minimap]
