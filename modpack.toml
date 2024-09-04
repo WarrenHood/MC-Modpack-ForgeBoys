@@ -222,3 +222,8 @@ apply_policy = "Once"
 target_path = "servers.dat"
 side = "Client"
 apply_policy = "Always"
+
+[files."./server/whitelist.json"]
+target_path = "whitelist.json"
+side = "Server"
+apply_policy = "Always"
