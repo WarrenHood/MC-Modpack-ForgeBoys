@@ -105,6 +105,10 @@ version = "*"
 name = "create"
 version = "*"
 
+[mods.create-central-kitchen]
+name = "create-central-kitchen"
+version = "*"
+
 [mods.create-diesel-generators]
 name = "create-diesel-generators"
 version = "*"
@@ -265,6 +269,14 @@ version = "*"
 
 [mods.leaves-be-gone]
 name = "leaves-be-gone"
+version = "*"
+
+[mods.lesraisins-weapon]
+name = "lesraisins-weapon"
+version = "*"
+
+[mods.littletiles]
+name = "littletiles"
 version = "*"
 
 [mods.man-of-many-planes]
