@@ -366,6 +366,10 @@ version = "*"
 name = "servercore"
 version = "*"
 
+[mods.simple-discord-rpc]
+name = "simple-discord-rpc"
+version = "*"
+
 [mods.slice-and-dice]
 name = "slice-and-dice"
 version = "*"
