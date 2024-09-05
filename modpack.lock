@@ -1405,19 +1405,6 @@ sha1 = "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808"
 sha512 = "5bc43bc1b748edcd63d074a8bb14d393d986c51e1933e1f38cd7a2dd2fd70dba5a46a6415f46d4a52c68e7e1e9ce101e54376ad04273df958608e2fdb43db502"
 filename = "noisium-forge-2.3.0+mc1.20-1.20.1.jar"
 
-[mods.notenoughcrashes]
-version = "4.4.7+1.20.1-forge"
-server_side = true
-client_side = true
-
-[[mods.notenoughcrashes.source]]
-
-[mods.notenoughcrashes.source.Download]
-url = "https://cdn.modrinth.com/data/yM94ont6/versions/W6W0bVtN/notenoughcrashes-4.4.7%2B1.20.1-forge.jar"
-sha1 = "0cd0d0f49762dcaf3716e72c5e159ed9645ce468"
-sha512 = "9128836e8bed4ff60f5569b0541a132eafa009275657c6816792b210d31b8cb9f83afc9469335f0018890484c0b744b4ad0be865ee4f89ad665eac05ca27cafb"
-filename = "notenoughcrashes-4.4.7+1.20.1-forge.jar"
-
 [mods.oculus]
 version = "1.20.1-1.7.0"
 server_side = false
