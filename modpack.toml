@@ -332,12 +332,6 @@ version = "*"
 name = "origins-forge"
 version = "*"
 
-[mods.packet-fixer]
-name = "packet-fixer"
-version = "*"
-server_side = true
-client_side = true
-
 [mods.patchouli]
 name = "patchouli"
 version = "*"

@@ -1455,19 +1455,6 @@ name = "caelus"
 version = "3.2.0+1.20.1"
 providers = ["Modrinth"]
 
-[mods.packet-fixer]
-version = "1.4.2"
-server_side = true
-client_side = true
-
-[[mods.packet-fixer.source]]
-
-[mods.packet-fixer.source.Download]
-url = "https://cdn.modrinth.com/data/c7m1mi73/versions/AScUisZl/packetfixer-forge-1.4.2-1.19-to-1.20.1.jar"
-sha1 = "fde1ac873b9a07ec2ad7dab2c2a6249b11151664"
-sha512 = "5117290f545708d2bed4a79a9225008537d6fae5714a534e3b9c16671f09e384db0db98b312f457f09525b5da87b48ff9e1356885285128fbcd8ec5ba4e6dac5"
-filename = "packetfixer-forge-1.4.2-1.19-to-1.20.1.jar"
-
 [mods.patchouli]
 version = "1.20.1-84-forge"
 server_side = true
