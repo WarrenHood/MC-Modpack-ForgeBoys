@@ -197,6 +197,11 @@ version = "*"
 name = "entityculling"
 version = "*"
 
+[mods.extraalchemy]
+name = "extraalchemy"
+version = "*"
+loader = "Fabric"
+
 [mods.farmers-delight]
 name = "farmers-delight"
 version = "*"
@@ -335,6 +340,10 @@ client_side = true
 
 [mods.patchouli]
 name = "patchouli"
+version = "*"
+
+[mods.pehkui]
+name = "pehkui"
 version = "*"
 
 [mods.pizzacraft]
