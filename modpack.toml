@@ -319,6 +319,10 @@ version = "*"
 name = "noisium"
 version = "*"
 
+[mods.notenoughcrashes]
+name = "notenoughcrashes"
+version = "*"
+
 [mods.oculus]
 name = "oculus"
 version = "*"
