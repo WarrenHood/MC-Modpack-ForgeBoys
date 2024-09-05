@@ -83,6 +83,19 @@ sha1 = "a52918a500ff421180a1cbd1a0cabee712134ec4"
 sha512 = "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7"
 filename = "architectury-9.2.14-forge.jar"
 
+[mods.attributes]
+version = "0.5.0"
+server_side = true
+client_side = true
+
+[[mods.attributes.source]]
+
+[mods.attributes.source.Download]
+url = "https://cdn.modrinth.com/data/FCFcFw09/versions/VEQOxNHY/puffish_attributes-0.5.0-1.20-forge.jar"
+sha1 = "bb1c7befae33f37706bfadc5b4b245b542b19cb1"
+sha512 = "66c177f6e007d11e7cb1a242824a09271922bb4ffb702c07d39e84ec51884ea8cfe16c93d1ae1c356c16c8d6a293d3c148ef274500d47a2b3cd4868e72553098"
+filename = "puffish_attributes-0.5.0-1.20-forge.jar"
+
 [mods.automobility]
 version = "0.4.2+1.20.1-forge"
 server_side = true
@@ -719,6 +732,29 @@ sha1 = "188b68b06715ce0c9c4e3a53748f8e5b8deedd2d"
 sha512 = "e46d11014b181bb574c390e095031b631e6bf48a2b583cf69e50efa852c5b0674ed391b16aa69cc9c4a52e3e8e4d5dc162a56775a8871c00648766b59175c48b"
 filename = "deeperdarker-forge-1.20.1-1.3.1.jar"
 
+[mods.default-skill-trees]
+version = "1.0"
+server_side = true
+client_side = true
+
+[[mods.default-skill-trees.source]]
+
+[mods.default-skill-trees.source.Download]
+url = "https://cdn.modrinth.com/data/4w7YR25f/versions/343TKa5b/default_skill_trees-1.0.jar"
+sha1 = "26067c62c8b688c0231761c4134d4378d02a7dcc"
+sha512 = "0ac36b0f18f0c85be1643b50dd275be370d0780c042ac348b3ea6230a4ef3ea52a820aa9319068fd34f8de000fab907608c8052e25c68df102b9731d50b5b176"
+filename = "default_skill_trees-1.0.jar"
+
+[[mods.default-skill-trees.deps]]
+name = "attributes"
+version = "0.5.0"
+providers = ["Modrinth"]
+
+[[mods.default-skill-trees.deps]]
+name = "skills"
+version = "0.13.2"
+providers = ["Modrinth"]
+
 [mods.dungeon-now-loading]
 version = "1.5"
 server_side = true
@@ -1259,29 +1295,6 @@ sha1 = "c3f28b2e50dc4f93c7725d97ea16a802dc4405dc"
 sha512 = "730f4ad83d62dd1a04b500799bb554f7f26458a3c1f75e84c3c3cf526e638de10ad198848d6fed8b534e7f3a1328c1fbfc786c29008ae08f02bde162c0c16ffa"
 filename = "man_of_many_planes-0.1.0+1.20.1-forge.jar"
 
-[mods.medieval-origins-revival]
-version = "6.4.5+1.20.1-forge"
-server_side = true
-client_side = true
-
-[[mods.medieval-origins-revival.source]]
-
-[mods.medieval-origins-revival.source.Download]
-url = "https://cdn.modrinth.com/data/3FJ8AhW0/versions/4X4ROLk5/MedievalOriginsRevival-6.4.5%2B1.20.1-forge.jar"
-sha1 = "17886992f68350f942747e52d1f1deee3ec7ac2f"
-sha512 = "5989f0bb7084c8c6d18b62bf6bc81cd30af802bbcebd195a27aa92fdb1df5c02202c3e79ac6310603fea9d020ecf16708fcedf44f01c9c21c02249e419e24b85"
-filename = "MedievalOriginsRevival-6.4.5+1.20.1-forge.jar"
-
-[[mods.medieval-origins-revival.deps]]
-name = "origins-forge"
-version = "1.20.1-1.10.0.9"
-providers = ["Modrinth"]
-
-[[mods.medieval-origins-revival.deps]]
-name = "pehkui"
-version = "3.8.2+1.20.1-forge"
-providers = ["Modrinth"]
-
 [mods.memoryleakfix]
 version = "v1.1.5"
 server_side = true
@@ -1417,24 +1430,6 @@ filename = "oculus-mc1.20.1-1.7.0.jar"
 [[mods.oculus.deps]]
 name = "embeddium"
 version = "0.3.31+mc1.20.1"
-providers = ["Modrinth"]
-
-[mods.origins-forge]
-version = "1.20.1-1.10.0.9"
-server_side = true
-client_side = true
-
-[[mods.origins-forge.source]]
-
-[mods.origins-forge.source.Download]
-url = "https://cdn.modrinth.com/data/jl3m2lR9/versions/vynFXywM/origins-forge-1.20.1-1.10.0.9-all.jar"
-sha1 = "71af2b5fa4d2905ab71ca7c488a508dba277f109"
-sha512 = "b103ac2ac509e98eaceedf04891bbe302e82f8b4a7fc3790b3d63bd912306bb09f9925489473211627a7a87d2049672a3e66c5cf6f5b1e34e62049f3a43d0e5d"
-filename = "origins-forge-1.20.1-1.10.0.9-all.jar"
-
-[[mods.origins-forge.deps]]
-name = "caelus"
-version = "3.2.0+1.20.1"
 providers = ["Modrinth"]
 
 [mods.patchouli]
@@ -1615,6 +1610,19 @@ url = "https://cdn.modrinth.com/data/4WWQxlQP/versions/7ZoHTOVf/servercore-forge
 sha1 = "6e06ebf6d144a44f14e8dcbd933b399561b40c87"
 sha512 = "06e403ace1c23ab7c6880790622ebcbddc3eed70b7e7f7cc34760d6c5b77e923c162362f133d8d27baa6f78c5869e20562245d06b3b214245192bdbae7040cda"
 filename = "servercore-forge-1.5.1+1.20.1.jar"
+
+[mods.skills]
+version = "0.13.2"
+server_side = true
+client_side = true
+
+[[mods.skills.source]]
+
+[mods.skills.source.Download]
+url = "https://cdn.modrinth.com/data/hqQqvaa4/versions/suJqRhEh/puffish_skills-0.13.2-1.20-forge.jar"
+sha1 = "cfbe57b2148cfcc404958ac71bc50362e283b814"
+sha512 = "395d8a704c2126a353b0eb0badcbc07d2a6aab8eb065c49089979d2e30ad8e9c9eaaf4f1811648406a9b9414f418a9938b72e39225355d360b4444b15cd79b6d"
+filename = "puffish_skills-0.13.2-1.20-forge.jar"
 
 [mods.slice-and-dice]
 version = "3.2.1"

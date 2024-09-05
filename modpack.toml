@@ -24,6 +24,10 @@ version = "*"
 name = "appleskin"
 version = "*"
 
+[mods.attributes]
+name = "attributes"
+version = "*"
+
 [mods.automobility]
 name = "automobility"
 version = "*"
@@ -155,6 +159,10 @@ download_url = "https://mediafilez.forgecdn.net/files/5245/133/curiouslanterns-1
 name = "deeperdarker"
 version = "*"
 
+[mods.default-skill-trees]
+name = "default-skill-trees"
+version = "*"
+
 [mods.dungeon-now-loading]
 name = "dungeon-now-loading"
 version = "*"
@@ -284,10 +292,6 @@ version = "*"
 name = "man-of-many-planes"
 version = "*"
 
-[mods.medieval-origins-revival]
-name = "medieval-origins-revival"
-version = "*"
-
 [mods.memoryleakfix]
 name = "memoryleakfix"
 version = "*"
@@ -322,10 +326,6 @@ version = "*"
 
 [mods.oculus]
 name = "oculus"
-version = "*"
-
-[mods.origins-forge]
-name = "origins-forge"
 version = "*"
 
 [mods.patchouli]
