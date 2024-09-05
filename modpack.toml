@@ -163,6 +163,11 @@ version = "*"
 name = "default-skill-trees"
 version = "*"
 
+[mods.disable-elytra]
+name = "disable-elytra"
+version = "*"
+loader = "Fabric"
+
 [mods.dungeon-now-loading]
 name = "dungeon-now-loading"
 version = "*"
@@ -220,6 +225,10 @@ client_side = false
 
 [mods.ferrite-core]
 name = "ferrite-core"
+version = "*"
+
+[mods.fish-tanks]
+name = "fish-tanks"
 version = "*"
 
 [mods.gamemenumodoption]
@@ -382,6 +391,10 @@ version = "*"
 name = "spectrum"
 version = "1.7.15"
 loader = "Fabric"
+
+[mods.stardew-fishing]
+name = "stardew-fishing"
+version = "*"
 
 [mods.stellarity]
 name = "stellarity"
