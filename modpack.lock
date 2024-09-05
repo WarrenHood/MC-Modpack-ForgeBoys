@@ -480,24 +480,6 @@ sha1 = "934a4a1e085b867756fb404fd92309fbb0ff3a48"
 sha512 = "59ffb5b3bb905eeec21a0791fc2c1cdaac1e052f320cf6d19afe966779fa070cfb520d4587b2458b614d8e0b1da72381ea0b46d6528669cd9e6526031711193f"
 filename = "create-1.20.1-0.5.1.h.jar"
 
-[mods.create-central-kitchen]
-version = "1.3.12"
-server_side = true
-client_side = true
-
-[[mods.create-central-kitchen.source]]
-
-[mods.create-central-kitchen.source.Download]
-url = "https://cdn.modrinth.com/data/btq68HMO/versions/MX3EE060/create_central_kitchen-1.20.1-for-create-0.5.1.f-1.3.12.jar"
-sha1 = "92f89bdf6868c2f2b44e8a7acdc0da4be108ba1b"
-sha512 = "c5f8ee4215f0ccdf2bfbf33642e80bfc62f4873d24763805b04cf64ab3e9f7ecbff6a1b35014fa3f662306d135951eb8c51bfd01de52853da351a3db380d8e90"
-filename = "create_central_kitchen-1.20.1-for-create-0.5.1.f-1.3.12.jar"
-
-[[mods.create-central-kitchen.deps]]
-name = "create"
-version = "0.5.1.h"
-providers = ["Modrinth"]
-
 [mods.create-diesel-generators]
 version = "1.20.1-1.2i"
 server_side = true

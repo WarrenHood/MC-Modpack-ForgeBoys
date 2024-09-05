@@ -105,10 +105,6 @@ version = "*"
 name = "create"
 version = "*"
 
-[mods.create-central-kitchen]
-name = "create-central-kitchen"
-version = "*"
-
 [mods.create-diesel-generators]
 name = "create-diesel-generators"
 version = "*"
