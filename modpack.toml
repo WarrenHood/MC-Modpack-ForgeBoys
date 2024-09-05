@@ -256,6 +256,10 @@ version = "*"
 name = "immersive-melodies"
 version = "*"
 
+[mods.incendium]
+name = "incendium"
+version = "*"
+
 [mods.invmove]
 name = "invmove"
 version = "*"
@@ -374,6 +378,10 @@ version = "*"
 name = "spectrum"
 version = "1.7.15"
 loader = "Fabric"
+
+[mods.stellarity]
+name = "stellarity"
+version = "*"
 
 [mods.timeless-and-classics-zero]
 name = "timeless-and-classics-zero"

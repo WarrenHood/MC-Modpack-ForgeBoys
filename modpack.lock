@@ -1083,6 +1083,20 @@ sha1 = "1c08962403538f247e9782e0618919af3c818aa7"
 sha512 = "e5aa0710d001b7b071b3843e91cf2a42fbcdd06057cf4d15cc74922885282cd257b2c61c240df9be78f4c1487c61d39946dcfe6e4a714440835e5467bb1d887a"
 filename = "immersive_melodies-0.3.0+1.20.1-forge.jar"
 
+[mods.incendium]
+version = "5.3.5"
+deps = []
+server_side = true
+client_side = false
+
+[[mods.incendium.source]]
+
+[mods.incendium.source.Download]
+url = "https://cdn.modrinth.com/data/ZVzW5oNS/versions/uUqarp2H/Incendium_1.20.x_v5.3.5.jar"
+sha1 = "484556937b1b2dde2682144e7953e79bff717104"
+sha512 = "04944dcbf3aa7ee8ea8785549e00f74a417ca17aa5760593e39090733ab0a9e38ebce078e4f5af544030759a5459c371003601ff5a7feebbc09765f8c712bb25"
+filename = "Incendium_1.20.x_v5.3.5.jar"
+
 [mods.invmove]
 version = "1.20-0.8.4-forge"
 server_side = false
@@ -1702,6 +1716,19 @@ name = "trinkets"
 version = "3.7.2"
 providers = ["Modrinth"]
 loader = "Fabric"
+
+[mods.stellarity]
+version = "2.0e"
+server_side = true
+client_side = true
+
+[[mods.stellarity.source]]
+
+[mods.stellarity.source.Download]
+url = "https://cdn.modrinth.com/data/bZgeDzN8/versions/RKcXZAPf/Stellarity-v2-0e.jar"
+sha1 = "d54f54446b7afaed0c7bdf9679bc376f4913d16c"
+sha512 = "ea0233799a8919fc6c701751b7977ec2387b2b17a89cd0d7fa5dd8ac044bae5036886100819332944c7a55b7236963e8c2123a76a0b38ec773d85c4bdff50568"
+filename = "Stellarity-v2-0e.jar"
 
 [mods.structure-gel-api]
 version = "2.16.2"
