@@ -172,12 +172,6 @@ loader = "Fabric"
 name = "dungeon-now-loading"
 version = "*"
 
-[mods.dynamic-lights]
-name = "dynamic-lights"
-version = "*"
-server_side = true
-client_side = true
-
 [mods.embeddium]
 name = "embeddium"
 version = "*"
@@ -306,6 +300,12 @@ version = "*"
 [mods.littletiles]
 name = "littletiles"
 version = "*"
+
+[mods.lucent]
+name = "lucent"
+version = "*"
+server_side = false
+client_side = true
 
 [mods.man-of-many-planes]
 name = "man-of-many-planes"

@@ -800,20 +800,6 @@ sha1 = "255aa4c25270eda498bde4de6eec40fa0915c4b4"
 sha512 = "7ae5b7958afb431a6a2cbe99582f8768afdb1ce649bbc3ef078e994399471c49d3820888d55e1e36975ff26d3df65f7399e3fff7afbfe69ce6c50cff177f1b26"
 filename = "Dungeon Now Loading-forge-1.20.1-1.5.jar"
 
-[mods.dynamic-lights]
-version = "1.8.3+mod"
-deps = []
-server_side = true
-client_side = true
-
-[[mods.dynamic-lights.source]]
-
-[mods.dynamic-lights.source.Download]
-url = "https://cdn.modrinth.com/data/7YjclEGc/versions/eU6PA0pr/dynamiclights-v1.8.3-mc1.17x-1.21x-mod.jar"
-sha1 = "442994e718d933df2b6f7c94479d135bf60e9b3c"
-sha512 = "7f36f55e6d77407d42bf1d6c426db8ba83f7a0bbdb134f7928b4c426533b5a81a33c9dd7266e1d60e5c263ea8406eac6b03db13cdbdb8091eab48c752de06280"
-filename = "dynamiclights-v1.8.3-mc1.17x-1.21x-mod.jar"
-
 [mods.embeddium]
 version = "0.3.31+mc1.20.1"
 deps = []
@@ -1354,6 +1340,19 @@ filename = "LittleTiles_BETA_v1.6.0-pre120_mc1.20.1.jar"
 name = "creativecore"
 version = "2.11.37"
 providers = ["Modrinth"]
+
+[mods.lucent]
+version = "1.5.5"
+server_side = false
+client_side = true
+
+[[mods.lucent.source]]
+
+[mods.lucent.source.Download]
+url = "https://cdn.modrinth.com/data/JE0fgMUp/versions/YHpxVMDQ/lucent-1.20.1-1.5.5.jar"
+sha1 = "d72dc411c4e35869044840e4b551e8734788bc51"
+sha512 = "03ecca88448b9a042d9fb744f5e5e153a97b1995f471efd3e6a5aac5b23c24de1559b8dfa6fa0e1bf7a51c5098a3601a445bf0adfd5a29dd28c3e253f42b06ac"
+filename = "lucent-1.20.1-1.5.5.jar"
 
 [mods.man-of-many-planes]
 version = "0.1.0+1.20.1"
