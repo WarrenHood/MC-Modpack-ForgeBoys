@@ -172,6 +172,12 @@ loader = "Fabric"
 name = "dungeon-now-loading"
 version = "*"
 
+[mods.dynamic-lights]
+name = "dynamic-lights"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.embeddium]
 name = "embeddium"
 version = "*"
