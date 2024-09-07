@@ -184,6 +184,10 @@ name = "disable-elytra"
 version = "*"
 loader = "Fabric"
 
+[mods.distanthorizons]
+name = "distanthorizons"
+version = "*"
+
 [mods.dungeon-now-loading]
 name = "dungeon-now-loading"
 version = "*"
