@@ -32,6 +32,10 @@ version = "*"
 name = "appleskin"
 version = "*"
 
+[mods.aquamirae]
+name = "aquamirae"
+version = "*"
+
 [mods.attributes]
 name = "attributes"
 version = "*"
@@ -56,6 +60,10 @@ version = "*"
 
 [mods.better-combat]
 name = "better-combat"
+version = "*"
+
+[mods.better-third-person]
+name = "better-third-person"
 version = "*"
 
 [mods.betterf3]

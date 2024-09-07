@@ -106,6 +106,24 @@ sha1 = "81919356f84eab14258db98924b66c3c38e372b1"
 sha512 = "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9"
 filename = "appleskin-forge-mc1.20.1-2.5.1.jar"
 
+[mods.aquamirae]
+version = "6"
+server_side = true
+client_side = true
+
+[[mods.aquamirae.source]]
+
+[mods.aquamirae.source.Download]
+url = "https://cdn.modrinth.com/data/k23mNPhZ/versions/7lX4KLFc/aquamirae-6.API15.jar"
+sha1 = "40b317060f6984db109fca1e117ba929dcf3d58c"
+sha512 = "9a134941b020d33dcdbc8843eefcb3bfa9f5e68a7269b2f48f86f8c5dae1d0759c8431a94e77377ce001b72ef11014728bf83a2ac9fc590bf94496f4aef47ef7"
+filename = "aquamirae-6.API15.jar"
+
+[[mods.aquamirae.deps]]
+name = "obscure-api"
+version = "15"
+providers = ["Modrinth"]
+
 [mods.architectury-api]
 version = "9.2.14+forge"
 server_side = true
@@ -242,6 +260,19 @@ providers = ["Modrinth"]
 name = "playeranimator"
 version = "1.0.2-rc1+1.20-forge"
 providers = ["Modrinth"]
+
+[mods.better-third-person]
+version = "1.9.0"
+server_side = false
+client_side = true
+
+[[mods.better-third-person.source]]
+
+[mods.better-third-person.source.Download]
+url = "https://cdn.modrinth.com/data/G1s2WpNo/versions/XkYduFuv/BetterThirdPerson-Forge-1.20-1.9.0.jar"
+sha1 = "0b0a3ff3b244fa191b3f9580547071dee46f7276"
+sha512 = "ae854893f17c3e42825e88119f4bd6be8948612494780194cb1c1cd5d65d571c91e7222c286cb734b3af363f927a6be8ad05347cd2c3fec6e1874b4aaac14c7b"
+filename = "BetterThirdPerson-Forge-1.20-1.9.0.jar"
 
 [mods.betterf3]
 version = "7.0.2"
@@ -1521,6 +1552,19 @@ url = "https://cdn.modrinth.com/data/KuNKN7d2/versions/gbYUKrDP/noisium-forge-2.
 sha1 = "7da1cdf00c0ae5cad31e17f765f6ea021c8ac808"
 sha512 = "5bc43bc1b748edcd63d074a8bb14d393d986c51e1933e1f38cd7a2dd2fd70dba5a46a6415f46d4a52c68e7e1e9ce101e54376ad04273df958608e2fdb43db502"
 filename = "noisium-forge-2.3.0+mc1.20-1.20.1.jar"
+
+[mods.obscure-api]
+version = "15"
+server_side = true
+client_side = true
+
+[[mods.obscure-api.source]]
+
+[mods.obscure-api.source.Download]
+url = "https://cdn.modrinth.com/data/fU7jbFHc/versions/FizVdYUp/obscure_api-15.jar"
+sha1 = "30e37354519b4ca06bc617ccb2698cc696fdae9b"
+sha512 = "6946c2f32e09c186b3391e87af82cbb518c506201563818876388e22865449bb3ba54d48c5742b6ae3355102ad2ba7d36ad83b5370f03282d9cec879e56227ea"
+filename = "obscure_api-15.jar"
 
 [mods.oculus]
 version = "1.20.1-1.7.0"
