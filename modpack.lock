@@ -492,6 +492,19 @@ name = "connector"
 version = "1.0.0-beta.45+1.20.1"
 providers = ["Modrinth"]
 
+[mods.continents]
+version = "1.1.5"
+server_side = true
+client_side = false
+
+[[mods.continents.source]]
+
+[mods.continents.source.Download]
+url = "https://cdn.modrinth.com/data/bQ5TJA1E/versions/IM8IL8wv/Continents_1.20.x_v1.1.5.jar"
+sha1 = "6792f74125a40b2ef7caf8c4c8aa784021078ae1"
+sha512 = "37929230558aaf52a443c6c7a9a63e5dfd7d166011d8b3a297528faa6577f21eb00884386d105db07bbc43b57745c52d901f50ce4d9d4d6ffd584bca96c82bf2"
+filename = "Continents_1.20.x_v1.1.5.jar"
+
 [mods.continuity]
 version = "3.0.0-beta.5+1.20.1"
 server_side = false
@@ -1040,6 +1053,24 @@ url = "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.
 sha1 = "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
 sha512 = "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c"
 filename = "ferritecore-6.0.1-forge.jar"
+
+[mods.fish-of-thieves]
+version = "3.0.7-forge"
+server_side = true
+client_side = true
+
+[[mods.fish-of-thieves.source]]
+
+[mods.fish-of-thieves.source.Download]
+url = "https://cdn.modrinth.com/data/BzOTnuqM/versions/aQCV1Qxd/fish_of_thieves-mc1.20.1-v3.0.7-forge.jar"
+sha1 = "76e750853054688a3a8586c1a951ea6b6ca31b60"
+sha512 = "7c775765951d8b2118723f938ce7b983b0362b253a1ec0d51fe800a04789412ab6f6bcd5dadce1cc96fddd2cfb8f66465bbfe3cbedd577a06ca8e3141334af92"
+filename = "fish_of_thieves-mc1.20.1-v3.0.7-forge.jar"
+
+[[mods.fish-of-thieves.deps]]
+name = "cloth-config"
+version = "11.1.118+forge"
+providers = ["Modrinth"]
 
 [mods.fish-tanks]
 version = "1.0.2-forge-1.20.1"
