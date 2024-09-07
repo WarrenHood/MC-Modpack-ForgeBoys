@@ -844,19 +844,6 @@ version = "0.92.2+1.20.1"
 providers = ["Modrinth"]
 loader = "Fabric"
 
-[mods.distanthorizons]
-version = "2.2.1-a-1.20.1"
-server_side = false
-client_side = true
-
-[[mods.distanthorizons.source]]
-
-[mods.distanthorizons.source.Download]
-url = "https://cdn.modrinth.com/data/uCdwusMi/versions/20nF6i21/DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar"
-sha1 = "95b8fe605ada8c3f24ea62d45d1fdb065bd81329"
-sha512 = "a5059a249283f686bc49bc4c2606fce7b665102983f396996f47c11245fee21059554db5f9bdf63fa41ec954282a9ee3646ea42997f37bedb0af8b14944704f4"
-filename = "DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar"
-
 [mods.dungeon-now-loading]
 version = "1.5"
 server_side = true
