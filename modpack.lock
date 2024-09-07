@@ -216,17 +216,17 @@ sha512 = "62f736031f4485c952eb4b516cd456b75b8f045ba9d9776cc107eceda8e1d1d778949c
 filename = "balm-forge-1.20.1-7.3.9-all.jar"
 
 [mods.better-archeology]
-version = "1.2.0-1.20.1"
+version = "1.2.1-1.20.1"
 server_side = true
 client_side = true
 
 [[mods.better-archeology.source]]
 
 [mods.better-archeology.source.Download]
-url = "https://cdn.modrinth.com/data/zCh7omyG/versions/LSyNevQ8/betterarcheology-1.2.0-1.20.1.jar"
-sha1 = "0c4155d15308d7d3a208711e5aa8397a943ae980"
-sha512 = "4948f43ebdbc4d1f3ab02b21b001cfb462e3bb27030024b9c1e5884cb24b7fd25645c1c6f7392593eb3d68a72713bd79c2c130108b49f9b76126b22fa25db5d5"
-filename = "betterarcheology-1.2.0-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/zCh7omyG/versions/vsqxpUo3/betterarcheology-1.2.1-1.20.1.jar"
+sha1 = "c2cb928bef1c1aa89e90e72b8544b885aceb5d01"
+sha512 = "1b1483ae31f42f687915c964cbd07b1f165e4ffa55aec23370f7f0efcb61f78f16a3ef8d6edbc2f4812524f22cc969a8f0d7cd2e2a6b5edf6959342526deaeb1"
+filename = "betterarcheology-1.2.1-1.20.1.jar"
 
 [[mods.better-archeology.deps]]
 name = "supermartijn642s-config-lib"
@@ -561,17 +561,17 @@ version = "0.5.1.h"
 providers = ["Modrinth"]
 
 [mods.craterlib]
-version = "1.20-2.0.3"
+version = "1.20-2.1.0"
 server_side = true
 client_side = true
 
 [[mods.craterlib.source]]
 
 [mods.craterlib.source.Download]
-url = "https://cdn.modrinth.com/data/Nn8Wasaq/versions/xrXJLMel/CraterLib-Forge-1.20-2.0.3.jar"
-sha1 = "c83075544bb8aa8c25de23e389429fef4dd11c66"
-sha512 = "3e3028c6edcd65e5cc0855e2fbf188e529155f7ed48e9b6fe8dd174d9bcc13207f4f4032c08802c1a85d5b036045590a6924c188614066114b5c8d0daaf391ea"
-filename = "CraterLib-Forge-1.20-2.0.3.jar"
+url = "https://cdn.modrinth.com/data/Nn8Wasaq/versions/i40fLjQb/CraterLib-Forge-1.20-2.1.0.jar"
+sha1 = "516caf1957b9a487d4c878d3375d3a3b40e9c9c8"
+sha512 = "abcf28171ffc8a5531e8d314d06df9b2039cc94b458864308963017a27321b7eb31ee8a10881f9e7ccce6a72dd411d1faa058f050d50ef9e11f125e10ee8008e"
+filename = "CraterLib-Forge-1.20-2.1.0.jar"
 
 [mods.create]
 version = "0.5.1.h"
@@ -1115,7 +1115,7 @@ sha512 = "919414d8ded2025e39301a50ae9547f154bcca6f5a3af17d985724987aeab34fba0dc3
 filename = "vc_gliders-forge-1.1.5.jar"
 
 [mods.gravestone-mod]
-version = "forge-1.20.1-1.0.21"
+version = "forge-1.20.1-1.0.23"
 deps = []
 server_side = true
 client_side = true
@@ -1123,10 +1123,10 @@ client_side = true
 [[mods.gravestone-mod.source]]
 
 [mods.gravestone-mod.source.Download]
-url = "https://cdn.modrinth.com/data/RYtXKJPr/versions/Q3m9gCoC/gravestone-forge-1.20.1-1.0.21.jar"
-sha1 = "52e66870fcfe37cef9e4705fc92cc8d13adf0044"
-sha512 = "08f8dbc0fb04136716985e8ae55d058e7a58031c933c6a3ffc183c344dc63cbdf5177a7b10ecd5ff174ff96138276e9b2e2cdfa10126b414a3a77a3798f5ab2d"
-filename = "gravestone-forge-1.20.1-1.0.21.jar"
+url = "https://cdn.modrinth.com/data/RYtXKJPr/versions/No7NPOP4/gravestone-forge-1.20.1-1.0.23.jar"
+sha1 = "0b9ad824cdafa636255ad2ccf4c8fc42d397e687"
+sha512 = "5e5c4a2ab38c749d80e0060ac353e8910a0a93ebdb9cffded9127e95b9cf73184c1fbdc213e7fb53fa3d2b73a88fbba2eb664988f4cadbf3f2a959eb81304f90"
+filename = "gravestone-forge-1.20.1-1.0.23.jar"
 
 [mods.hardcore-revival]
 version = "12.0.4+forge-1.20.1"
@@ -1831,21 +1831,21 @@ sha512 = "06e403ace1c23ab7c6880790622ebcbddc3eed70b7e7f7cc34760d6c5b77e923c16236
 filename = "servercore-forge-1.5.1+1.20.1.jar"
 
 [mods.simple-discord-rpc]
-version = "3.3.2"
+version = "3.3.3"
 server_side = false
 client_side = true
 
 [[mods.simple-discord-rpc.source]]
 
 [mods.simple-discord-rpc.source.Download]
-url = "https://cdn.modrinth.com/data/ObXSoyrn/versions/JoAVJbRv/SimpleRPC-Universal-3.3.2.jar"
-sha1 = "64032fa48b6158bb72203d7ec84fa99d8955925b"
-sha512 = "b5008b849eaa050ea00085bce01d09c86a5605e6dde035195886978fc3d98d4593e0188fe14759f585db7115df833bdaed0e54a7bf8b59ced4c7d8c31d766e40"
-filename = "SimpleRPC-Universal-3.3.2.jar"
+url = "https://cdn.modrinth.com/data/ObXSoyrn/versions/kgFckjwV/SimpleRPC-Universal-3.3.3.jar"
+sha1 = "4cb2036d2f29f62a6832d3d45e36485caf8532f2"
+sha512 = "96edb1ef3383492da22b290a9dfe74218911a1e605453498f217edf1dd9e2cbfb75735d7d3f6eead3509867a8d8456708e233b5835436cf53f58ec098eef6762"
+filename = "SimpleRPC-Universal-3.3.3.jar"
 
 [[mods.simple-discord-rpc.deps]]
 name = "craterlib"
-version = "1.20-2.0.3"
+version = "1.20-2.1.0"
 providers = ["Modrinth"]
 
 [mods.simply-immersive-drowning]
