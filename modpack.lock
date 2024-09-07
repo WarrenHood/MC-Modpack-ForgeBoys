@@ -1558,6 +1558,29 @@ name = "puzzles-lib"
 version = "v8.1.22-1.20.1-Forge"
 providers = ["Modrinth"]
 
+[mods.mythic-mounts]
+version = "20.1-7.4.2-forge"
+server_side = true
+client_side = true
+
+[[mods.mythic-mounts.source]]
+
+[mods.mythic-mounts.source.Download]
+url = "https://cdn.modrinth.com/data/xP7vOoRA/versions/uoWwdhb2/mythicmounts-20.1-7.4.2-forge.jar"
+sha1 = "a2c411308080ab61da211380321da8490b376285"
+sha512 = "4259e975de50f8ccb7a2be091604c82a920bdd666181498acd0a4c06b5b51f9d958bfa764620ef54e39778ae330690cde13f416b03bd0e48b22559a8743aae15"
+filename = "mythicmounts-20.1-7.4.2-forge.jar"
+
+[[mods.mythic-mounts.deps]]
+name = "geckolib"
+version = "4.4.9"
+providers = ["Modrinth"]
+
+[[mods.mythic-mounts.deps]]
+name = "patchouli"
+version = "1.20.1-84-forge"
+providers = ["Modrinth"]
+
 [mods.natures-compass]
 version = "1.20.1-1.11.2-forge"
 server_side = true
@@ -2024,6 +2047,24 @@ filename = "Towns-and-Towers-1.12-Fabric+Forge.jar"
 [[mods.towns-and-towers.deps]]
 name = "cristel-lib"
 version = "1.1.5-forge"
+providers = ["Modrinth"]
+
+[mods.travelers-titles]
+version = "1.20-Forge-4.0.2"
+server_side = false
+client_side = true
+
+[[mods.travelers-titles.source]]
+
+[mods.travelers-titles.source.Download]
+url = "https://cdn.modrinth.com/data/JtifUr64/versions/oUSK4sOQ/TravelersTitles-1.20-Forge-4.0.2.jar"
+sha1 = "64a435eaa6e08fff5af2c720c3b6a40fe292f2f7"
+sha512 = "7cafbfc39305f3e384468db674e350118950201ba4d22b66ed95516a335aaad04765ae1e693b223c6c5beba404fc7411e9f78b4f962d7d9e51407b55233375a4"
+filename = "TravelersTitles-1.20-Forge-4.0.2.jar"
+
+[[mods.travelers-titles.deps]]
+name = "yungs-api"
+version = "1.20-Forge-4.0.5"
 providers = ["Modrinth"]
 
 [mods.travelersbackpack]

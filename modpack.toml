@@ -359,6 +359,10 @@ download_url = "https://mediafilez.forgecdn.net/files/5399/941/mowziesmobs-1.6.5
 name = "mutant-monsters"
 version = "*"
 
+[mods.mythic-mounts]
+name = "mythic-mounts"
+version = "*"
+
 [mods.natures-compass]
 name = "natures-compass"
 version = "*"
@@ -444,6 +448,10 @@ version = "*"
 
 [mods.towns-and-towers]
 name = "towns-and-towers"
+version = "*"
+
+[mods.travelers-titles]
+name = "travelers-titles"
 version = "*"
 
 [mods.travelersbackpack]
