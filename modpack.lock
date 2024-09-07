@@ -1695,6 +1695,29 @@ sha1 = "94592f3ffba15b991118e7dbea99b7f10aa6c0cc"
 sha512 = "324cea6e6f0656cda51ab38bc1d4e97fd92f55c10ce7f2fd1ac19a118acfe07a943b057e26f64308fe9c54263ca58caf348b67dabec9c26e31e8e04bd945f9e1"
 filename = "polymorph-forge-0.49.5+1.20.1.jar"
 
+[mods.precise-manufacturing]
+version = "0.3.5-beta-cb516e"
+server_side = true
+client_side = true
+
+[[mods.precise-manufacturing.source]]
+
+[mods.precise-manufacturing.source.Download]
+url = "https://cdn.modrinth.com/data/xs8lcts0/versions/lQyUYD09/prma-1.20.1-0.3.5-beta-cb516e-all.jar"
+sha1 = "9641162ebd27e52c7e2097eb83824bf166faad41"
+sha512 = "7ac971e4b689cfe3834af71d6c61a24020cf46a921567994c2d98e4a3d65ff23b24b94bc4e8dddc63bcf9b6a381a9dde462bf4e4cae431f6d68e154fbf810b12"
+filename = "prma-1.20.1-0.3.5-beta-cb516e-all.jar"
+
+[[mods.precise-manufacturing.deps]]
+name = "create"
+version = "0.5.1.h"
+providers = ["Modrinth"]
+
+[[mods.precise-manufacturing.deps]]
+name = "timeless-and-classics-zero"
+version = "1.0.2"
+providers = ["Modrinth"]
+
 [mods.puzzles-lib]
 version = "v8.1.22-1.20.1-Forge"
 server_side = true

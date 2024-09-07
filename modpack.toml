@@ -391,6 +391,10 @@ version = "*"
 name = "polymorph"
 version = "*"
 
+[mods.precise-manufacturing]
+name = "precise-manufacturing"
+version = "*"
+
 [mods.radiant-gear]
 name = "radiant-gear"
 version = "*"
