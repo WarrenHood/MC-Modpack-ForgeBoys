@@ -367,6 +367,10 @@ version = "*"
 name = "noisium"
 version = "*"
 
+[mods.oceans-delight]
+name = "oceans-delight"
+version = "*"
+
 [mods.oculus]
 name = "oculus"
 version = "*"

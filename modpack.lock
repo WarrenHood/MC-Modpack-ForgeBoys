@@ -1597,6 +1597,19 @@ sha1 = "30e37354519b4ca06bc617ccb2698cc696fdae9b"
 sha512 = "6946c2f32e09c186b3391e87af82cbb518c506201563818876388e22865449bb3ba54d48c5742b6ae3355102ad2ba7d36ad83b5370f03282d9cec879e56227ea"
 filename = "obscure_api-15.jar"
 
+[mods.oceans-delight]
+version = "1.0.2-1.20"
+server_side = true
+client_side = true
+
+[[mods.oceans-delight.source]]
+
+[mods.oceans-delight.source.Download]
+url = "https://cdn.modrinth.com/data/DGiq4ZSW/versions/9jLLNENb/oceansdelight-1.0.2-1.20.jar"
+sha1 = "32af985453bde77bfa56d59cdfb11cab5662c8e1"
+sha512 = "64ba0396d7168c73c810c8aefc135eebd7c2d5780e482fb36e96de87d0f226625b3ebb4249372b896ededa335895efda5d134846522e2e45c0a8d3a97ae2bf93"
+filename = "oceansdelight-1.0.2-1.20.jar"
+
 [mods.oculus]
 version = "1.20.1-1.7.0"
 server_side = false
