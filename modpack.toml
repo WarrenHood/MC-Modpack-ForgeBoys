@@ -12,6 +12,14 @@ version = "*"
 name = "aether"
 version = "*"
 
+[mods.alekiships]
+name = "alekiships"
+version = "*"
+
+[mods.alekishipsbop]
+name = "alekishipsbop"
+version = "*"
+
 [mods.alexs-caves]
 name = "alexs-caves"
 version = "*"

@@ -26,6 +26,42 @@ sha1 = "8d7e71f924e585b7565fe3fedd7c89471c32381c"
 sha512 = "ee8327826a29f303e1cdca82363a48ac06b254ffed08bb155e8bd90ce2d56cf0018102fad4e1f36d077182c55d595d400c75e6586ee1b307d22357b458f44e75"
 filename = "aether-1.20.1-1.4.2-neoforge.jar"
 
+[mods.alekiships]
+version = "1.0.12"
+server_side = true
+client_side = true
+
+[[mods.alekiships.source]]
+
+[mods.alekiships.source.Download]
+url = "https://cdn.modrinth.com/data/vuNeeDyl/versions/tqjwM6lC/alekiNiftyShips-FORGE-1.20.1-1.0.12.jar"
+sha1 = "67dbaad58c66e7134fa2e583a8bbd80f77e307c9"
+sha512 = "67e8c2de6af2e81c76d7842f45f55cb2f3ad07c717a941234d6bc1f3a91594804dd1971d826ed1842f9e961961ff70a857b3a2de0366791c2202f23c89785dff"
+filename = "alekiNiftyShips-FORGE-1.20.1-1.0.12.jar"
+
+[mods.alekishipsbop]
+version = "1.0.4"
+server_side = true
+client_side = true
+
+[[mods.alekishipsbop.source]]
+
+[mods.alekishipsbop.source.Download]
+url = "https://cdn.modrinth.com/data/5rDQT07E/versions/EI64BVLv/niftyShipsBiomesOPlenty-FORGE-1.20.1-1.0.4.jar"
+sha1 = "cd2c662b1676ff19246e9a03396538a497f23665"
+sha512 = "b83eb25b3e2907452f5d39215fecdc95224783ce8d7637c9db1f5f7b881bb4de7540090e871bfbda904350041a1e9217a5f6df4883f13a760f42077f40192c4e"
+filename = "niftyShipsBiomesOPlenty-FORGE-1.20.1-1.0.4.jar"
+
+[[mods.alekishipsbop.deps]]
+name = "alekiships"
+version = "1.0.12"
+providers = ["Modrinth"]
+
+[[mods.alekishipsbop.deps]]
+name = "biomes-o-plenty"
+version = "18.0.0.598"
+providers = ["Modrinth"]
+
 [mods.alexs-caves]
 version = "1.1.5"
 server_side = true
