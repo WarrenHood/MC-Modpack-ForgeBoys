@@ -1517,6 +1517,19 @@ sha1 = "00e9ecc9d298c2fd4a74e96af792a5a04f2b7623"
 sha512 = "4ea0b98a174388c897f7cefe98679a59f7dbd1d1326cb5afa041f87147544194d00ec92564d08a1e62168a4ffd7aefd81380aa38027a02944c14a043f33611ed"
 filename = "mowziesmobs-1.6.5.jar"
 
+[mods.mru]
+version = "1.0.2+1.20.1-forge"
+server_side = true
+client_side = true
+
+[[mods.mru.source]]
+
+[mods.mru.source.Download]
+url = "https://cdn.modrinth.com/data/SNVQ2c0g/versions/T3ZVDUfl/MRU-1.0.2%2B1.20.1%2Bforge.jar"
+sha1 = "3a8c1695dcb3d46ea169c26e16f73a073c7c5c3c"
+sha512 = "adbe01f70e872bd32df0ede445cd4c15dcbace2db31ea804645a9ebdec816357854546cc1c87f5839bfa933da7ebe93802b61cd26a7781c9c005dc9942831be2"
+filename = "MRU-1.0.2+1.20.1+forge.jar"
+
 [mods.mutant-monsters]
 version = "v8.0.7-1.20.1-Forge"
 server_side = true
@@ -1932,6 +1945,24 @@ providers = ["Modrinth"]
 [[mods.slice-and-dice.deps]]
 name = "kotlin-for-forge"
 version = "4.11.0"
+providers = ["Modrinth"]
+
+[mods.sound]
+version = "2.0.4+1.20.1-forge"
+server_side = false
+client_side = true
+
+[[mods.sound.source]]
+
+[mods.sound.source.Download]
+url = "https://cdn.modrinth.com/data/ZouiUX7t/versions/fIGsYhRw/Sounds-2.0.4%2B1.20.1%2Bforge.jar"
+sha1 = "244c3dddf48189817bb155dc15522b3722953ef6"
+sha512 = "60fe79210b769f760a5e42cc03c27d3127e41015c91180ec2fdac151e9a2924ce20b326d5514aa1a49c5208686cdd58e2d9f09cad4c1991087f4fb817a0e003c"
+filename = "Sounds-2.0.4+1.20.1+forge.jar"
+
+[[mods.sound.deps]]
+name = "mru"
+version = "1.0.2+1.20.1-forge"
 providers = ["Modrinth"]
 
 [mods.spark]

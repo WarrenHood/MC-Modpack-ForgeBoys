@@ -434,6 +434,10 @@ version = "*"
 name = "slice-and-dice"
 version = "*"
 
+[mods.sound]
+name = "sound"
+version = "*"
+
 [mods.spark]
 name = "spark"
 version = "*"
