@@ -450,6 +450,10 @@ version = "*"
 name = "when-dungeons-arise"
 version = "*"
 
+[mods.when-dungeons-arise-seven-seas]
+name = "when-dungeons-arise-seven-seas"
+version = "*"
+
 [mods.xaeros-minimap]
 name = "xaeros-minimap"
 version = "*"

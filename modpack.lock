@@ -2092,6 +2092,19 @@ sha1 = "1bc95d13cf8208c5cfe100a001d6b078d15742f7"
 sha512 = "0719500250215dad3ed9dd4976f125bf9b097a286cbd71b9efa92571077b7a2acd063810e666a8ea8b33fe80bfb1eee7b515f0ab768f35e4dc87934bc224b3ed"
 filename = "DungeonsArise-1.20.1-2.1.57-release.jar"
 
+[mods.when-dungeons-arise-seven-seas]
+version = "1.0.2"
+server_side = true
+client_side = false
+
+[[mods.when-dungeons-arise-seven-seas.source]]
+
+[mods.when-dungeons-arise-seven-seas.source.Download]
+url = "https://cdn.modrinth.com/data/ZsrrjDbP/versions/AxIOkvEv/DungeonsAriseSevenSeas-1.19.2-1.0.2-forge.jar"
+sha1 = "b585510746697689562f2661313e5f66718e5861"
+sha512 = "1f5627497aee881c3de6cb70fd2a881b929ff62923ddd9ab606622afad459466cd80ad4905e70dc1259c52cf3972a37fca864a0a4447064f69016ecf629de0f7"
+filename = "DungeonsAriseSevenSeas-1.19.2-1.0.2-forge.jar"
+
 [mods.xaeros-minimap]
 version = "24.4.0_Forge_1.20"
 deps = []
