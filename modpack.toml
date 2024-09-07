@@ -179,10 +179,6 @@ download_url = "https://mediafilez.forgecdn.net/files/5245/133/curiouslanterns-1
 name = "deeperdarker"
 version = "*"
 
-[mods.default-skill-trees]
-name = "default-skill-trees"
-version = "*"
-
 [mods.disable-elytra]
 name = "disable-elytra"
 version = "*"
@@ -419,6 +415,15 @@ version = "*"
 
 [mods.simply-immersive-drowning]
 name = "simply-immersive-drowning"
+version = "*"
+
+[mods.simply-skills]
+name = "simply-skills"
+version = "*"
+loader = "Fabric"
+
+[mods.skills]
+name = "skills"
 version = "*"
 
 [mods.slice-and-dice]
