@@ -493,6 +493,11 @@ target_path = "config/rats-common.toml"
 side = "Server"
 apply_policy = "Always"
 
+[files."./server/server.properties"]
+target_path = "server.properties"
+side = "Server"
+apply_policy = "Always"
+
 [files."./server/whitelist.json"]
 target_path = "whitelist.json"
 side = "Server"
