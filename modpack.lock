@@ -1812,6 +1812,19 @@ name = "craterlib"
 version = "1.20-2.0.3"
 providers = ["Modrinth"]
 
+[mods.simply-immersive-drowning]
+version = "1.0.0"
+server_side = true
+client_side = true
+
+[[mods.simply-immersive-drowning.source]]
+
+[mods.simply-immersive-drowning.source.Download]
+url = "https://cdn.modrinth.com/data/g9QEgoyb/versions/ohBGz96l/immersive_drowning-1.0.0.jar"
+sha1 = "d315a005b6c6fca461bc58881c432a7267ea2579"
+sha512 = "01876202eaf51193135c137b7024def6b212428dc08a3ea3adffb3104fa5e7cfd2b916f232a52dc9f6d4fb71c155d150c665edb43d11d9f74e4e22902154d120"
+filename = "immersive_drowning-1.0.0.jar"
+
 [mods.skills]
 version = "0.13.2"
 server_side = true

@@ -409,6 +409,10 @@ version = "*"
 name = "simple-discord-rpc"
 version = "*"
 
+[mods.simply-immersive-drowning]
+name = "simply-immersive-drowning"
+version = "*"
+
 [mods.slice-and-dice]
 name = "slice-and-dice"
 version = "*"
