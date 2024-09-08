@@ -96,6 +96,10 @@ version = "*"
 server_side = true
 client_side = false
 
+[mods.clean-tooltips]
+name = "clean-tooltips"
+version = "*"
+
 [mods.cloth-config]
 name = "cloth-config"
 version = "*"

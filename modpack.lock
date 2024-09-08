@@ -430,6 +430,19 @@ sha1 = "fed1e7cb25232d31aaebe86f4ebafe8d9b663387"
 sha512 = "8edb2264317e547230960109aaadae36ce0db9abb27748d47033c64c7f4958a970172ae382552c5e3c41a4885e95437328a6eba53226fd64c4ce0b4f0ec22b4f"
 filename = "citadel-2.6.0-1.20.1.jar"
 
+[mods.clean-tooltips]
+version = "1.0"
+server_side = false
+client_side = true
+
+[[mods.clean-tooltips.source]]
+
+[mods.clean-tooltips.source.Download]
+url = "https://cdn.modrinth.com/data/vMoHe8uI/versions/b74Vdedm/clean_tooltips-1.0-forge-1.20.1.jar"
+sha1 = "b3b890ac139de0750a3bd84e091e212013f23667"
+sha512 = "45e1405addf9ea271cdfdbbaebda831fcf71f91dd3db466d77eaf91501aba7fe6aa2e4ec80fe1978486cbfd10e6b3887531c56ace392113150a5989a6f09f224"
+filename = "clean_tooltips-1.0-forge-1.20.1.jar"
+
 [mods.cloth-config]
 version = "11.1.118+forge"
 server_side = true
