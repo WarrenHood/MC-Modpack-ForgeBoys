@@ -421,10 +421,6 @@ version = "*"
 name = "simple-discord-rpc"
 version = "*"
 
-[mods.simply-immersive-drowning]
-name = "simply-immersive-drowning"
-version = "*"
-
 [mods.simply-skills]
 name = "simply-skills"
 version = "*"
@@ -457,10 +453,6 @@ version = "*"
 
 [mods.stellarity]
 name = "stellarity"
-version = "*"
-
-[mods.thirst-was-taken]
-name = "thirst-was-taken"
 version = "*"
 
 [mods.timeless-and-classics-zero]
