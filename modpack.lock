@@ -1,3 +1,16 @@
+[mods.advanced-backups]
+version = "3.6.3"
+server_side = true
+client_side = true
+
+[[mods.advanced-backups.source]]
+
+[mods.advanced-backups.source.Download]
+url = "https://cdn.modrinth.com/data/Jrmoreqs/versions/ceaIOXXB/AdvancedBackups-forge-1.20-3.6.3.jar"
+sha1 = "3aafb0a56b5e6b58519910ba6470028f93c16486"
+sha512 = "821e229c0ac0158e632ecb7e16eea43af913906529add41bdf44e210ce0c24e480d6c0204ea1d9c6f5024386f8db322b4e1931fd7b1c355cd49a7b788143b158"
+filename = "AdvancedBackups-forge-1.20-3.6.3.jar"
+
 [mods.ae2]
 version = "15.2.13"
 deps = []
@@ -1030,19 +1043,6 @@ url = "https://cdn.modrinth.com/data/R2OftAxM/versions/AxgOboGq/FarmersDelight-1
 sha1 = "71daa55fd88b6f181c51ec6892600415df591f64"
 sha512 = "bd025d539511beddd6826896604d2aae17b035fd7ae03c4ae659be3df802f4190b91f935b32a07a69842ad98f79bfbdcc3ef6d0e1e540b35989a806c655b4168"
 filename = "FarmersDelight-1.20.1-1.2.4.jar"
-
-[mods.fastback]
-version = "Unknown"
-server_side = true
-client_side = false
-
-[[mods.fastback.source]]
-
-[mods.fastback.source.Download]
-url = "https://cdn.modrinth.com/data/ZHKrK8Rp/versions/sCxHMib4/fastback-0.15.6%2B1.20.1-forge.jar"
-sha1 = "e705d6a13fec4ca62e3b9635017fab24aab490bb"
-sha512 = "d6d901100ac1dbdbd508d1dd33fdf1aa4d8d8cfb342f49b2628644e4cd086ccce8297ae041310fdd277810c9716825206383b5a72cdbbfcda8309cea204dd713"
-filename = "fastback-0.15.6%2B1.20.1-forge.jar"
 
 [mods.ferrite-core]
 version = "6.0.1"

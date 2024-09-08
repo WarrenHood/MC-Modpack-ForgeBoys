@@ -4,6 +4,12 @@ modloader = "Forge"
 default_providers = ["Modrinth"]
 forbidden_mods = ["fabric-api"]
 
+[mods.advanced-backups]
+name = "advanced-backups"
+version = "*"
+server_side = true
+client_side = true
+
 [mods.ae2]
 name = "ae2"
 version = "*"
@@ -234,14 +240,6 @@ loader = "Fabric"
 [mods.farmers-delight]
 name = "farmers-delight"
 version = "*"
-
-[mods.fastback]
-name = "fastback"
-version = "*"
-providers = ["Raw"]
-download_url = "https://cdn.modrinth.com/data/ZHKrK8Rp/versions/sCxHMib4/fastback-0.15.6%2B1.20.1-forge.jar"
-server_side = true
-client_side = false
 
 [mods.ferrite-core]
 name = "ferrite-core"
