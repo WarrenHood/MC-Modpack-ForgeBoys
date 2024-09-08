@@ -459,6 +459,10 @@ version = "*"
 name = "stellarity"
 version = "*"
 
+[mods.thirst-was-taken]
+name = "thirst-was-taken"
+version = "*"
+
 [mods.timeless-and-classics-zero]
 name = "timeless-and-classics-zero"
 version = "*"
