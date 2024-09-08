@@ -515,6 +515,11 @@ target_path = "servers.dat"
 side = "Client"
 apply_policy = "Always"
 
+[files."./server/config/AdvancedBackups.properties"]
+target_path = "config/AdvancedBackups.properties"
+side = "Server"
+apply_policy = "Always"
+
 [files."./server/config/carryon-common.toml"]
 target_path = "config/carryon-common.toml"
 side = "Server"
