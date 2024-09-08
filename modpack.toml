@@ -387,6 +387,10 @@ version = "*"
 name = "pehkui"
 version = "*"
 
+[mods.ping-wheel]
+name = "ping-wheel"
+version = "*"
+
 [mods.pizzacraft]
 name = "pizzacraft"
 version = "*"
