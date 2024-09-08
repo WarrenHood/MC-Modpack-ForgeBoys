@@ -82,11 +82,6 @@ version = "*"
 name = "botania"
 version = "*"
 
-[mods.c2me-fabric]
-name = "c2me-fabric"
-version = "*"
-loader = "Fabric"
-
 [mods.canary]
 name = "canary"
 version = "*"

@@ -364,19 +364,6 @@ sha1 = "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b"
 sha512 = "aa3530dde50966e47958690b02a343c4de3782d32ae3b2cb75b2155eebb76e172a292768d846b8d14a97bc9ebe18f1f655eaa3469fce13b2b4b15b16af0aba01"
 filename = "botarium-forge-1.20.1-2.3.4.jar"
 
-[mods.c2me-fabric]
-version = "0.2.0+alpha.11.13+1.20.1"
-server_side = true
-client_side = true
-
-[[mods.c2me-fabric.source]]
-
-[mods.c2me-fabric.source.Download]
-url = "https://cdn.modrinth.com/data/VSNURh3q/versions/LRL5QAZY/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.13.jar"
-sha1 = "e75325ce06c3e5c48902c04d8f7d8f09feba7136"
-sha512 = "b4ea87f710dbe1703f68611cfbbc3dac11d50b78af90b5ee52f32d29018f47f6ea7bf8d9de330cff1437db8c9ca004f94d436f711aa90279f8fce316fba21523"
-filename = "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13.jar"
-
 [mods.caelus]
 version = "3.2.0+1.20.1"
 server_side = true
