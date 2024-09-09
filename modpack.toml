@@ -202,10 +202,6 @@ loader = "Fabric"
 name = "dungeon-now-loading"
 version = "*"
 
-[mods.effortless-building]
-name = "effortless-building"
-version = "*"
-
 [mods.embeddium]
 name = "embeddium"
 version = "*"

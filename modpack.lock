@@ -914,19 +914,6 @@ sha1 = "255aa4c25270eda498bde4de6eec40fa0915c4b4"
 sha512 = "7ae5b7958afb431a6a2cbe99582f8768afdb1ce649bbc3ef078e994399471c49d3820888d55e1e36975ff26d3df65f7399e3fff7afbfe69ce6c50cff177f1b26"
 filename = "Dungeon Now Loading-forge-1.20.1-1.5.jar"
 
-[mods.effortless-building]
-version = "3.8"
-server_side = true
-client_side = true
-
-[[mods.effortless-building.source]]
-
-[mods.effortless-building.source.Download]
-url = "https://cdn.modrinth.com/data/DYtfQEYj/versions/W23G1Y25/effortlessbuilding-1.20.1-3.8-all.jar"
-sha1 = "68b5d633a18ace70d469f5255acfdd11eec9b58f"
-sha512 = "6bdb26a304cfd8c27e588b5db88b20d27fc6c02c4b3bb8c5d9dc8f162041ba82dcf5f7a7723e7353035097be50e5f9f2084913dffeb6c8b2b7b041bf9c561404"
-filename = "effortlessbuilding-1.20.1-3.8-all.jar"
-
 [mods.embeddium]
 version = "0.3.31+mc1.20.1"
 deps = []
