@@ -390,6 +390,24 @@ sha1 = "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b"
 sha512 = "aa3530dde50966e47958690b02a343c4de3782d32ae3b2cb75b2155eebb76e172a292768d846b8d14a97bc9ebe18f1f655eaa3469fce13b2b4b15b16af0aba01"
 filename = "botarium-forge-1.20.1-2.3.4.jar"
 
+[mods.bridging-mod]
+version = "2.4.0+1.20.1.forge"
+server_side = false
+client_side = true
+
+[[mods.bridging-mod.source]]
+
+[mods.bridging-mod.source.Download]
+url = "https://cdn.modrinth.com/data/lO3s8hjs/versions/heyAgmAO/BridgingMod-2.4.0%2B1.20.1.forge-release.jar"
+sha1 = "ed2c193e4a366fb488d2c80350e64a4f825a0edd"
+sha512 = "7877c236eb831ec8305ac7aedfbea3f3ed74cc42ce71c6ab9bfd6bb55627dba6daec7fea231693e0e893cd9a96e53b6e02852420690a2eedf78f2b001a31ae4c"
+filename = "BridgingMod-2.4.0+1.20.1.forge-release.jar"
+
+[[mods.bridging-mod.deps]]
+name = "cloth-config"
+version = "11.1.118+forge"
+providers = ["Modrinth"]
+
 [mods.caelus]
 version = "3.2.0+1.20.1"
 server_side = true
@@ -895,6 +913,19 @@ url = "https://cdn.modrinth.com/data/vZoqTqwv/versions/lYoa4Cf2/Dungeon%20Now%20
 sha1 = "255aa4c25270eda498bde4de6eec40fa0915c4b4"
 sha512 = "7ae5b7958afb431a6a2cbe99582f8768afdb1ce649bbc3ef078e994399471c49d3820888d55e1e36975ff26d3df65f7399e3fff7afbfe69ce6c50cff177f1b26"
 filename = "Dungeon Now Loading-forge-1.20.1-1.5.jar"
+
+[mods.effortless-building]
+version = "3.8"
+server_side = true
+client_side = true
+
+[[mods.effortless-building.source]]
+
+[mods.effortless-building.source.Download]
+url = "https://cdn.modrinth.com/data/DYtfQEYj/versions/W23G1Y25/effortlessbuilding-1.20.1-3.8-all.jar"
+sha1 = "68b5d633a18ace70d469f5255acfdd11eec9b58f"
+sha512 = "6bdb26a304cfd8c27e588b5db88b20d27fc6c02c4b3bb8c5d9dc8f162041ba82dcf5f7a7723e7353035097be50e5f9f2084913dffeb6c8b2b7b041bf9c561404"
+filename = "effortlessbuilding-1.20.1-3.8-all.jar"
 
 [mods.embeddium]
 version = "0.3.31+mc1.20.1"
@@ -2204,6 +2235,19 @@ filename = "Towns-and-Towers-1.12-Fabric+Forge.jar"
 name = "cristel-lib"
 version = "1.1.5-forge"
 providers = ["Modrinth"]
+
+[mods.trade-cycling]
+version = "forge-1.20.1-1.0.14"
+server_side = true
+client_side = true
+
+[[mods.trade-cycling.source]]
+
+[mods.trade-cycling.source.Download]
+url = "https://cdn.modrinth.com/data/qpPoAL6m/versions/WgDCAlNH/trade-cycling-forge-1.20.1-1.0.14.jar"
+sha1 = "f89fea7f9d1faf373dbab6f7273717abe89c8f10"
+sha512 = "2c5fd8c08752f8c1411580eb6f0c5a8cd689a3ac7282f7adb9d56c90a68eecbf0139c58fab7e968f03979b63d2e6f178a4c6767dbc7b0115c499bc5ea8532e08"
+filename = "trade-cycling-forge-1.20.1-1.0.14.jar"
 
 [mods.travelers-titles]
 version = "1.20-Forge-4.0.2"

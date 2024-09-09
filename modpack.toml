@@ -88,6 +88,10 @@ version = "*"
 name = "botania"
 version = "*"
 
+[mods.bridging-mod]
+name = "bridging-mod"
+version = "*"
+
 [mods.canary]
 name = "canary"
 version = "*"
@@ -196,6 +200,10 @@ loader = "Fabric"
 
 [mods.dungeon-now-loading]
 name = "dungeon-now-loading"
+version = "*"
+
+[mods.effortless-building]
+name = "effortless-building"
 version = "*"
 
 [mods.embeddium]
@@ -463,6 +471,10 @@ version = "*"
 
 [mods.towns-and-towers]
 name = "towns-and-towers"
+version = "*"
+
+[mods.trade-cycling]
+name = "trade-cycling"
 version = "*"
 
 [mods.travelers-titles]
