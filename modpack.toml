@@ -311,6 +311,10 @@ version = "*"
 name = "jade"
 version = "*"
 
+[mods.jei]
+name = "jei"
+version = "*"
+
 [mods.l_enders-cataclysm]
 name = "l_enders-cataclysm"
 version = "*"
