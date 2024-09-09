@@ -209,8 +209,6 @@ version = "*"
 [mods.emi]
 name = "emi"
 version = "*"
-server_side = true
-client_side = true
 
 [mods.emi-loot]
 name = "emi-loot"
@@ -313,6 +311,10 @@ version = "*"
 
 [mods.jei]
 name = "jei"
+version = "*"
+
+[mods.just-enough-resources-jer]
+name = "just-enough-resources-jer"
 version = "*"
 
 [mods.l_enders-cataclysm]

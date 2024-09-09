@@ -929,17 +929,17 @@ sha512 = "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648
 filename = "embeddium-0.3.31+mc1.20.1.jar"
 
 [mods.emi]
-version = "1.1.12+1.20.1+forge"
-server_side = true
+version = "1.1.13+1.20.1+forge"
+server_side = false
 client_side = true
 
 [[mods.emi.source]]
 
 [mods.emi.source.Download]
-url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/X6p68pI0/emi-1.1.12%2B1.20.1%2Bforge.jar"
-sha1 = "53a0f7c3ed929f6e8350cb3c4223f37d7b8d9ebb"
-sha512 = "f285183b02622c2dced794258d03ceeac2da0428dfef63d19d0c408c2792cb6c743cc84216f0992fd010ff794d2ccee4b4fc4493c1404d5924043c57d5c625e8"
-filename = "emi-1.1.12+1.20.1+forge.jar"
+url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/9BeUhlBt/emi-1.1.13%2B1.20.1%2Bforge.jar"
+sha1 = "914170e531accbdb08e5a1c757d7bfdc3201b40c"
+sha512 = "4687c71d4406aaedf4f80ab5537abcafd1e6246535e78dab1176cb18684d39eb43b0c6dfe8ef10cbd5f9ae9abc586d908559fcb24d099e2d31754bb381b3a2c1"
+filename = "emi-1.1.13+1.20.1+forge.jar"
 
 [mods.emi-loot]
 version = "0.6.6+fix3+1.20.1+forge"
@@ -1356,6 +1356,24 @@ url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/1gOvkqXe/jei-1.20.1-forge
 sha1 = "09172ba74dafa48537c37ef6bc0ec12a5e36631e"
 sha512 = "2e4a724d0eb32391192e51fe190102098aa84c4ec78a8a7e6e4af50d2b57c7117bdd65ce202fc3a9d89090b767c3a13ef4ed8522e2a5eec9c579fcd522e955f4"
 filename = "jei-1.20.1-forge-15.18.0.79.jar"
+
+[mods.just-enough-resources-jer]
+version = "1.4.0.247"
+server_side = false
+client_side = true
+
+[[mods.just-enough-resources-jer.source]]
+
+[mods.just-enough-resources-jer.source.Download]
+url = "https://cdn.modrinth.com/data/uEfK2CXF/versions/jW52tbTk/JustEnoughResources-1.20.1-1.4.0.247.jar"
+sha1 = "526e788a9b38afc5171fab49b64a5a54e1bb25d7"
+sha512 = "84568db84d4486e70ddd06c280b6ec69657d53e99cdd1d974db40bf53397ce2fd371e8dd0567fd06f757f2bb6e802a5c54de73f70033f9236dad04b316d33462"
+filename = "JustEnoughResources-1.20.1-1.4.0.247.jar"
+
+[[mods.just-enough-resources-jer.deps]]
+name = "jei"
+version = "15.18.0.79"
+providers = ["Modrinth"]
 
 [mods.kotlin-for-forge]
 version = "4.11.0"
