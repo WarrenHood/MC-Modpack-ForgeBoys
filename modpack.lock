@@ -1346,7 +1346,7 @@ filename = "Jade-1.20.1-forge-11.11.1.jar"
 
 [mods.jei]
 version = "15.18.0.79"
-server_side = false
+server_side = true
 client_side = true
 
 [[mods.jei.source]]
@@ -1359,7 +1359,7 @@ filename = "jei-1.20.1-forge-15.18.0.79.jar"
 
 [mods.just-enough-resources-jer]
 version = "1.4.0.247"
-server_side = false
+server_side = true
 client_side = true
 
 [[mods.just-enough-resources-jer.source]]

@@ -314,10 +314,14 @@ version = "*"
 [mods.jei]
 name = "jei"
 version = "*"
+server_side = true
+client_side = true
 
 [mods.just-enough-resources-jer]
 name = "just-enough-resources-jer"
 version = "*"
+server_side = true
+client_side = true
 
 [mods.l_enders-cataclysm]
 name = "l_enders-cataclysm"
