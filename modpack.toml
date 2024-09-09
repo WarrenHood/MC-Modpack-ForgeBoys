@@ -216,6 +216,11 @@ client_side = true
 name = "emi-loot"
 version = "*"
 
+[mods.emi-ores]
+name = "emi-ores"
+version = "*"
+loader = "Fabric"
+
 [mods.emienchants]
 name = "emienchants"
 version = "*"
@@ -313,12 +318,6 @@ version = "*"
 
 [mods.jei]
 name = "jei"
-version = "*"
-server_side = true
-client_side = true
-
-[mods.just-enough-resources-jer]
-name = "just-enough-resources-jer"
 version = "*"
 server_side = true
 client_side = true

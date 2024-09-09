@@ -964,6 +964,31 @@ name = "emi"
 version = "1.1.12+1.20.1+forge"
 providers = ["Modrinth"]
 
+[mods.emi-ores]
+version = "0.4+1.20.1"
+server_side = true
+client_side = true
+
+[[mods.emi-ores.source]]
+
+[mods.emi-ores.source.Download]
+url = "https://cdn.modrinth.com/data/sG4TqDb8/versions/DLW2L0g5/emi_ores-0.4%2B1.20.1.jar"
+sha1 = "f3f6d4e131545579d404fa52258b07b7a35a89da"
+sha512 = "196e533ad70fc2910a62cb94f750cec2d77ec4e608ff831c8d201a8a0a16fb5e422f8a4b947b14e9841eb21bb7c94a61a7c2e7e7947168e1843eb52a96a81765"
+filename = "emi_ores-0.4+1.20.1.jar"
+
+[[mods.emi-ores.deps]]
+name = "emi"
+version = "1.1.13+1.20.1+fabric"
+providers = ["Modrinth"]
+loader = "Fabric"
+
+[[mods.emi-ores.deps]]
+name = "fabric-api"
+version = "0.92.2+1.20.1"
+providers = ["Modrinth"]
+loader = "Fabric"
+
 [mods.emienchants]
 version = "1.0.0"
 server_side = false
@@ -1356,24 +1381,6 @@ url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/1gOvkqXe/jei-1.20.1-forge
 sha1 = "09172ba74dafa48537c37ef6bc0ec12a5e36631e"
 sha512 = "2e4a724d0eb32391192e51fe190102098aa84c4ec78a8a7e6e4af50d2b57c7117bdd65ce202fc3a9d89090b767c3a13ef4ed8522e2a5eec9c579fcd522e955f4"
 filename = "jei-1.20.1-forge-15.18.0.79.jar"
-
-[mods.just-enough-resources-jer]
-version = "1.4.0.247"
-server_side = true
-client_side = true
-
-[[mods.just-enough-resources-jer.source]]
-
-[mods.just-enough-resources-jer.source.Download]
-url = "https://cdn.modrinth.com/data/uEfK2CXF/versions/jW52tbTk/JustEnoughResources-1.20.1-1.4.0.247.jar"
-sha1 = "526e788a9b38afc5171fab49b64a5a54e1bb25d7"
-sha512 = "84568db84d4486e70ddd06c280b6ec69657d53e99cdd1d974db40bf53397ce2fd371e8dd0567fd06f757f2bb6e802a5c54de73f70033f9236dad04b316d33462"
-filename = "JustEnoughResources-1.20.1-1.4.0.247.jar"
-
-[[mods.just-enough-resources-jer.deps]]
-name = "jei"
-version = "15.18.0.79"
-providers = ["Modrinth"]
 
 [mods.kotlin-for-forge]
 version = "4.11.0"
