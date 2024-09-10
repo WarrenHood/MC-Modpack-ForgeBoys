@@ -392,6 +392,11 @@ version = "*"
 name = "oculus"
 version = "*"
 
+[mods.paladins-and-priests]
+name = "paladins-and-priests"
+version = "*"
+loader = "Fabric"
+
 [mods.patchouli]
 name = "patchouli"
 version = "*"
