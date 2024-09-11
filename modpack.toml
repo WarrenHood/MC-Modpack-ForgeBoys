@@ -529,6 +529,11 @@ version = "*"
 name = "xaeros-world-map"
 version = "*"
 
+[files."./client/config/xaerominimap.txt"]
+target_path = "config/xaerominimap.txt"
+side = "Client"
+apply_policy = "Once"
+
 [files."./client/options.txt"]
 target_path = "options.txt"
 side = "Client"
