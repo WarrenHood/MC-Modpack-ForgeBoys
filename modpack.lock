@@ -238,19 +238,6 @@ sha1 = "29c7689d1c4645a902115e1faa4991c47007b7a5"
 sha512 = "a68968e8fab27202f0d2737357511e27282967ced27732cc90d6beaff64cb99359448b7de3e24cdef4e564ecb99ed061ac1e336e07d8ab4771db47bec7c5da45"
 filename = "BadOptimizations-2.1.4-1.20.1.jar"
 
-[mods.badpackets]
-version = "forge-0.4.3"
-server_side = true
-client_side = true
-
-[[mods.badpackets.source]]
-
-[mods.badpackets.source.Download]
-url = "https://cdn.modrinth.com/data/ftdbN0KK/versions/aXZqpNgH/badpackets-forge-0.4.3.jar"
-sha1 = "34b4ae0b51fe8bb55529dd20968bf58e20b4a21e"
-sha512 = "c705b41b3d558073a3fe6275307a1f9bca6980939b32054aad38b29f31e46f683c57b8ea1f9692b3d73a7ca0d0dc2190976ec5dcd017f1a62cf6a9b4e4e63083"
-filename = "badpackets-forge-0.4.3.jar"
-
 [mods.balm]
 version = "7.3.9+forge-1.20.1"
 server_side = true
@@ -893,17 +880,17 @@ sha512 = "3c5217f3871a97e136b61b63cf3369a00e46f82717197e744be427019455ac8cff3730
 filename = "cristellib-1.1.5-forge.jar"
 
 [mods.ct-overhaul-village]
-version = "3.4.5"
+version = "3.4.7"
 server_side = true
 client_side = false
 
 [[mods.ct-overhaul-village.source]]
 
 [mods.ct-overhaul-village.source.Download]
-url = "https://cdn.modrinth.com/data/fgmhI8kH/versions/Hxo3cge6/%5BForge%5DCTOV-v3.4.5.jar"
-sha1 = "f988d72fed45239a4c0a5040e6ea1e8d1ecdedfd"
-sha512 = "bdbaab83f85cf23f244ce418679eecb426e76e60f96819065c208c4a766415a6bb788666909e0d1475fd38f09be29c3dcd744bae9f9057a9f19289960704827a"
-filename = "[Forge]CTOV-v3.4.5.jar"
+url = "https://cdn.modrinth.com/data/fgmhI8kH/versions/EaJusc0q/%5BForge%5DCTOV-v3.4.7.jar"
+sha1 = "6db416d1a7724d0ecea05bcffa1b45d79b4f8ea7"
+sha512 = "0497584d1007880c86d3287c7c7a175a863596058ca0a2e760272e54a9aca389fad8b42d67e08d10685660693a31503c66c607e1546f236fae6512f3425e61fd"
+filename = "[Forge]CTOV-v3.4.7.jar"
 
 [[mods.ct-overhaul-village.deps]]
 name = "lithostitched"
@@ -1009,26 +996,26 @@ sha512 = "4687c71d4406aaedf4f80ab5537abcafd1e6246535e78dab1176cb18684d39eb43b0c6
 filename = "emi-1.1.13+1.20.1+forge.jar"
 
 [mods.emi-loot]
-version = "0.6.6+fix3+1.20.1+forge"
+version = "0.7.3+1.20.1+forge"
 server_side = true
 client_side = true
 
 [[mods.emi-loot.source]]
 
 [mods.emi-loot.source.Download]
-url = "https://cdn.modrinth.com/data/qbbO7Jns/versions/ZkDaJFMU/emi_loot-0.6.6%2Bfix3%2B1.20.1%2Bforge.jar"
-sha1 = "d0fbb7de06123b4bbc9e2558d27a4ccb2f6826fc"
-sha512 = "1320590d9c48e7d7bb67aa24c45bc7f6d73e950147679de7f4f3e4adadd48dd01a87c7e10c22652703930c942b567eaf6d17515c0c30703841a08279c20f8e30"
-filename = "emi_loot-0.6.6+fix3+1.20.1+forge.jar"
-
-[[mods.emi-loot.deps]]
-name = "badpackets"
-version = "forge-0.4.3"
-providers = ["Modrinth"]
+url = "https://cdn.modrinth.com/data/qbbO7Jns/versions/oQKduNIL/emi_loot-0.7.3%2B1.20.1%2Bforge.jar"
+sha1 = "de9fdbcc53e6ab47d4876451e00ea38a8af397dd"
+sha512 = "2a73ba20cf5b4e60290a97c7b642b59d6aa06ecf640ff96ca6b2be0755b9f0c536d8ffa76d9f33b1f94338407e1277dc6c9bc341a1ba1424b957102a0b17b757"
+filename = "emi_loot-0.7.3+1.20.1+forge.jar"
 
 [[mods.emi-loot.deps]]
 name = "emi"
-version = "1.1.12+1.20.1+forge"
+version = "1.1.13+1.20.1+forge"
+providers = ["Modrinth"]
+
+[[mods.emi-loot.deps]]
+name = "fzzy-config"
+version = "0.4.3+1.20.1+forge"
 providers = ["Modrinth"]
 
 [mods.emi-ores]
@@ -1071,7 +1058,7 @@ filename = "EMIEnchants-forge-1.19.3-1.20.4-1.0.0.jar"
 
 [[mods.emienchants.deps]]
 name = "emi"
-version = "1.1.12+1.20.1+forge"
+version = "1.1.13+1.20.1+forge"
 providers = ["Modrinth"]
 
 [mods.emiffect]
@@ -1262,6 +1249,24 @@ name = "titanium"
 version = "1.20.1-3.8.32"
 providers = ["Modrinth"]
 
+[mods.fzzy-config]
+version = "0.4.3+1.20.1+forge"
+server_side = true
+client_side = true
+
+[[mods.fzzy-config.source]]
+
+[mods.fzzy-config.source.Download]
+url = "https://cdn.modrinth.com/data/hYykXjDp/versions/N15JppaX/fzzy_config-0.4.3%2B1.20.1%2Bforge.jar"
+sha1 = "5dba02636bda2746e62162690bf762b2c73184de"
+sha512 = "31aadb1af567ef5be949b1d9261921142d0a74aa9d179354c8d15b93372cea3c6473f4b0ac2bf3dbc80cd657333d34a5511b3e1f552f650c12b32c92e68b2119"
+filename = "fzzy_config-0.4.3+1.20.1+forge.jar"
+
+[[mods.fzzy-config.deps]]
+name = "kotlin-for-forge"
+version = "4.11.0"
+providers = ["Modrinth"]
+
 [mods.gamemenumodoption]
 version = "1.20.1-2.2.1"
 server_side = false
@@ -1365,17 +1370,17 @@ sha512 = "7492c6c82d5a6ea288547f5533a990d93ed3858054cd03298d184ee294d9e8a2692456
 filename = "ImmediatelyFast-Forge-1.2.21+1.20.4.jar"
 
 [mods.immersive-aircraft]
-version = "1.0.1+1.20.1"
+version = "1.1.2+1.20.1"
 server_side = true
 client_side = true
 
 [[mods.immersive-aircraft.source]]
 
 [mods.immersive-aircraft.source.Download]
-url = "https://cdn.modrinth.com/data/x3HZvrj6/versions/Tju2o3p2/immersive_aircraft-1.0.1%2B1.20.1-forge.jar"
-sha1 = "457aab3ae1a01a8a92fa707039243c908079cbe8"
-sha512 = "8d26e7a2fc3468cb79e5bcbeac0bdd07957d5b817a9c11baf8a910fe4c4ba237e8951f0d271759e05a1c906e95385eac708f3602e2b5eb856b87062cecba0722"
-filename = "immersive_aircraft-1.0.1+1.20.1-forge.jar"
+url = "https://cdn.modrinth.com/data/x3HZvrj6/versions/IxkG37te/immersive_aircraft-1.1.2%2B1.20.1-forge.jar"
+sha1 = "f26fb73bdf41e8402781b5b81427d21ebd7dcfce"
+sha512 = "ddc01e433cf7dee929639eac385224493ca1cfa5c86155be578da58e93456c9221aaf9ee0a75862492b3b0dfa676985b0cbd2e273cc14e77020c36c77fcb835a"
+filename = "immersive_aircraft-1.1.2+1.20.1-forge.jar"
 
 [mods.immersive-melodies]
 version = "0.3.0+1.20.1"
@@ -1488,17 +1493,17 @@ sha512 = "3a814d51448246ffa9e48392d884638d2549ec6deb31d1e92e2db697e2e02e9fd5d9d8
 filename = "Jade-1.20.1-forge-11.11.1.jar"
 
 [mods.jei]
-version = "15.18.0.79"
+version = "15.19.0.88"
 server_side = true
 client_side = true
 
 [[mods.jei.source]]
 
 [mods.jei.source.Download]
-url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/1gOvkqXe/jei-1.20.1-forge-15.18.0.79.jar"
-sha1 = "09172ba74dafa48537c37ef6bc0ec12a5e36631e"
-sha512 = "2e4a724d0eb32391192e51fe190102098aa84c4ec78a8a7e6e4af50d2b57c7117bdd65ce202fc3a9d89090b767c3a13ef4ed8522e2a5eec9c579fcd522e955f4"
-filename = "jei-1.20.1-forge-15.18.0.79.jar"
+url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/AU7r69Dw/jei-1.20.1-forge-15.19.0.88.jar"
+sha1 = "11da73334967696d8837ae3bd2539eaf5e4b880f"
+sha512 = "68aff8d0392516c99f0c571a6717cce3444efc7a8d485b03b6edae207e6f3614583c31b3de6cec9fd44fbafb1df0f922a0a67329ae3ebc90972124131c88c7ea"
+filename = "jei-1.20.1-forge-15.19.0.88.jar"
 
 [mods.kotlin-for-forge]
 version = "4.11.0"
@@ -1599,17 +1604,17 @@ sha512 = "2f0291a059224b91c46fbb2d10174719ba5e9d68fd7d31716cd02d59b7b0aedcf0f5a9
 filename = "lithostitched-forge-1.20.1-1.1.8.jar"
 
 [mods.littletiles]
-version = "1.6.0-pre120"
+version = "1.6.0-pre122"
 server_side = true
 client_side = true
 
 [[mods.littletiles.source]]
 
 [mods.littletiles.source.Download]
-url = "https://cdn.modrinth.com/data/RCRxC1tD/versions/cf5pWJ66/LittleTiles_BETA_v1.6.0-pre120_mc1.20.1.jar"
-sha1 = "26f23a822a33bc77a036f643f78ebceae9dac730"
-sha512 = "9d1c360894a0c6b9cab7ca10b91243d023f3fb037455e323e3fd084a3117b1b498f01bb5626d36fba780be17ba4441514d30483a8ecbbb55253ed090ae737243"
-filename = "LittleTiles_BETA_v1.6.0-pre120_mc1.20.1.jar"
+url = "https://cdn.modrinth.com/data/RCRxC1tD/versions/5F3yCk1L/LittleTiles_BETA_v1.6.0-pre122_mc1.20.1.jar"
+sha1 = "b6f5ed1e4a55896b935150b428d7fdc84838fb86"
+sha512 = "bec21ada225aeb20139bbbee2cde62094e19ee9eb52caa0b67288ac0f0b3fd0fd06ca27940891e141cd0be09c6380754c85636b7d0fc1d90609b778ce703b5e0"
+filename = "LittleTiles_BETA_v1.6.0-pre122_mc1.20.1.jar"
 
 [[mods.littletiles.deps]]
 name = "creativecore"
@@ -1630,17 +1635,17 @@ sha512 = "03ecca88448b9a042d9fb744f5e5e153a97b1995f471efd3e6a5aac5b23c24de1559b8
 filename = "lucent-1.20.1-1.5.5.jar"
 
 [mods.man-of-many-planes]
-version = "0.1.0+1.20.1"
+version = "0.2.0+1.20.1"
 server_side = true
 client_side = true
 
 [[mods.man-of-many-planes.source]]
 
 [mods.man-of-many-planes.source.Download]
-url = "https://cdn.modrinth.com/data/9qdTHi0q/versions/yr0VUexU/man_of_many_planes-0.1.0%2B1.20.1-forge.jar"
-sha1 = "c3f28b2e50dc4f93c7725d97ea16a802dc4405dc"
-sha512 = "730f4ad83d62dd1a04b500799bb554f7f26458a3c1f75e84c3c3cf526e638de10ad198848d6fed8b534e7f3a1328c1fbfc786c29008ae08f02bde162c0c16ffa"
-filename = "man_of_many_planes-0.1.0+1.20.1-forge.jar"
+url = "https://cdn.modrinth.com/data/9qdTHi0q/versions/uZNB5Zrk/man_of_many_planes-0.2.0%2B1.20.1-forge.jar"
+sha1 = "0037367a8af0d55a1b7f4c43dfc94cbdaca281db"
+sha512 = "82d78136ea735447b2a8ed929e26776b508b973b1c9200dffb3cc7de76b9e138b6563180fa906c46d9fa726aa1012e139f03e7fd008815b20b1066ae484d149c"
+filename = "man_of_many_planes-0.2.0+1.20.1-forge.jar"
 
 [mods.memoryleakfix]
 version = "v1.1.5"
@@ -1763,7 +1768,7 @@ filename = "MutantMonsters-v8.0.7-1.20.1-Forge.jar"
 
 [[mods.mutant-monsters.deps]]
 name = "puzzles-lib"
-version = "v8.1.22-1.20.1-Forge"
+version = "v8.1.23-1.20.1-Forge"
 providers = ["Modrinth"]
 
 [mods.mythic-mounts]
@@ -2002,21 +2007,21 @@ providers = ["Modrinth"]
 
 [[mods.precise-manufacturing.deps]]
 name = "timeless-and-classics-zero"
-version = "1.0.2"
+version = "1.0.3"
 providers = ["Modrinth"]
 
 [mods.puzzles-lib]
-version = "v8.1.22-1.20.1-Forge"
+version = "v8.1.23-1.20.1-Forge"
 server_side = true
 client_side = true
 
 [[mods.puzzles-lib.source]]
 
 [mods.puzzles-lib.source.Download]
-url = "https://cdn.modrinth.com/data/QAGBst4M/versions/WHDG4o9c/PuzzlesLib-v8.1.22-1.20.1-Forge.jar"
-sha1 = "4a4b87f46a8f77cc09128a1a88da5f6dce7c35fc"
-sha512 = "f08c0a8d967a6134ea843e725b9613f525110452e2ba141b0707a3ba85075cbcfa941a7bbf6b223f151ba3d0a01f0f41a8493e2ad830b9c2dec2dd1ca0801365"
-filename = "PuzzlesLib-v8.1.22-1.20.1-Forge.jar"
+url = "https://cdn.modrinth.com/data/QAGBst4M/versions/UlSkomup/PuzzlesLib-v8.1.23-1.20.1-Forge.jar"
+sha1 = "dac5d9a8dbb0df2c98d4b71aa1f5ab04761ac34f"
+sha512 = "87e2a8fae68b9861a62cc9385e4e62231a2cac1bfcc26184c75f83f31fada1cbd713ebb9223218175a103d09e50ecaea1620692ec0754602b1cc571138bb6e61"
+filename = "PuzzlesLib-v8.1.23-1.20.1-Forge.jar"
 
 [mods.radiant-gear]
 version = "2.1.5+1.20.1"
@@ -2187,17 +2192,17 @@ version = "1.20-2.1.0"
 providers = ["Modrinth"]
 
 [mods.simply-skills]
-version = "1.6.0+1.20.1"
+version = "1.6.2+1.20.1"
 server_side = true
 client_side = true
 
 [[mods.simply-skills.source]]
 
 [mods.simply-skills.source.Download]
-url = "https://cdn.modrinth.com/data/lyvwxqAy/versions/R22rnKGi/simplyskills-1.6.0%2B1.20.1.jar"
-sha1 = "666b1dcce021cbfb42589e57fa75013e323233ce"
-sha512 = "6c231a4db5c67959b79946ae636a9f6ff5e5b9642316b2fe5b437af452f89a6dbdf4676e003f9305c2730a73bee3ef3ab9e94caea111d532b77260d97578042e"
-filename = "simplyskills-1.6.0+1.20.1.jar"
+url = "https://cdn.modrinth.com/data/lyvwxqAy/versions/G8LZL71c/simplyskills-1.6.2%2B1.20.1.jar"
+sha1 = "a813eb658af58efa3c87e8b3fec3de38825f9368"
+sha512 = "53d329977ce26fe3aa763afc54b47de9724251e4bd260cd8a3fc3ea3a8d47fec4f128c9492f70aea97ba01b10f80bf25bac58d9b35ddec9882d33c4878efcaf1"
+filename = "simplyskills-1.6.2+1.20.1.jar"
 
 [[mods.simply-skills.deps]]
 name = "attributes"
@@ -2461,17 +2466,17 @@ sha512 = "6fe8b495c37bb3da158d461d5613f3a5414b77693c98ade3b5930a28d4b0f26c654ca9
 filename = "TerraBlender-forge-1.20.1-3.0.1.7.jar"
 
 [mods.timeless-and-classics-zero]
-version = "1.0.2"
+version = "1.0.3"
 server_side = true
 client_side = true
 
 [[mods.timeless-and-classics-zero.source]]
 
 [mods.timeless-and-classics-zero.source.Download]
-url = "https://cdn.modrinth.com/data/SzzJttH8/versions/gr4tETs1/tacz-1.20.1-1.0.2-release.jar"
-sha1 = "6975836748588fa16d99bb75920d1921c06fb155"
-sha512 = "c68c1425cec5c0d09267b7727108942f046fede5e8663b09f73e64bb1ed84fd9219c7febc272e1947d4d5ee76361f971b000f53e1a5efd1703b83cdffadfa619"
-filename = "tacz-1.20.1-1.0.2-release.jar"
+url = "https://cdn.modrinth.com/data/SzzJttH8/versions/Qd1RlJ8k/tacz-1.20.1-1.0.3-all.jar"
+sha1 = "660258d475747050aa4ffd5392a32ed383d6452b"
+sha512 = "5f0df1913985072174bc6c319e63f078cbf99c766a47e6b0111529a0637f3fc98fa21e3ab1ecaf115dce9d23f406bb36b9e48d576c71dbc39ebf641491482156"
+filename = "tacz-1.20.1-1.0.3-all.jar"
 
 [mods.titanium]
 version = "1.20.1-3.8.32"
