@@ -119,6 +119,29 @@ sha1 = "81919356f84eab14258db98924b66c3c38e372b1"
 sha512 = "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9"
 filename = "appleskin-forge-mc1.20.1-2.5.1.jar"
 
+[mods.applied-botanics]
+version = "1.5.0-forge"
+server_side = true
+client_side = true
+
+[[mods.applied-botanics.source]]
+
+[mods.applied-botanics.source.Download]
+url = "https://cdn.modrinth.com/data/545hUrw9/versions/ErMXkIs4/Applied-Botanics-forge-1.5.0.jar"
+sha1 = "26ef152312f3fa21dfee305a6787f96c065d6831"
+sha512 = "6a3ac442b9c17e016d0393bea689ebd4386351aad571dadd2dbfe0fcf4e3e352296beb0dd2b89c14bdabaef131f98b12c7e1bd3e423d67fa65ab85ce75a8d756"
+filename = "Applied-Botanics-forge-1.5.0.jar"
+
+[[mods.applied-botanics.deps]]
+name = "ae2"
+version = "15.2.13"
+providers = ["Modrinth"]
+
+[[mods.applied-botanics.deps]]
+name = "botania"
+version = "1.20.1-446-forge"
+providers = ["Modrinth"]
+
 [mods.aquamirae]
 version = "6"
 server_side = true
@@ -669,6 +692,24 @@ sha1 = "934a4a1e085b867756fb404fd92309fbb0ff3a48"
 sha512 = "59ffb5b3bb905eeec21a0791fc2c1cdaac1e052f320cf6d19afe966779fa070cfb520d4587b2458b614d8e0b1da72381ea0b46d6528669cd9e6526031711193f"
 filename = "create-1.20.1-0.5.1.h.jar"
 
+[mods.create-applied-kinetics]
+version = "1.4.0-1.20.1"
+server_side = true
+client_side = true
+
+[[mods.create-applied-kinetics.source]]
+
+[mods.create-applied-kinetics.source.Download]
+url = "https://cdn.modrinth.com/data/mYGTCuZY/versions/d9CAiaER/createappliedkinetics-1.4.0-1.20.1.jar"
+sha1 = "336379b96d16df9ebd18a7beb69c3ec4d7dfbff2"
+sha512 = "5dd65c2c5dc7d3132c3267c7787ce8dbd30c80a57bf021c190650157eb2c44911da39eb59d2d9e283a1cc45cfa3d9eadf7998c5b83ce7badb1a7f185c49db56a"
+filename = "createappliedkinetics-1.4.0-1.20.1.jar"
+
+[[mods.create-applied-kinetics.deps]]
+name = "create"
+version = "0.5.1.h"
+providers = ["Modrinth"]
+
 [mods.create-diesel-generators]
 version = "1.20.1-1.2i"
 server_side = true
@@ -1086,6 +1127,39 @@ sha1 = "d2edb93aefdc1b104a8ef975e72c53796b752293"
 sha512 = "6128b06de4fdc2e368339d0fbc40e6e42d1ccbac1284db3f0624278fd2a176b8b22dd39e71b21f7343e29c323978fdc7c40e6a508342e007037fc1092dcbdb8b"
 filename = "entityculling-forge-1.7.0-mc1.20.1.jar"
 
+[mods.estrogen]
+version = "4.2.10+1.20.1-forge"
+server_side = true
+client_side = true
+
+[[mods.estrogen.source]]
+
+[mods.estrogen.source.Download]
+url = "https://cdn.modrinth.com/data/HhIJW8n1/versions/Qq8V7UXD/Estrogen-4.2.10%2B1.20.1-forge.jar"
+sha1 = "f6fbcb28395e00f56c393f23b5c61a197afb0629"
+sha512 = "5b3f738f5325e0a0a793ed13980a3b109358376813895c0fd70e72c1f7244e0fca6009d0892bfe96711a4735865b74164c5b37bee1d654c40b6eeec76ba55b1a"
+filename = "Estrogen-4.2.10+1.20.1-forge.jar"
+
+[[mods.estrogen.deps]]
+name = "botarium"
+version = "2.3.4"
+providers = ["Modrinth"]
+
+[[mods.estrogen.deps]]
+name = "create"
+version = "0.5.1.h"
+providers = ["Modrinth"]
+
+[[mods.estrogen.deps]]
+name = "curios"
+version = "5.10.0+1.20.1"
+providers = ["Modrinth"]
+
+[[mods.estrogen.deps]]
+name = "resourceful-lib"
+version = "2.1.29"
+providers = ["Modrinth"]
+
 [mods.extraalchemy]
 version = "1.10.0"
 deps = []
@@ -1169,6 +1243,24 @@ url = "https://cdn.modrinth.com/data/Aqlf1Shp/versions/D3EZO1Kr/fabric-api-0.92.
 sha1 = "d5680a4d2e2dde45115e41a5e22f6b32f9c80f50"
 sha512 = "1222d70e0a403d98a6431806c4357b191fda4bb928eaf7e70b7374cffd0ceae8716812a4d2a0e09ddfeee7adfcb8a6ee8e046c4663ca272c6eb1badab83696c5"
 filename = "fabric-api-0.92.2+1.11.8+1.20.1.jar"
+
+[mods.functional-storage]
+version = "1.20.1-1.2.12"
+server_side = true
+client_side = true
+
+[[mods.functional-storage.source]]
+
+[mods.functional-storage.source.Download]
+url = "https://cdn.modrinth.com/data/cO40ZIg3/versions/HpvTQCZn/functionalstorage-1.20.1-1.2.12.jar"
+sha1 = "5e1c98a440f93eac4269a2ab3ac86912eab825bb"
+sha512 = "36437ef7d88e45fc26424173542533fef4537ecd292cdb34c0802d91e55751986301e541704fbe3c29869f85a6c427be531817ffb01e46fe293f3ca400a42eae"
+filename = "functionalstorage-1.20.1-1.2.12.jar"
+
+[[mods.functional-storage.deps]]
+name = "titanium"
+version = "1.20.1-3.8.32"
+providers = ["Modrinth"]
 
 [mods.gamemenumodoption]
 version = "1.20.1-2.2.1"
@@ -1962,6 +2054,19 @@ name = "citadel"
 version = "2.6.0"
 providers = ["Modrinth"]
 
+[mods.resourceful-lib]
+version = "2.1.29"
+server_side = true
+client_side = true
+
+[[mods.resourceful-lib.source]]
+
+[mods.resourceful-lib.source.Download]
+url = "https://cdn.modrinth.com/data/G1hIVOrD/versions/OhsHaCcW/resourcefullib-forge-1.20.1-2.1.29.jar"
+sha1 = "6fc590a7c56a720fec57e290cbb0a106efbb3ffa"
+sha512 = "8dbe951d431545a7d18081a8b11a52a248e6d8ff9862ae6462b0f5a6f57ff523af12704c3adb071ae99a7c5c1dd895bd7875dea59f9c4956c1597a668b6e8820"
+filename = "resourcefullib-forge-1.20.1-2.1.29.jar"
+
 [mods.revelationary]
 version = "1.3.8+1.20.1"
 server_side = true
@@ -2367,6 +2472,19 @@ url = "https://cdn.modrinth.com/data/SzzJttH8/versions/gr4tETs1/tacz-1.20.1-1.0.
 sha1 = "6975836748588fa16d99bb75920d1921c06fb155"
 sha512 = "c68c1425cec5c0d09267b7727108942f046fede5e8663b09f73e64bb1ed84fd9219c7febc272e1947d4d5ee76361f971b000f53e1a5efd1703b83cdffadfa619"
 filename = "tacz-1.20.1-1.0.2-release.jar"
+
+[mods.titanium]
+version = "1.20.1-3.8.32"
+server_side = true
+client_side = true
+
+[[mods.titanium.source]]
+
+[mods.titanium.source.Download]
+url = "https://cdn.modrinth.com/data/1Ro7m06l/versions/8krhHkrZ/titanium-1.20.1-3.8.32.jar"
+sha1 = "4672c64a8019e81a4a6c8239f20661d5edbd5da1"
+sha512 = "c4563176fad77499859691d8b5e18c35e08fec0a31f57f9e51f3538462f1ad738fb29335fc46d5857bffbdfc2dbd49bb32dc96614876d1f858b8cc81d6264057"
+filename = "titanium-1.20.1-3.8.32.jar"
 
 [mods.towns-and-towers]
 version = "1.12"

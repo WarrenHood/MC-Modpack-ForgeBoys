@@ -38,6 +38,10 @@ version = "*"
 name = "appleskin"
 version = "*"
 
+[mods.applied-botanics]
+name = "applied-botanics"
+version = "*"
+
 [mods.aquamirae]
 name = "aquamirae"
 version = "*"
@@ -143,6 +147,10 @@ version = "*"
 name = "create"
 version = "*"
 
+[mods.create-applied-kinetics]
+name = "create-applied-kinetics"
+version = "*"
+
 [mods.create-diesel-generators]
 name = "create-diesel-generators"
 version = "*"
@@ -241,6 +249,10 @@ version = "*"
 name = "entityculling"
 version = "*"
 
+[mods.estrogen]
+name = "estrogen"
+version = "*"
+
 [mods.extraalchemy]
 name = "extraalchemy"
 version = "*"
@@ -260,6 +272,10 @@ version = "*"
 
 [mods.fish-tanks]
 name = "fish-tanks"
+version = "*"
+
+[mods.functional-storage]
+name = "functional-storage"
 version = "*"
 
 [mods.gamemenumodoption]
