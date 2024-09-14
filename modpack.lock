@@ -1604,17 +1604,17 @@ sha512 = "2f0291a059224b91c46fbb2d10174719ba5e9d68fd7d31716cd02d59b7b0aedcf0f5a9
 filename = "lithostitched-forge-1.20.1-1.1.8.jar"
 
 [mods.littletiles]
-version = "1.6.0-pre122"
+version = "1.6.0-pre120"
 server_side = true
 client_side = true
 
 [[mods.littletiles.source]]
 
 [mods.littletiles.source.Download]
-url = "https://cdn.modrinth.com/data/RCRxC1tD/versions/5F3yCk1L/LittleTiles_BETA_v1.6.0-pre122_mc1.20.1.jar"
-sha1 = "b6f5ed1e4a55896b935150b428d7fdc84838fb86"
-sha512 = "bec21ada225aeb20139bbbee2cde62094e19ee9eb52caa0b67288ac0f0b3fd0fd06ca27940891e141cd0be09c6380754c85636b7d0fc1d90609b778ce703b5e0"
-filename = "LittleTiles_BETA_v1.6.0-pre122_mc1.20.1.jar"
+url = "https://cdn.modrinth.com/data/RCRxC1tD/versions/cf5pWJ66/LittleTiles_BETA_v1.6.0-pre120_mc1.20.1.jar"
+sha1 = "26f23a822a33bc77a036f643f78ebceae9dac730"
+sha512 = "9d1c360894a0c6b9cab7ca10b91243d023f3fb037455e323e3fd084a3117b1b498f01bb5626d36fba780be17ba4441514d30483a8ecbbb55253ed090ae737243"
+filename = "LittleTiles_BETA_v1.6.0-pre120_mc1.20.1.jar"
 
 [[mods.littletiles.deps]]
 name = "creativecore"

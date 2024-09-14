@@ -352,7 +352,7 @@ version = "*"
 
 [mods.littletiles]
 name = "littletiles"
-version = "*"
+version = "1.6.0-pre120"
 
 [mods.lucent]
 name = "lucent"
