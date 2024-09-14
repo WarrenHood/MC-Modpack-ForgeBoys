@@ -352,6 +352,10 @@ version = "*"
 name = "memoryleakfix"
 version = "*"
 
+[mods.mobtimizations]
+name = "mobtimizations"
+version = "*"
+
 [mods.modernfix]
 name = "modernfix"
 version = "*"
