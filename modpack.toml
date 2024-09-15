@@ -88,6 +88,10 @@ version = "*"
 name = "blue-skies"
 version = "*"
 
+[mods.blueprint]
+name = "blueprint"
+version = "*"
+
 [mods.botania]
 name = "botania"
 version = "*"
