@@ -679,24 +679,6 @@ sha1 = "934a4a1e085b867756fb404fd92309fbb0ff3a48"
 sha512 = "59ffb5b3bb905eeec21a0791fc2c1cdaac1e052f320cf6d19afe966779fa070cfb520d4587b2458b614d8e0b1da72381ea0b46d6528669cd9e6526031711193f"
 filename = "create-1.20.1-0.5.1.h.jar"
 
-[mods.create-applied-kinetics]
-version = "1.4.0-1.20.1"
-server_side = true
-client_side = true
-
-[[mods.create-applied-kinetics.source]]
-
-[mods.create-applied-kinetics.source.Download]
-url = "https://cdn.modrinth.com/data/mYGTCuZY/versions/d9CAiaER/createappliedkinetics-1.4.0-1.20.1.jar"
-sha1 = "336379b96d16df9ebd18a7beb69c3ec4d7dfbff2"
-sha512 = "5dd65c2c5dc7d3132c3267c7787ce8dbd30c80a57bf021c190650157eb2c44911da39eb59d2d9e283a1cc45cfa3d9eadf7998c5b83ce7badb1a7f185c49db56a"
-filename = "createappliedkinetics-1.4.0-1.20.1.jar"
-
-[[mods.create-applied-kinetics.deps]]
-name = "create"
-version = "0.5.1.h"
-providers = ["Modrinth"]
-
 [mods.create-diesel-generators]
 version = "1.20.1-1.2i"
 server_side = true

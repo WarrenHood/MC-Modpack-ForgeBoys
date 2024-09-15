@@ -147,10 +147,6 @@ version = "*"
 name = "create"
 version = "*"
 
-[mods.create-applied-kinetics]
-name = "create-applied-kinetics"
-version = "*"
-
 [mods.create-diesel-generators]
 name = "create-diesel-generators"
 version = "*"
