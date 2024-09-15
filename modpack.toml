@@ -525,10 +525,6 @@ version = "*"
 name = "truly-modular-arsenal"
 version = "*"
 
-[mods.upgrade-aquatic]
-name = "upgrade-aquatic"
-version = "*"
-
 [mods.when-dungeons-arise]
 name = "when-dungeons-arise"
 version = "*"
